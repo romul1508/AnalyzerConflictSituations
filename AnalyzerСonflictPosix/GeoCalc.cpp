@@ -987,25 +987,39 @@ int GeoCalc::P3_90_02_SK42(double Lat, double Lon, double H, double *ph_wgs, dou
 {
 	int res;	
 	double B, L, sinLat, cosLat, cosLon, sinLon, sin2Lat, N_p3_90_02, N_sk_42, X_p3_90_02, Y_p3_90_02, Z_p3_90_02, X_sk_42, Y_sk_42, Z_sk_42, h_wgs;
-	const double a_sk_42 = 6378245.0;							// размер большой полуоси в системе СК-42 в метрах
-	const double a_p3_90_02 = 6378136.0;					// размер большой полуоси в системе П3-90.02 в метрах
-	// const double a = (a_sk_42 + a_p3_90_02) * 0.5;		// средняя большая полуось
+	
+	// the size of the major semiaxis in the SK-42 system in meters
+	const double a_sk_42 = 6378245.0;
+
+	// the size of the semi-major axis in the P3-90.02 system in meters
+	const double a_p3_90_02 = 6378136.0;
+
+
+	// const double a = (a_sk_42 + a_p3_90_02) * 0.5;		// middle semi-major axis
 	// const double dA = a_sk_42 - a_p3_90_02;
 	//-----------------------------
-	const double alfa_sk_42 = 1/298.3;							// сжатие эллипсоида Красовского в системе СК-42
-	const double alfa_p3_90_02 = 1/298.25784;			// сжатие эллипсоида  в общеземной геодезической системе координат П3-90.02
+	// compression of the Krasovsky ellipsoid in the SK-42 system
+	const double alfa_sk_42 = 1/298.3;			
+	
+	// compression of an ellipsoid in the general terrestrial 
+	// geodetic coordinate system P3-90.02
+	const double alfa_p3_90_02 = 1/298.25784;			
 	//-----------------------------
-	const double e_2_sk_42 = 2 * alfa_sk_42 - pow(alfa_sk_42, 2);							// квадрат эксцентриситета эллипсоида в системе СК-42
-	const double e_2_p3_90_02 = 2 * alfa_p3_90_02 - pow(alfa_p3_90_02, 2);		// квадрат эксцентриситета эллипсоида в системе П3-90.02
+	// the square of the eccentricity of the ellipsoid in the SK-42 system
+	const double e_2_sk_42 = 2 * alfa_sk_42 - pow(alfa_sk_42, 2);		
+	
+	// the square of the eccentricity of the ellipsoid in the P3-90.02 system
+	const double e_2_p3_90_02 = 2 * alfa_p3_90_02 - pow(alfa_p3_90_02, 2);		
+	
 	// const double e2 = (e_2_sk_42 + e_2_p3_90_02)/2;											// квадрат эксцентриситета
 	// const double dE2 = e_2_sk_42 - e_2_p3_90_02;												// разность квадратов эксцентриситета
 	//-------------------------------
-	// линейные элементы трансформирования систем координат
+	// linear transformation elements of coordinate systems
 	const double dX = -23.93;
 	const double dY = 141.03;
 	const double dZ = 79.98;
 	//-------------------------------
-	// угловые элементы трансформирования систем координат
+	// corners of transformation of coordinate systems
 	const double Wx = 0;
 	const double Wy = 0.0000035;
 	const double Wz = 0.0000079;
@@ -1013,23 +1027,28 @@ int GeoCalc::P3_90_02_SK42(double Lat, double Lon, double H, double *ph_wgs, dou
 	const double m = 0.0000022;
 											
 	//-------------------------------
-	const double ro = 206264.8062;								// число угловых секунд в радиане
-	B = Lat * DEG_RAD;												// широта в радианах
-	L = Lon * DEG_RAD;												// долгота в радианах
+	const double ro = 206264.8062;		// arc seconds in radians
+	B = Lat * DEG_RAD;					// latitude in radians
+	L = Lon * DEG_RAD;					// longitude in radians
 	sinLat = sin(B);
 	cosLat = cos(B);
 	cosLon = cos(L);
 	sinLon = sin(L);
 
 	sin2Lat = pow(sinLat, 2);
-	//double M = a * (1 - e2 ) * pow( (1 - e2 * sin2Lat), -1.5 );		// радиус кривизны меридиана
-	//double N = a * pow((1 - e2 * sin2Lat), -0.5);						// радиус кривизны первого вертикала
+
+	// radius of curvature of the meridian
+	//double M = a * (1 - e2 ) * pow( (1 - e2 * sin2Lat), -1.5 );		
+	
+	// radius of curvature of the first vertical
+	//double N = a * pow((1 - e2 * sin2Lat), -0.5);						
+	
 	N_p3_90_02 = a_p3_90_02 * pow((1 - e_2_p3_90_02 * sin2Lat), -0.5);
 
-	res = 1;		// пока все Ок!
+	res = 1;		// bye everything is ok!
 
 	//------------------------------------------------
-	// реализация через переход к пространственным координатам X, Y, Z
+	// implementation through the transition to spatial coordinates X, Y, Z
 	X_p3_90_02 = (N_p3_90_02 + H) * cosLat * cosLon;
 	Y_p3_90_02 = (N_p3_90_02 + H) * cosLat * sinLon;
 	Z_p3_90_02 = (N_p3_90_02 * (1 - e_2_p3_90_02) + H) * sinLat;
@@ -1044,7 +1063,9 @@ int GeoCalc::P3_90_02_SK42(double Lat, double Lon, double H, double *ph_wgs, dou
 	
 	L = 0;
 	
-	if(abs(X_sk_42) > 0.000001 && (abs(Y_sk_42/X_sk_42) < Pi/2 - 0.000001 || abs(Y_sk_42/X_sk_42) > Pi/2 + 0.000001) )
+	if(abs(X_sk_42) > 0.000001 && (abs(Y_sk_42/X_sk_42) < Pi/2 - 0.000001 
+		|| abs(Y_sk_42/X_sk_42) > Pi/2 + 0.000001) )
+
 		L = atan(Y_sk_42/X_sk_42);
 	else
 	{
@@ -1086,7 +1107,7 @@ int GeoCalc::P3_90_02_SK42(double Lat, double Lon, double H, double *ph_wgs, dou
 		N_sk_42 = a_sk_42 / sqrt(1 - e_2_sk_42 * pow(sinLat, 2) ); 
 		h_wgs = X_sk_42/(cosLat * cosLon) - N_sk_42;
 		
-		*pLonOut = L * RAD_DEG;	// 57.29578049;		// (перевод в градусах)
+		*pLonOut = L * RAD_DEG;	// 57.29578049;		// (conversion in degrees)
 		*ph_wgs = h_wgs;
 	}
 	else
