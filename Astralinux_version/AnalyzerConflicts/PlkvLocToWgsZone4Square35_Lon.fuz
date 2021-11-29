@@ -1,0 +1,18 @@
+input:name: X
+input:term: trap X1 0.0 0.1 0.4 0.5 
+term:term_descr: jTextField6
+
+input:term: trap X2 0.4 0.5 0.6 0.7 
+term:term_descr: jTextField6
+
+output:name: LON
+output:term: simple_point SLN 0.788595
+term:term_descr: jTextField8
+
+output:term: simple_point LLN 0.83001
+term:term_descr: jTextField8
+
+rule: Rule1 input X X1
+rule: Rule1 output LON SLN
+rule: Rule2 input X X2
+rule: Rule2 output LON LLN

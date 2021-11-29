@@ -1,0 +1,15 @@
+<config_app>
+	<point_section>
+		<airport_name_en>Pulkovo</airport_name_en>
+		<port_main_client>24322</port_main_client>
+		<port_test_client_cons>24322</port_test_client_cons>
+		<port_test_client_gui>24322</port_test_client_gui>
+		<ip_main_client>192.168.2.209</ip_main_client>
+		<ip_test_client_cons>192.168.2.209</ip_test_client_cons>
+		<ip_test_client_gui>192.168.2.209</ip_test_client_gui>
+		<recording_mode>0</recording_mode>
+		<table_count>1</table_count>
+		<record_count>1</record_count>
+		<run_service>1</run_service>
+	</point_section>
+</config_app>

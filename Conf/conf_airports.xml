@@ -1,0 +1,45 @@
+<airports>
+  <airport>
+    <name>Pulkovo</name>
+    <height_cta>24</height_cta>
+    <lat_cta>59.798561933</lat_cta>
+    <lon_cta>30.2625</lon_cta>  
+    <mag_decl_cta>10</mag_decl_cta>    
+    <caption_vpp1>ВПП-1</caption_vpp1>
+    <id_vpp1>0</id_vpp1>
+    <cat_vpp1>B</cat_vpp1>
+    <angle_vpp1>106.419</angle_vpp1>
+    <runway_lat_vpp1>59.795142</runway_lat_vpp1>  
+    <runway_lon_vpp1>30.250639</runway_lon_vpp1>
+    <lenght_vpp1>3782</lenght_vpp1>
+    <width_vpp1>60</width_vpp1>
+    <sign_left_vpp1>10R</sign_left_vpp1>
+    <sign_right_vpp1>28L</sign_right_vpp1>    
+    <north_wgs_lat_vpp1>59.800193</north_wgs_lat_vpp1>
+    <north_wgs_lon_vpp1>30.218491</north_wgs_lon_vpp1>
+    <south_wgs_lat_vpp1>59.790093</south_wgs_lat_vpp1>
+    <south_wgs_lon_vpp1>30.282778</south_wgs_lon_vpp1>
+    <west_wgs_lat_vpp1>59.799652</west_wgs_lat_vpp1>
+    <west_wgs_lon_vpp1>30.218233</west_wgs_lon_vpp1>
+    <east_wgs_lat_vpp1>59.79059</east_wgs_lat_vpp1>
+    <east_wgs_lon_vpp1>30.283035</east_wgs_lon_vpp1>    
+    <caption_vpp2>ВПП-2</caption_vpp2>
+    <id_vpp2>1</id_vpp2>
+    <cat_vpp2>A</cat_vpp2>
+    <angle_vpp2>106.45</angle_vpp2>
+    <runway_lat_vpp2>59.805453</runway_lat_vpp2>
+    <runway_lon_vpp2>30.274379</runway_lon_vpp2>
+    <lenght_vpp2>3393</lenght_vpp2>
+    <width_vpp2>60</width_vpp2>
+    <sign_left_vpp2>10R</sign_left_vpp2>
+    <sign_right_vpp2>28L</sign_right_vpp2>    
+    <north_wgs_lat_vpp2>59.810008</north_wgs_lat_vpp2>
+    <north_wgs_lon_vpp2>30.245613</north_wgs_lon_vpp2>
+    <south_wgs_lat_vpp2>59.800885</south_wgs_lat_vpp2>
+    <south_wgs_lon_vpp2>30.303377</south_wgs_lon_vpp2>
+    <west_wgs_lat_vpp2>59.809511</west_wgs_lat_vpp2>
+    <west_wgs_lon_vpp2>30.24527</west_wgs_lon_vpp2>
+    <east_wgs_lat_vpp2>59.801339</east_wgs_lat_vpp2>
+    <east_wgs_lon_vpp2>30.303635</east_wgs_lon_vpp2>    
+</airport>  
+</airports>

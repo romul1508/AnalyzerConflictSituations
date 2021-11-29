@@ -1,0 +1,6572 @@
+17.03.2017 10:34:37 :  Start service "Analyzer conflict"!
+
+17.03.2017 10:37:36 :  Start service "Analyzer conflict"!
+
+17.03.2017 10:43:00 :  Start service "Analyzer conflict"!
+
+17.03.2017 11:12:14 :  Start service "Analyzer conflict"!
+
+17.03.2017 11:26:19 :  Error, XML-element config_app not found in the method: 
+
+17.03.2017 11:26:19 :  int ConfigAppXMLWorker::startElement(const char*, void*)
+
+17.03.2017 11:26:19 :  Error, XML-element point_section not found in the method: 
+
+17.03.2017 11:26:19 :  int ConfigAppXMLWorker::startElement(const char*, void*)
+
+17.03.2017 11:26:44 :  Start service "Analyzer conflict"!
+
+17.03.2017 11:34:20 :  Error, XML-element config_app not found in the method: 
+
+17.03.2017 11:34:20 :  int ConfigAppXMLWorker::startElement(const char*, void*)
+
+17.03.2017 11:38:36 :  Error, XML-element point_section not found in the method: 
+
+17.03.2017 11:38:36 :  int ConfigAppXMLWorker::startElement(const char*, void*)
+
+17.03.2017 11:46:58 :  Start service "Analyzer conflict"!
+
+17.03.2017 11:47:04 :  Error, XML-element config_app not found in the method: 
+
+17.03.2017 11:47:04 :  int ConfigAppXMLWorker::startElement(const char*, void*)
+
+17.03.2017 11:47:07 :  Error, XML-element point_section not found in the method: 
+
+17.03.2017 11:47:07 :  int ConfigAppXMLWorker::startElement(const char*, void*)
+
+17.03.2017 11:50:07 :  Start service "Analyzer conflict"!
+
+17.03.2017 11:50:12 :  Error, XML-element config_app not found in the method: 
+
+17.03.2017 11:50:12 :  int ConfigAppXMLWorker::startElement(const char*, void*)
+
+17.03.2017 11:50:12 :  Error, XML-element point_section not found in the method: 
+
+17.03.2017 11:50:12 :  int ConfigAppXMLWorker::startElement(const char*, void*)
+
+17.03.2017 12:00:59 :  Start service "Analyzer conflict"!
+
+17.03.2017 12:02:12 :  Start service "Analyzer conflict"!
+
+17.03.2017 12:02:46 :  Error, XML-element config_app not found in the method: 
+
+17.03.2017 12:02:46 :  int ConfigAppXMLWorker::startElement(const char*, void*)
+
+17.03.2017 12:02:48 :  Error, XML-element point_section not found in the method: 
+
+17.03.2017 12:02:48 :  int ConfigAppXMLWorker::startElement(const char*, void*)
+
+17.03.2017 13:30:43 :  Start service "Analyzer conflict"!
+
+17.03.2017 13:53:46 :  Start service "Analyzer conflict"!
+
+17.03.2017 14:44:38 :  Start service "Analyzer conflict"!
+
+17.03.2017 14:46:32 :  airport_name_en = Pulkovo�
+17.03.2017 14:46:45 :  airport_name_en = 
+17.03.2017 14:46:46 :  port_test_client_cons = h
+17.03.2017 14:46:47 :  port_test_client_gui = i
+17.03.2017 14:46:48 :  ip_main_client = 
+17.03.2017 14:46:49 :  ip_test_client_cons = 
+17.03.2017 14:46:50 :  ip_test_client_gui = 
+17.03.2017 14:46:51 :  recording_mode = 0
+17.03.2017 14:46:51 :  table_count = 
+17.03.2017 14:46:52 :  record_count = 
+17.03.2017 14:46:53 :  run_service = 	
+17.03.2017 14:52:38 :  Start service "Analyzer conflict"!
+
+17.03.2017 14:54:15 :  airport_name_en = Pulkovo�
+17.03.2017 14:55:25 :  port_main_client = 
+17.03.2017 14:55:42 :  port_test_client_cons = h
+17.03.2017 14:55:47 :  port_test_client_gui = i
+17.03.2017 14:55:52 :  ip_main_client = 
+17.03.2017 14:55:53 :  ip_test_client_cons = 
+17.03.2017 14:55:59 :  ip_test_client_gui = 
+17.03.2017 14:56:01 :  recording_mode = 0
+17.03.2017 14:56:07 :  table_count = 
+17.03.2017 14:56:12 :  record_count = 
+17.03.2017 14:56:18 :  run_service = 	
+17.03.2017 15:31:33 :  Start service "Analyzer conflict"!
+
+17.03.2017 15:32:34 :  airport_name_en =  Pulkovo�
+
+17.03.2017 15:32:50 :  port_main_client =  0
+
+17.03.2017 15:33:12 :  port_test_client_cons =  54632
+
+17.03.2017 15:33:24 :  port_test_client_gui =  54633
+
+17.03.2017 15:34:51 :  ip_main_client =  
+
+17.03.2017 15:34:53 :  ip_test_client_cons =  
+
+17.03.2017 15:34:54 :  ip_test_client_gui =  
+
+17.03.2017 15:34:55 :  recording_mode =  48
+
+17.03.2017 15:34:56 :  table_count =  19
+
+17.03.2017 15:34:56 :  record_count =  19
+
+17.03.2017 15:34:57 :  run_service =  9
+
+17.03.2017 15:36:25 :  Start service "Analyzer conflict"!
+
+17.03.2017 15:37:09 :  airport_name_en =  Pulkovo�
+
+17.03.2017 15:37:11 :  port_main_client =  0
+
+17.03.2017 15:37:12 :  port_test_client_cons =  54632
+
+17.03.2017 15:37:13 :  port_test_client_gui =  54633
+
+17.03.2017 15:37:14 :  ip_main_client =  192.168.2.209�
+
+17.03.2017 15:37:46 :  ip_test_client_cons =  192.168.2.209�
+
+17.03.2017 15:38:29 :  ip_test_client_gui =  192.168.2.209�
+
+17.03.2017 15:38:32 :  recording_mode =  48
+
+17.03.2017 15:38:33 :  table_count =  19
+
+17.03.2017 15:38:34 :  record_count =  19
+
+17.03.2017 15:38:35 :  run_service =  9
+
+17.03.2017 16:12:50 :  Start service "Analyzer conflict"!
+
+17.03.2017 16:18:15 :  Start service "Analyzer conflict"!
+
+17.03.2017 16:46:58 :  Start service "Analyzer conflict"!
+
+17.03.2017 16:53:38 :  airport_name_en =  Pulkovo
+
+17.03.2017 16:54:16 :  port_main_client =  0
+
+17.03.2017 16:54:27 :  port_test_client_cons =  54632
+
+17.03.2017 16:54:35 :  port_test_client_gui =  54633
+
+17.03.2017 16:54:50 :  ip_main_client =  192.168.2.209
+
+17.03.2017 16:55:06 :  ip_test_client_cons =  192.168.2.209
+
+17.03.2017 16:55:20 :  ip_test_client_gui =  192.168.2.209
+
+17.03.2017 16:55:33 :  recording_mode =  48
+
+17.03.2017 16:56:02 :  table_count =  1
+
+17.03.2017 16:56:11 :  record_count =  1
+
+17.03.2017 16:56:55 :  run_service =  0
+
+17.03.2017 17:12:55 :  Start service "Analyzer conflict"!
+
+17.03.2017 17:28:42 :  airport_name_en =  Pulkovo
+
+17.03.2017 17:28:43 :  port_main_client =  0
+
+17.03.2017 17:28:44 :  port_test_client_cons =  54632
+
+17.03.2017 17:28:44 :  port_test_client_gui =  54633
+
+17.03.2017 17:28:45 :  ip_main_client =  192.168.2.209
+
+17.03.2017 17:28:45 :  ip_test_client_cons =  192.168.2.209
+
+17.03.2017 17:28:45 :  ip_test_client_gui =  192.168.2.209
+
+17.03.2017 17:28:45 :  recording_mode =  48
+
+17.03.2017 17:28:46 :  table_count =  1
+
+17.03.2017 17:28:46 :  record_count =  1
+
+17.03.2017 17:28:46 :  run_service =  0
+
+18.03.2017 16:17:31 :  Start service "Analyzer conflict"!
+
+18.03.2017 16:17:31 :  airport_name_en =  Pulkovo
+
+18.03.2017 16:17:31 :  port_main_client =  0
+
+18.03.2017 16:17:31 :  port_test_client_cons =  54632
+
+18.03.2017 16:17:31 :  port_test_client_gui =  54633
+
+18.03.2017 16:17:31 :  ip_main_client =  192.168.2.209
+
+18.03.2017 16:17:31 :  ip_test_client_cons =  192.168.2.209
+
+18.03.2017 16:17:31 :  ip_test_client_gui =  192.168.2.209
+
+18.03.2017 16:17:31 :  recording_mode =  0
+
+18.03.2017 16:17:31 :  table_count =  1
+
+18.03.2017 16:17:31 :  record_count =  1
+
+18.03.2017 16:17:31 :  run_service =  0
+
+18.03.2017 16:17:31 :  airport_name_en =  Pulkovo
+
+18.03.2017 16:17:31 :  height_cta =     24.0000
+
+18.03.2017 16:17:31 :  lat_cta =  59.80003
+
+18.03.2017 16:17:31 :  lon_cta =  30.26250
+
+18.03.2017 16:17:31 :  mag_decl_cta =  10
+
+18.03.2017 16:17:31 :  caption_vpp1 =  ВПП-1
+
+18.03.2017 16:17:31 :  id_vpp1 =  0
+
+18.03.2017 16:17:31 :  cat_vpp1 =  B
+
+18.03.2017 16:17:31 :  angle_vpp1 =  106.4190
+
+18.03.2017 16:17:31 :  runway_lat_vpp1 =  59.79514
+
+18.03.2017 16:17:31 :  runway_lon_vpp1 =  30.25064
+
+18.03.2017 16:17:31 :  lenght_vpp1 =  3782
+
+18.03.2017 16:17:31 :  width_vpp1 =  60
+
+18.03.2017 16:17:31 :  sign_left_vpp1 =  10R
+
+18.03.2017 16:17:31 :  sign_right_vpp1 =  28L
+
+18.03.2017 16:17:31 :  north_wgs_lat_vpp1 =  59.80019
+
+18.03.2017 16:17:31 :  north_wgs_lon_vpp1 =  30.21849
+
+18.03.2017 16:17:31 :  south_wgs_lat_vpp1 =  59.79009
+
+18.03.2017 16:17:31 :  south_wgs_lon_vpp1 =  30.28278
+
+18.03.2017 16:17:31 :  west_wgs_lat_vpp1 =  59.79965
+
+18.03.2017 16:17:31 :  west_wgs_lon_vpp1 =  30.21823
+
+18.03.2017 16:17:31 :  east_wgs_lat_vpp1 =  59.79059
+
+18.03.2017 16:17:31 :  east_wgs_lon_vpp1 =  30.28304
+
+18.03.2017 16:17:31 :  caption_vpp2 =  ВПП-2
+
+18.03.2017 16:17:31 :  id_vpp2 =  1
+
+18.03.2017 16:17:31 :  cat_vpp2 =  A
+
+18.03.2017 16:17:31 :  angle_vpp2 =  106.4500
+
+18.03.2017 16:17:31 :  runway_lat_vpp2 =  59.80545
+
+18.03.2017 16:17:31 :  runway_lon_vpp2 =  30.27438
+
+18.03.2017 16:17:31 :  lenght_vpp2 =  3393
+
+18.03.2017 16:17:31 :  width_vpp2 =  60
+
+18.03.2017 16:17:31 :  sign_left_vpp2 =  10R
+
+18.03.2017 16:17:31 :  sign_right_vpp2 =  28L
+
+18.03.2017 16:17:31 :  north_wgs_lat_vpp2 =  59.81001
+
+18.03.2017 16:17:31 :  north_wgs_lon_vpp2 =  30.24561
+
+18.03.2017 16:17:31 :  south_wgs_lat_vpp2 =  59.80089
+
+18.03.2017 16:17:31 :  south_wgs_lon_vpp2 =  30.30338
+
+18.03.2017 16:17:31 :  west_wgs_lat_vpp2 =  59.80951
+
+18.03.2017 16:17:31 :  west_wgs_lon_vpp2 =  30.24527
+
+18.03.2017 16:17:31 :  east_wgs_lat_vpp2 =  59.80134
+
+18.03.2017 16:17:31 :  east_wgs_lon_vpp2 =  30.30364
+
+18.03.2017 16:17:51 :  Runway configuration data list
+
+18.03.2017 16:17:51 :  height_cta =     24.0000
+
+18.03.2017 16:17:51 :  angle_vpp1 =  106.41900
+
+18.03.2017 16:17:51 :  runway_lat_vpp1 =  59.795142
+
+18.03.2017 16:17:51 :  runway_lon_vpp1 =  30.250639
+
+18.03.2017 16:17:51 :  lenght_vpp1 =  3782
+
+18.03.2017 16:17:51 :  width_vpp1 =  60
+
+18.03.2017 16:17:51 :  north_wgs_lat_vpp1 =  59.800193
+
+18.03.2017 16:17:51 :  north_wgs_lon_vpp1 =  30.218491
+
+18.03.2017 16:17:51 :  south_wgs_lat_vpp1 =  59.790093
+
+18.03.2017 16:17:51 :  south_wgs_lon_vpp1 =  30.282778
+
+18.03.2017 16:17:51 :  west_wgs_lat_vpp1 =  59.799652
+
+18.03.2017 16:17:51 :  west_wgs_lon_vpp1 =  30.218233
+
+18.03.2017 16:17:51 :  east_wgs_lat_vpp1 =  59.790590
+
+18.03.2017 16:17:51 :  east_wgs_lon_vpp1 =  30.283035
+
+18.03.2017 16:17:51 :  angle_vpp2 =  106.45000
+
+18.03.2017 16:17:51 :  runway_lat_vpp2 =  59.805453
+
+18.03.2017 16:17:51 :  runway_lon_vpp2 =  30.274379
+
+18.03.2017 16:17:51 :  lenght_vpp2 =  3393
+
+18.03.2017 16:17:51 :  width_vpp2 =  60
+
+18.03.2017 16:17:51 :  north_wgs_lat_vpp2 =  59.810008
+
+18.03.2017 16:17:51 :  north_wgs_lon_vpp2 =  30.245613
+
+18.03.2017 16:17:51 :  south_wgs_lat_vpp2 =  59.800885
+
+18.03.2017 16:17:51 :  south_wgs_lon_vpp2 =  30.303377
+
+18.03.2017 16:17:51 :  west_wgs_lat_vpp2 =  59.809511
+
+18.03.2017 16:17:51 :  west_wgs_lon_vpp2 =  30.245270
+
+18.03.2017 16:17:51 :  east_wgs_lat_vpp2 =  59.801339
+
+18.03.2017 16:17:51 :  east_wgs_lon_vpp2 =  30.303635
+
+18.03.2017 16:17:51 :  Calculated indicators
+
+18.03.2017 16:34:16 :  Start service "Analyzer conflict"!
+
+18.03.2017 16:34:16 :  airport_name_en =  Pulkovo
+
+18.03.2017 16:34:16 :  port_main_client =  0
+
+18.03.2017 16:34:16 :  port_test_client_cons =  54632
+
+18.03.2017 16:34:16 :  port_test_client_gui =  54633
+
+18.03.2017 16:34:16 :  ip_main_client =  192.168.2.209
+
+18.03.2017 16:34:16 :  ip_test_client_cons =  192.168.2.209
+
+18.03.2017 16:34:16 :  ip_test_client_gui =  192.168.2.209
+
+18.03.2017 16:34:16 :  recording_mode =  0
+
+18.03.2017 16:34:16 :  table_count =  1
+
+18.03.2017 16:34:16 :  record_count =  1
+
+18.03.2017 16:34:16 :  run_service =  0
+
+18.03.2017 16:34:16 :  airport_name_en =  Pulkovo
+
+18.03.2017 16:34:16 :  height_cta =     24.0000
+
+18.03.2017 16:34:16 :  lat_cta =  59.80003
+
+18.03.2017 16:34:16 :  lon_cta =  30.26250
+
+18.03.2017 16:34:16 :  mag_decl_cta =  10
+
+18.03.2017 16:34:16 :  caption_vpp1 =  ВПП-1
+
+18.03.2017 16:34:16 :  id_vpp1 =  0
+
+18.03.2017 16:34:16 :  cat_vpp1 =  B
+
+18.03.2017 16:34:16 :  angle_vpp1 =  106.4190
+
+18.03.2017 16:34:16 :  runway_lat_vpp1 =  59.79514
+
+18.03.2017 16:34:16 :  runway_lon_vpp1 =  30.25064
+
+18.03.2017 16:34:16 :  lenght_vpp1 =  3782
+
+18.03.2017 16:34:16 :  width_vpp1 =  60
+
+18.03.2017 16:34:16 :  sign_left_vpp1 =  10R
+
+18.03.2017 16:34:16 :  sign_right_vpp1 =  28L
+
+18.03.2017 16:34:16 :  north_wgs_lat_vpp1 =  59.80019
+
+18.03.2017 16:34:16 :  north_wgs_lon_vpp1 =  30.21849
+
+18.03.2017 16:34:16 :  south_wgs_lat_vpp1 =  59.79009
+
+18.03.2017 16:34:16 :  south_wgs_lon_vpp1 =  30.28278
+
+18.03.2017 16:34:16 :  west_wgs_lat_vpp1 =  59.79965
+
+18.03.2017 16:34:16 :  west_wgs_lon_vpp1 =  30.21823
+
+18.03.2017 16:34:16 :  east_wgs_lat_vpp1 =  59.79059
+
+18.03.2017 16:34:16 :  east_wgs_lon_vpp1 =  30.28304
+
+18.03.2017 16:34:16 :  caption_vpp2 =  ВПП-2
+
+18.03.2017 16:34:16 :  id_vpp2 =  1
+
+18.03.2017 16:34:16 :  cat_vpp2 =  A
+
+18.03.2017 16:34:16 :  angle_vpp2 =  106.4500
+
+18.03.2017 16:34:16 :  runway_lat_vpp2 =  59.80545
+
+18.03.2017 16:34:16 :  runway_lon_vpp2 =  30.27438
+
+18.03.2017 16:34:16 :  lenght_vpp2 =  3393
+
+18.03.2017 16:34:16 :  width_vpp2 =  60
+
+18.03.2017 16:34:16 :  sign_left_vpp2 =  10R
+
+18.03.2017 16:34:16 :  sign_right_vpp2 =  28L
+
+18.03.2017 16:34:16 :  north_wgs_lat_vpp2 =  59.81001
+
+18.03.2017 16:34:16 :  north_wgs_lon_vpp2 =  30.24561
+
+18.03.2017 16:34:16 :  south_wgs_lat_vpp2 =  59.80089
+
+18.03.2017 16:34:16 :  south_wgs_lon_vpp2 =  30.30338
+
+18.03.2017 16:34:16 :  west_wgs_lat_vpp2 =  59.80951
+
+18.03.2017 16:34:16 :  west_wgs_lon_vpp2 =  30.24527
+
+18.03.2017 16:34:16 :  east_wgs_lat_vpp2 =  59.80134
+
+18.03.2017 16:34:16 :  east_wgs_lon_vpp2 =  30.30364
+
+18.03.2017 16:34:19 :  Runway configuration data list
+
+18.03.2017 16:34:19 :  height_cta =     24.0000
+
+18.03.2017 16:34:19 :  angle_vpp1 =  106.41900
+
+18.03.2017 16:34:19 :  runway_lat_vpp1 =  59.795142
+
+18.03.2017 16:34:19 :  runway_lon_vpp1 =  30.250639
+
+18.03.2017 16:34:19 :  lenght_vpp1 =  3782
+
+18.03.2017 16:34:19 :  width_vpp1 =  60
+
+18.03.2017 16:34:19 :  north_wgs_lat_vpp1 =  59.800193
+
+18.03.2017 16:34:19 :  north_wgs_lon_vpp1 =  30.218491
+
+18.03.2017 16:34:19 :  south_wgs_lat_vpp1 =  59.790093
+
+18.03.2017 16:34:19 :  south_wgs_lon_vpp1 =  30.282778
+
+18.03.2017 16:34:19 :  west_wgs_lat_vpp1 =  59.799652
+
+18.03.2017 16:34:19 :  west_wgs_lon_vpp1 =  30.218233
+
+18.03.2017 16:34:19 :  east_wgs_lat_vpp1 =  59.790590
+
+18.03.2017 16:34:19 :  east_wgs_lon_vpp1 =  30.283035
+
+18.03.2017 16:34:19 :  angle_vpp2 =  106.45000
+
+18.03.2017 16:34:19 :  runway_lat_vpp2 =  59.805453
+
+18.03.2017 16:34:19 :  runway_lon_vpp2 =  30.274379
+
+18.03.2017 16:34:19 :  lenght_vpp2 =  3393
+
+18.03.2017 16:34:19 :  width_vpp2 =  60
+
+18.03.2017 16:34:19 :  north_wgs_lat_vpp2 =  59.810008
+
+18.03.2017 16:34:19 :  north_wgs_lon_vpp2 =  30.245613
+
+18.03.2017 16:34:19 :  south_wgs_lat_vpp2 =  59.800885
+
+18.03.2017 16:34:19 :  south_wgs_lon_vpp2 =  30.303377
+
+18.03.2017 16:34:19 :  west_wgs_lat_vpp2 =  59.809511
+
+18.03.2017 16:34:19 :  west_wgs_lon_vpp2 =  30.245270
+
+18.03.2017 16:34:19 :  east_wgs_lat_vpp2 =  59.801339
+
+18.03.2017 16:34:19 :  east_wgs_lon_vpp2 =  30.303635
+
+18.03.2017 16:34:19 :  Calculated indicators
+
+18.03.2017 16:51:28 :  Start service "Analyzer conflict"!
+
+18.03.2017 16:51:28 :  airport_name_en =  Pulkovo
+
+18.03.2017 16:51:28 :  port_main_client =  0
+
+18.03.2017 16:51:28 :  port_test_client_cons =  54632
+
+18.03.2017 16:51:28 :  port_test_client_gui =  54633
+
+18.03.2017 16:51:28 :  ip_main_client =  192.168.2.209
+
+18.03.2017 16:51:28 :  ip_test_client_cons =  192.168.2.209
+
+18.03.2017 16:51:28 :  ip_test_client_gui =  192.168.2.209
+
+18.03.2017 16:51:28 :  recording_mode =  0
+
+18.03.2017 16:51:28 :  table_count =  1
+
+18.03.2017 16:51:28 :  record_count =  1
+
+18.03.2017 16:51:28 :  run_service =  0
+
+18.03.2017 16:51:28 :  airport_name_en =  Pulkovo
+
+18.03.2017 16:51:28 :  height_cta =     24.0000
+
+18.03.2017 16:51:28 :  lat_cta =  59.80003
+
+18.03.2017 16:51:28 :  lon_cta =  30.26250
+
+18.03.2017 16:51:28 :  mag_decl_cta =  10
+
+18.03.2017 16:51:28 :  caption_vpp1 =  ВПП-1
+
+18.03.2017 16:51:28 :  id_vpp1 =  0
+
+18.03.2017 16:51:28 :  cat_vpp1 =  B
+
+18.03.2017 16:51:28 :  angle_vpp1 =  106.4190
+
+18.03.2017 16:51:28 :  runway_lat_vpp1 =  59.79514
+
+18.03.2017 16:51:28 :  runway_lon_vpp1 =  30.25064
+
+18.03.2017 16:51:28 :  lenght_vpp1 =  3782
+
+18.03.2017 16:51:28 :  width_vpp1 =  60
+
+18.03.2017 16:51:28 :  sign_left_vpp1 =  10R
+
+18.03.2017 16:51:28 :  sign_right_vpp1 =  28L
+
+18.03.2017 16:51:28 :  north_wgs_lat_vpp1 =  59.80019
+
+18.03.2017 16:51:28 :  north_wgs_lon_vpp1 =  30.21849
+
+18.03.2017 16:51:28 :  south_wgs_lat_vpp1 =  59.79009
+
+18.03.2017 16:51:28 :  south_wgs_lon_vpp1 =  30.28278
+
+18.03.2017 16:51:28 :  west_wgs_lat_vpp1 =  59.79965
+
+18.03.2017 16:51:28 :  west_wgs_lon_vpp1 =  30.21823
+
+18.03.2017 16:51:28 :  east_wgs_lat_vpp1 =  59.79059
+
+18.03.2017 16:51:28 :  east_wgs_lon_vpp1 =  30.28304
+
+18.03.2017 16:51:28 :  caption_vpp2 =  ВПП-2
+
+18.03.2017 16:51:28 :  id_vpp2 =  1
+
+18.03.2017 16:51:28 :  cat_vpp2 =  A
+
+18.03.2017 16:51:28 :  angle_vpp2 =  106.4500
+
+18.03.2017 16:51:28 :  runway_lat_vpp2 =  59.80545
+
+18.03.2017 16:51:28 :  runway_lon_vpp2 =  30.27438
+
+18.03.2017 16:51:28 :  lenght_vpp2 =  3393
+
+18.03.2017 16:51:28 :  width_vpp2 =  60
+
+18.03.2017 16:51:28 :  sign_left_vpp2 =  10R
+
+18.03.2017 16:51:28 :  sign_right_vpp2 =  28L
+
+18.03.2017 16:51:28 :  north_wgs_lat_vpp2 =  59.81001
+
+18.03.2017 16:51:28 :  north_wgs_lon_vpp2 =  30.24561
+
+18.03.2017 16:51:28 :  south_wgs_lat_vpp2 =  59.80089
+
+18.03.2017 16:51:28 :  south_wgs_lon_vpp2 =  30.30338
+
+18.03.2017 16:51:28 :  west_wgs_lat_vpp2 =  59.80951
+
+18.03.2017 16:51:28 :  west_wgs_lon_vpp2 =  30.24527
+
+18.03.2017 16:51:28 :  east_wgs_lat_vpp2 =  59.80134
+
+18.03.2017 16:51:28 :  east_wgs_lon_vpp2 =  30.30364
+
+18.03.2017 16:51:31 :  Runway configuration data list
+
+18.03.2017 16:51:31 :  height_cta =     24.0000
+
+18.03.2017 16:51:31 :  angle_vpp1 =  106.41900
+
+18.03.2017 16:51:31 :  runway_lat_vpp1 =  59.795142
+
+18.03.2017 16:51:31 :  runway_lon_vpp1 =  30.250639
+
+18.03.2017 16:51:31 :  lenght_vpp1 =  3782
+
+18.03.2017 16:51:31 :  width_vpp1 =  60
+
+18.03.2017 16:51:31 :  north_wgs_lat_vpp1 =  59.800193
+
+18.03.2017 16:51:31 :  north_wgs_lon_vpp1 =  30.218491
+
+18.03.2017 16:51:31 :  south_wgs_lat_vpp1 =  59.790093
+
+18.03.2017 16:51:31 :  south_wgs_lon_vpp1 =  30.282778
+
+18.03.2017 16:51:31 :  west_wgs_lat_vpp1 =  59.799652
+
+18.03.2017 16:51:31 :  west_wgs_lon_vpp1 =  30.218233
+
+18.03.2017 16:51:31 :  east_wgs_lat_vpp1 =  59.790590
+
+18.03.2017 16:51:31 :  east_wgs_lon_vpp1 =  30.283035
+
+18.03.2017 16:51:31 :  angle_vpp2 =  106.45000
+
+18.03.2017 16:51:31 :  runway_lat_vpp2 =  59.805453
+
+18.03.2017 16:51:31 :  runway_lon_vpp2 =  30.274379
+
+18.03.2017 16:51:31 :  lenght_vpp2 =  3393
+
+18.03.2017 16:51:31 :  width_vpp2 =  60
+
+18.03.2017 16:51:31 :  north_wgs_lat_vpp2 =  59.810008
+
+18.03.2017 16:51:31 :  north_wgs_lon_vpp2 =  30.245613
+
+18.03.2017 16:51:31 :  south_wgs_lat_vpp2 =  59.800885
+
+18.03.2017 16:51:31 :  south_wgs_lon_vpp2 =  30.303377
+
+18.03.2017 16:51:31 :  west_wgs_lat_vpp2 =  59.809511
+
+18.03.2017 16:51:31 :  west_wgs_lon_vpp2 =  30.245270
+
+18.03.2017 16:51:31 :  east_wgs_lat_vpp2 =  59.801339
+
+18.03.2017 16:51:31 :  east_wgs_lon_vpp2 =  30.303635
+
+18.03.2017 16:51:31 :  Calculated indicators
+
+18.03.2017 16:56:50 :  Start service "Analyzer conflict"!
+
+18.03.2017 16:56:50 :  airport_name_en =  Pulkovo
+
+18.03.2017 16:56:50 :  port_main_client =  0
+
+18.03.2017 16:56:50 :  port_test_client_cons =  54632
+
+18.03.2017 16:56:50 :  port_test_client_gui =  54633
+
+18.03.2017 16:56:50 :  ip_main_client =  192.168.2.209
+
+18.03.2017 16:56:50 :  ip_test_client_cons =  192.168.2.209
+
+18.03.2017 16:56:50 :  ip_test_client_gui =  192.168.2.209
+
+18.03.2017 16:56:50 :  recording_mode =  0
+
+18.03.2017 16:56:50 :  table_count =  1
+
+18.03.2017 16:56:50 :  record_count =  1
+
+18.03.2017 16:56:50 :  run_service =  0
+
+18.03.2017 16:56:50 :  airport_name_en =  Pulkovo
+
+18.03.2017 16:56:50 :  height_cta =     24.0000
+
+18.03.2017 16:56:50 :  lat_cta =  59.80003
+
+18.03.2017 16:56:50 :  lon_cta =  30.26250
+
+18.03.2017 16:56:50 :  mag_decl_cta =  10
+
+18.03.2017 16:56:50 :  caption_vpp1 =  ВПП-1
+
+18.03.2017 16:56:50 :  id_vpp1 =  0
+
+18.03.2017 16:56:50 :  cat_vpp1 =  B
+
+18.03.2017 16:56:50 :  angle_vpp1 =  106.4190
+
+18.03.2017 16:56:50 :  runway_lat_vpp1 =  59.79514
+
+18.03.2017 16:56:50 :  runway_lon_vpp1 =  30.25064
+
+18.03.2017 16:56:50 :  lenght_vpp1 =  3782
+
+18.03.2017 16:56:50 :  width_vpp1 =  60
+
+18.03.2017 16:56:50 :  sign_left_vpp1 =  10R
+
+18.03.2017 16:56:50 :  sign_right_vpp1 =  28L
+
+18.03.2017 16:56:50 :  north_wgs_lat_vpp1 =  59.80019
+
+18.03.2017 16:56:50 :  north_wgs_lon_vpp1 =  30.21849
+
+18.03.2017 16:56:50 :  south_wgs_lat_vpp1 =  59.79009
+
+18.03.2017 16:56:50 :  south_wgs_lon_vpp1 =  30.28278
+
+18.03.2017 16:56:50 :  west_wgs_lat_vpp1 =  59.79965
+
+18.03.2017 16:56:50 :  west_wgs_lon_vpp1 =  30.21823
+
+18.03.2017 16:56:50 :  east_wgs_lat_vpp1 =  59.79059
+
+18.03.2017 16:56:50 :  east_wgs_lon_vpp1 =  30.28304
+
+18.03.2017 16:56:50 :  caption_vpp2 =  ВПП-2
+
+18.03.2017 16:56:50 :  id_vpp2 =  1
+
+18.03.2017 16:56:50 :  cat_vpp2 =  A
+
+18.03.2017 16:56:50 :  angle_vpp2 =  106.4500
+
+18.03.2017 16:56:50 :  runway_lat_vpp2 =  59.80545
+
+18.03.2017 16:56:50 :  runway_lon_vpp2 =  30.27438
+
+18.03.2017 16:56:50 :  lenght_vpp2 =  3393
+
+18.03.2017 16:56:50 :  width_vpp2 =  60
+
+18.03.2017 16:56:50 :  sign_left_vpp2 =  10R
+
+18.03.2017 16:56:50 :  sign_right_vpp2 =  28L
+
+18.03.2017 16:56:50 :  north_wgs_lat_vpp2 =  59.81001
+
+18.03.2017 16:56:50 :  north_wgs_lon_vpp2 =  30.24561
+
+18.03.2017 16:56:50 :  south_wgs_lat_vpp2 =  59.80089
+
+18.03.2017 16:56:50 :  south_wgs_lon_vpp2 =  30.30338
+
+18.03.2017 16:56:50 :  west_wgs_lat_vpp2 =  59.80951
+
+18.03.2017 16:56:50 :  west_wgs_lon_vpp2 =  30.24527
+
+18.03.2017 16:56:50 :  east_wgs_lat_vpp2 =  59.80134
+
+18.03.2017 16:56:50 :  east_wgs_lon_vpp2 =  30.30364
+
+18.03.2017 16:56:54 :  Runway configuration data list
+
+18.03.2017 16:56:54 :  height_cta =     24.0000
+
+18.03.2017 16:56:54 :  angle_vpp1 =  106.41900
+
+18.03.2017 16:56:54 :  runway_lat_vpp1 =  59.795142
+
+18.03.2017 16:56:54 :  runway_lon_vpp1 =  30.250639
+
+18.03.2017 16:56:54 :  lenght_vpp1 =  3782
+
+18.03.2017 16:56:54 :  width_vpp1 =  60
+
+18.03.2017 16:56:54 :  north_wgs_lat_vpp1 =  59.800193
+
+18.03.2017 16:56:54 :  north_wgs_lon_vpp1 =  30.218491
+
+18.03.2017 16:56:54 :  south_wgs_lat_vpp1 =  59.790093
+
+18.03.2017 16:56:54 :  south_wgs_lon_vpp1 =  30.282778
+
+18.03.2017 16:56:54 :  west_wgs_lat_vpp1 =  59.799652
+
+18.03.2017 16:56:54 :  west_wgs_lon_vpp1 =  30.218233
+
+18.03.2017 16:56:54 :  east_wgs_lat_vpp1 =  59.790590
+
+18.03.2017 16:56:54 :  east_wgs_lon_vpp1 =  30.283035
+
+18.03.2017 16:56:54 :  angle_vpp2 =  106.45000
+
+18.03.2017 16:56:54 :  runway_lat_vpp2 =  59.805453
+
+18.03.2017 16:56:54 :  runway_lon_vpp2 =  30.274379
+
+18.03.2017 16:56:54 :  lenght_vpp2 =  3393
+
+18.03.2017 16:56:54 :  width_vpp2 =  60
+
+18.03.2017 16:56:54 :  north_wgs_lat_vpp2 =  59.810008
+
+18.03.2017 16:56:54 :  north_wgs_lon_vpp2 =  30.245613
+
+18.03.2017 16:56:54 :  south_wgs_lat_vpp2 =  59.800885
+
+18.03.2017 16:56:54 :  south_wgs_lon_vpp2 =  30.303377
+
+18.03.2017 16:56:54 :  west_wgs_lat_vpp2 =  59.809511
+
+18.03.2017 16:56:54 :  west_wgs_lon_vpp2 =  30.245270
+
+18.03.2017 16:56:54 :  east_wgs_lat_vpp2 =  59.801339
+
+18.03.2017 16:56:54 :  east_wgs_lon_vpp2 =  30.303635
+
+18.03.2017 16:56:54 :  Calculated indicators
+
+18.03.2017 17:40:06 :  Start service "Analyzer conflict"!
+
+18.03.2017 17:40:06 :  airport_name_en =  Pulkovo
+
+18.03.2017 17:40:06 :  port_main_client =  0
+
+18.03.2017 17:40:06 :  port_test_client_cons =  54632
+
+18.03.2017 17:40:06 :  port_test_client_gui =  54633
+
+18.03.2017 17:40:06 :  ip_main_client =  192.168.2.209
+
+18.03.2017 17:40:06 :  ip_test_client_cons =  192.168.2.209
+
+18.03.2017 17:40:06 :  ip_test_client_gui =  192.168.2.209
+
+18.03.2017 17:40:06 :  recording_mode =  0
+
+18.03.2017 17:40:06 :  table_count =  1
+
+18.03.2017 17:40:06 :  record_count =  1
+
+18.03.2017 17:40:06 :  run_service =  0
+
+18.03.2017 17:40:06 :  airport_name_en =  Pulkovo
+
+18.03.2017 17:40:06 :  height_cta =     24.0000
+
+18.03.2017 17:40:06 :  lat_cta =  59.80003
+
+18.03.2017 17:40:06 :  lon_cta =  30.26250
+
+18.03.2017 17:40:06 :  mag_decl_cta =  10
+
+18.03.2017 17:40:06 :  caption_vpp1 =  ВПП-1
+
+18.03.2017 17:40:06 :  id_vpp1 =  0
+
+18.03.2017 17:40:06 :  cat_vpp1 =  B
+
+18.03.2017 17:40:06 :  angle_vpp1 =  106.4190
+
+18.03.2017 17:40:06 :  runway_lat_vpp1 =  59.79514
+
+18.03.2017 17:40:06 :  runway_lon_vpp1 =  30.25064
+
+18.03.2017 17:40:06 :  lenght_vpp1 =  3782
+
+18.03.2017 17:40:06 :  width_vpp1 =  60
+
+18.03.2017 17:40:06 :  sign_left_vpp1 =  10R
+
+18.03.2017 17:40:06 :  sign_right_vpp1 =  28L
+
+18.03.2017 17:40:06 :  north_wgs_lat_vpp1 =  59.80019
+
+18.03.2017 17:40:06 :  north_wgs_lon_vpp1 =  30.21849
+
+18.03.2017 17:40:06 :  south_wgs_lat_vpp1 =  59.79009
+
+18.03.2017 17:40:06 :  south_wgs_lon_vpp1 =  30.28278
+
+18.03.2017 17:40:06 :  west_wgs_lat_vpp1 =  59.79965
+
+18.03.2017 17:40:06 :  west_wgs_lon_vpp1 =  30.21823
+
+18.03.2017 17:40:06 :  east_wgs_lat_vpp1 =  59.79059
+
+18.03.2017 17:40:06 :  east_wgs_lon_vpp1 =  30.28304
+
+18.03.2017 17:40:06 :  caption_vpp2 =  ВПП-2
+
+18.03.2017 17:40:06 :  id_vpp2 =  1
+
+18.03.2017 17:40:06 :  cat_vpp2 =  A
+
+18.03.2017 17:40:06 :  angle_vpp2 =  106.4500
+
+18.03.2017 17:40:06 :  runway_lat_vpp2 =  59.80545
+
+18.03.2017 17:40:06 :  runway_lon_vpp2 =  30.27438
+
+18.03.2017 17:40:06 :  lenght_vpp2 =  3393
+
+18.03.2017 17:40:06 :  width_vpp2 =  60
+
+18.03.2017 17:40:06 :  sign_left_vpp2 =  10R
+
+18.03.2017 17:40:06 :  sign_right_vpp2 =  28L
+
+18.03.2017 17:40:06 :  north_wgs_lat_vpp2 =  59.81001
+
+18.03.2017 17:40:06 :  north_wgs_lon_vpp2 =  30.24561
+
+18.03.2017 17:40:06 :  south_wgs_lat_vpp2 =  59.80089
+
+18.03.2017 17:40:06 :  south_wgs_lon_vpp2 =  30.30338
+
+18.03.2017 17:40:06 :  west_wgs_lat_vpp2 =  59.80951
+
+18.03.2017 17:40:06 :  west_wgs_lon_vpp2 =  30.24527
+
+18.03.2017 17:40:06 :  east_wgs_lat_vpp2 =  59.80134
+
+18.03.2017 17:40:06 :  east_wgs_lon_vpp2 =  30.30364
+
+18.03.2017 17:40:10 :  Runway configuration data list
+
+18.03.2017 17:40:10 :  height_cta =     24.0000
+
+18.03.2017 17:40:10 :  angle_vpp1 =  106.41900
+
+18.03.2017 17:40:10 :  runway_lat_vpp1 =  59.795142
+
+18.03.2017 17:40:10 :  runway_lon_vpp1 =  30.250639
+
+18.03.2017 17:40:10 :  lenght_vpp1 =  3782
+
+18.03.2017 17:40:10 :  width_vpp1 =  60
+
+18.03.2017 17:40:10 :  north_wgs_lat_vpp1 =  59.800193
+
+18.03.2017 17:40:10 :  north_wgs_lon_vpp1 =  30.218491
+
+18.03.2017 17:40:10 :  south_wgs_lat_vpp1 =  59.790093
+
+18.03.2017 17:40:10 :  south_wgs_lon_vpp1 =  30.282778
+
+18.03.2017 17:40:10 :  west_wgs_lat_vpp1 =  59.799652
+
+18.03.2017 17:40:10 :  west_wgs_lon_vpp1 =  30.218233
+
+18.03.2017 17:40:10 :  east_wgs_lat_vpp1 =  59.790590
+
+18.03.2017 17:40:10 :  east_wgs_lon_vpp1 =  30.283035
+
+18.03.2017 17:40:10 :  angle_vpp2 =  106.45000
+
+18.03.2017 17:40:10 :  runway_lat_vpp2 =  59.805453
+
+18.03.2017 17:40:10 :  runway_lon_vpp2 =  30.274379
+
+18.03.2017 17:40:10 :  lenght_vpp2 =  3393
+
+18.03.2017 17:40:10 :  width_vpp2 =  60
+
+18.03.2017 17:40:10 :  north_wgs_lat_vpp2 =  59.810008
+
+18.03.2017 17:40:10 :  north_wgs_lon_vpp2 =  30.245613
+
+18.03.2017 17:40:10 :  south_wgs_lat_vpp2 =  59.800885
+
+18.03.2017 17:40:10 :  south_wgs_lon_vpp2 =  30.303377
+
+18.03.2017 17:40:10 :  west_wgs_lat_vpp2 =  59.809511
+
+18.03.2017 17:40:10 :  west_wgs_lon_vpp2 =  30.245270
+
+18.03.2017 17:40:10 :  east_wgs_lat_vpp2 =  59.801339
+
+18.03.2017 17:40:10 :  east_wgs_lon_vpp2 =  30.303635
+
+18.03.2017 17:40:10 :  Calculated indicators
+
+18.03.2017 17:57:46 :  northPointRunway1_lat =  -1197.039165
+
+18.03.2017 17:57:46 :  northPointRunway1_lon =  1443.455693
+
+18.03.2017 17:57:46 :  southPointRunway1_lat =  1316.629449
+
+18.03.2017 17:57:46 :  southPointRunway1_lon =  -1382.954415
+
+18.03.2017 17:57:46 :  westPointRunway1_lat =  -1151.578024
+
+18.03.2017 17:57:46 :  westPointRunway1_lon =  1482.612871
+
+18.03.2017 17:57:46 :  eastPointRunway1_lat =  1271.168308
+
+18.03.2017 17:57:46 :  eastPointRunway1_lon =  -1422.111593
+
+18.03.2017 17:57:46 :  northPointRunway2_lat =  -1108.786067
+
+18.03.2017 17:57:46 :  northPointRunway2_lon =  1260.480097
+
+18.03.2017 17:57:46 :  southPointRunway2_lat =  1228.396973
+
+18.03.2017 17:57:46 :  southPointRunway2_lon =  -1199.931339
+
+18.03.2017 17:57:46 :  westPointRunway2_lat =  -1064.560446
+
+18.03.2017 17:57:46 :  westPointRunway2_lon =  1301.027531
+
+18.03.2017 17:57:46 :  eastPointRunway2_lat =  1184.171352
+
+18.03.2017 17:57:46 :  eastPointRunway2_lon =  -1240.478773
+
+18.03.2017 18:57:55 :  Start service "Analyzer conflict"!
+
+18.03.2017 18:57:55 :  airport_name_en =  Pulkovo
+
+18.03.2017 18:57:55 :  port_main_client =  0
+
+18.03.2017 18:57:55 :  port_test_client_cons =  54632
+
+18.03.2017 18:57:55 :  port_test_client_gui =  54633
+
+18.03.2017 18:57:55 :  ip_main_client =  192.168.2.209
+
+18.03.2017 18:57:55 :  ip_test_client_cons =  192.168.2.209
+
+18.03.2017 18:57:55 :  ip_test_client_gui =  192.168.2.209
+
+18.03.2017 18:57:55 :  recording_mode =  0
+
+18.03.2017 18:57:55 :  table_count =  1
+
+18.03.2017 18:57:55 :  record_count =  1
+
+18.03.2017 18:57:55 :  run_service =  0
+
+18.03.2017 18:57:55 :  airport_name_en =  Pulkovo
+
+18.03.2017 18:57:55 :  height_cta =     24.0000
+
+18.03.2017 18:57:55 :  lat_cta =  59.80003
+
+18.03.2017 18:57:55 :  lon_cta =  30.26250
+
+18.03.2017 18:57:55 :  mag_decl_cta =  10
+
+18.03.2017 18:57:55 :  caption_vpp1 =  ВПП-1
+
+18.03.2017 18:57:55 :  id_vpp1 =  0
+
+18.03.2017 18:57:55 :  cat_vpp1 =  B
+
+18.03.2017 18:57:55 :  angle_vpp1 =  106.4190
+
+18.03.2017 18:57:55 :  runway_lat_vpp1 =  59.79514
+
+18.03.2017 18:57:55 :  runway_lon_vpp1 =  30.25064
+
+18.03.2017 18:57:55 :  lenght_vpp1 =  3782
+
+18.03.2017 18:57:55 :  width_vpp1 =  60
+
+18.03.2017 18:57:55 :  sign_left_vpp1 =  10R
+
+18.03.2017 18:57:55 :  sign_right_vpp1 =  28L
+
+18.03.2017 18:57:55 :  north_wgs_lat_vpp1 =  59.80019
+
+18.03.2017 18:57:55 :  north_wgs_lon_vpp1 =  30.21849
+
+18.03.2017 18:57:55 :  south_wgs_lat_vpp1 =  59.79009
+
+18.03.2017 18:57:55 :  south_wgs_lon_vpp1 =  30.28278
+
+18.03.2017 18:57:55 :  west_wgs_lat_vpp1 =  59.79965
+
+18.03.2017 18:57:55 :  west_wgs_lon_vpp1 =  30.21823
+
+18.03.2017 18:57:55 :  east_wgs_lat_vpp1 =  59.79059
+
+18.03.2017 18:57:55 :  east_wgs_lon_vpp1 =  30.28304
+
+18.03.2017 18:57:55 :  caption_vpp2 =  ВПП-2
+
+18.03.2017 18:57:55 :  id_vpp2 =  1
+
+18.03.2017 18:57:55 :  cat_vpp2 =  A
+
+18.03.2017 18:57:55 :  angle_vpp2 =  106.4500
+
+18.03.2017 18:57:55 :  runway_lat_vpp2 =  59.80545
+
+18.03.2017 18:57:55 :  runway_lon_vpp2 =  30.27438
+
+18.03.2017 18:57:55 :  lenght_vpp2 =  3393
+
+18.03.2017 18:57:55 :  width_vpp2 =  60
+
+18.03.2017 18:57:55 :  sign_left_vpp2 =  10R
+
+18.03.2017 18:57:55 :  sign_right_vpp2 =  28L
+
+18.03.2017 18:57:55 :  north_wgs_lat_vpp2 =  59.81001
+
+18.03.2017 18:57:55 :  north_wgs_lon_vpp2 =  30.24561
+
+18.03.2017 18:57:55 :  south_wgs_lat_vpp2 =  59.80089
+
+18.03.2017 18:57:55 :  south_wgs_lon_vpp2 =  30.30338
+
+18.03.2017 18:57:55 :  west_wgs_lat_vpp2 =  59.80951
+
+18.03.2017 18:57:55 :  west_wgs_lon_vpp2 =  30.24527
+
+18.03.2017 18:57:55 :  east_wgs_lat_vpp2 =  59.80134
+
+18.03.2017 18:57:55 :  east_wgs_lon_vpp2 =  30.30364
+
+18.03.2017 18:58:01 :  Runway configuration data list
+
+18.03.2017 18:58:01 :  height_cta =     24.0000
+
+18.03.2017 18:58:01 :  angle_vpp1 =  106.41900
+
+18.03.2017 18:58:01 :  runway_lat_vpp1 =  59.795142
+
+18.03.2017 18:58:01 :  runway_lon_vpp1 =  30.250639
+
+18.03.2017 18:58:01 :  lenght_vpp1 =  3782
+
+18.03.2017 18:58:01 :  width_vpp1 =  60
+
+18.03.2017 18:58:01 :  north_wgs_lat_vpp1 =  59.800193
+
+18.03.2017 18:58:01 :  north_wgs_lon_vpp1 =  30.218491
+
+18.03.2017 18:58:01 :  south_wgs_lat_vpp1 =  59.790093
+
+18.03.2017 18:58:01 :  south_wgs_lon_vpp1 =  30.282778
+
+18.03.2017 18:58:01 :  west_wgs_lat_vpp1 =  59.799652
+
+18.03.2017 18:58:01 :  west_wgs_lon_vpp1 =  30.218233
+
+18.03.2017 18:58:01 :  east_wgs_lat_vpp1 =  59.790590
+
+18.03.2017 18:58:01 :  east_wgs_lon_vpp1 =  30.283035
+
+18.03.2017 18:58:01 :  angle_vpp2 =  106.45000
+
+18.03.2017 18:58:01 :  runway_lat_vpp2 =  59.805453
+
+18.03.2017 18:58:01 :  runway_lon_vpp2 =  30.274379
+
+18.03.2017 18:58:01 :  lenght_vpp2 =  3393
+
+18.03.2017 18:58:01 :  width_vpp2 =  60
+
+18.03.2017 18:58:01 :  north_wgs_lat_vpp2 =  59.810008
+
+18.03.2017 18:58:01 :  north_wgs_lon_vpp2 =  30.245613
+
+18.03.2017 18:58:01 :  south_wgs_lat_vpp2 =  59.800885
+
+18.03.2017 18:58:01 :  south_wgs_lon_vpp2 =  30.303377
+
+18.03.2017 18:58:01 :  west_wgs_lat_vpp2 =  59.809511
+
+18.03.2017 18:58:01 :  west_wgs_lon_vpp2 =  30.245270
+
+18.03.2017 18:58:01 :  east_wgs_lat_vpp2 =  59.801339
+
+18.03.2017 18:58:01 :  east_wgs_lon_vpp2 =  30.303635
+
+18.03.2017 18:58:01 :  Calculated indicators
+
+18.03.2017 19:28:18 :  Start service "Analyzer conflict"!
+
+18.03.2017 19:28:18 :  airport_name_en =  Pulkovo
+
+18.03.2017 19:28:18 :  port_main_client =  0
+
+18.03.2017 19:28:18 :  port_test_client_cons =  54632
+
+18.03.2017 19:28:18 :  port_test_client_gui =  54633
+
+18.03.2017 19:28:18 :  ip_main_client =  192.168.2.209
+
+18.03.2017 19:28:18 :  ip_test_client_cons =  192.168.2.209
+
+18.03.2017 19:28:18 :  ip_test_client_gui =  192.168.2.209
+
+18.03.2017 19:28:18 :  recording_mode =  0
+
+18.03.2017 19:28:18 :  table_count =  1
+
+18.03.2017 19:28:18 :  record_count =  1
+
+18.03.2017 19:28:18 :  run_service =  0
+
+18.03.2017 19:28:18 :  airport_name_en =  Pulkovo
+
+18.03.2017 19:28:18 :  height_cta =     24.0000
+
+18.03.2017 19:28:18 :  lat_cta =  59.80003
+
+18.03.2017 19:28:18 :  lon_cta =  30.26250
+
+18.03.2017 19:28:18 :  mag_decl_cta =  10
+
+18.03.2017 19:28:18 :  caption_vpp1 =  ВПП-1
+
+18.03.2017 19:28:18 :  id_vpp1 =  0
+
+18.03.2017 19:28:18 :  cat_vpp1 =  B
+
+18.03.2017 19:28:18 :  angle_vpp1 =  106.4190
+
+18.03.2017 19:28:18 :  runway_lat_vpp1 =  59.79514
+
+18.03.2017 19:28:18 :  runway_lon_vpp1 =  30.25064
+
+18.03.2017 19:28:18 :  lenght_vpp1 =  3782
+
+18.03.2017 19:28:18 :  width_vpp1 =  60
+
+18.03.2017 19:28:18 :  sign_left_vpp1 =  10R
+
+18.03.2017 19:28:18 :  sign_right_vpp1 =  28L
+
+18.03.2017 19:28:18 :  north_wgs_lat_vpp1 =  59.80019
+
+18.03.2017 19:28:18 :  north_wgs_lon_vpp1 =  30.21849
+
+18.03.2017 19:28:18 :  south_wgs_lat_vpp1 =  59.79009
+
+18.03.2017 19:28:18 :  south_wgs_lon_vpp1 =  30.28278
+
+18.03.2017 19:28:18 :  west_wgs_lat_vpp1 =  59.79965
+
+18.03.2017 19:28:18 :  west_wgs_lon_vpp1 =  30.21823
+
+18.03.2017 19:28:18 :  east_wgs_lat_vpp1 =  59.79059
+
+18.03.2017 19:28:18 :  east_wgs_lon_vpp1 =  30.28304
+
+18.03.2017 19:28:18 :  caption_vpp2 =  ВПП-2
+
+18.03.2017 19:28:18 :  id_vpp2 =  1
+
+18.03.2017 19:28:18 :  cat_vpp2 =  A
+
+18.03.2017 19:28:18 :  angle_vpp2 =  106.4500
+
+18.03.2017 19:28:18 :  runway_lat_vpp2 =  59.80545
+
+18.03.2017 19:28:18 :  runway_lon_vpp2 =  30.27438
+
+18.03.2017 19:28:18 :  lenght_vpp2 =  3393
+
+18.03.2017 19:28:18 :  width_vpp2 =  60
+
+18.03.2017 19:28:18 :  sign_left_vpp2 =  10R
+
+18.03.2017 19:28:18 :  sign_right_vpp2 =  28L
+
+18.03.2017 19:28:18 :  north_wgs_lat_vpp2 =  59.81001
+
+18.03.2017 19:28:18 :  north_wgs_lon_vpp2 =  30.24561
+
+18.03.2017 19:28:18 :  south_wgs_lat_vpp2 =  59.80089
+
+18.03.2017 19:28:18 :  south_wgs_lon_vpp2 =  30.30338
+
+18.03.2017 19:28:18 :  west_wgs_lat_vpp2 =  59.80951
+
+18.03.2017 19:28:18 :  west_wgs_lon_vpp2 =  30.24527
+
+18.03.2017 19:28:18 :  east_wgs_lat_vpp2 =  59.80134
+
+18.03.2017 19:28:18 :  east_wgs_lon_vpp2 =  30.30364
+
+18.03.2017 19:28:20 :  Runway configuration data list
+
+18.03.2017 19:28:20 :  height_cta =     24.0000
+
+18.03.2017 19:28:20 :  angle_vpp1 =  106.41900
+
+18.03.2017 19:28:20 :  runway_lat_vpp1 =  59.795142
+
+18.03.2017 19:28:20 :  runway_lon_vpp1 =  30.250639
+
+18.03.2017 19:28:20 :  lenght_vpp1 =  3782
+
+18.03.2017 19:28:20 :  width_vpp1 =  60
+
+18.03.2017 19:28:20 :  north_wgs_lat_vpp1 =  59.800193
+
+18.03.2017 19:28:20 :  north_wgs_lon_vpp1 =  30.218491
+
+18.03.2017 19:28:20 :  south_wgs_lat_vpp1 =  59.790093
+
+18.03.2017 19:28:20 :  south_wgs_lon_vpp1 =  30.282778
+
+18.03.2017 19:28:20 :  west_wgs_lat_vpp1 =  59.799652
+
+18.03.2017 19:28:20 :  west_wgs_lon_vpp1 =  30.218233
+
+18.03.2017 19:28:20 :  east_wgs_lat_vpp1 =  59.790590
+
+18.03.2017 19:28:20 :  east_wgs_lon_vpp1 =  30.283035
+
+18.03.2017 19:28:20 :  angle_vpp2 =  106.45000
+
+18.03.2017 19:28:20 :  runway_lat_vpp2 =  59.805453
+
+18.03.2017 19:28:20 :  runway_lon_vpp2 =  30.274379
+
+18.03.2017 19:28:20 :  lenght_vpp2 =  3393
+
+18.03.2017 19:28:20 :  width_vpp2 =  60
+
+18.03.2017 19:28:20 :  north_wgs_lat_vpp2 =  59.810008
+
+18.03.2017 19:28:20 :  north_wgs_lon_vpp2 =  30.245613
+
+18.03.2017 19:28:20 :  south_wgs_lat_vpp2 =  59.800885
+
+18.03.2017 19:28:20 :  south_wgs_lon_vpp2 =  30.303377
+
+18.03.2017 19:28:20 :  west_wgs_lat_vpp2 =  59.809511
+
+18.03.2017 19:28:20 :  west_wgs_lon_vpp2 =  30.245270
+
+18.03.2017 19:28:20 :  east_wgs_lat_vpp2 =  59.801339
+
+18.03.2017 19:28:20 :  east_wgs_lon_vpp2 =  30.303635
+
+18.03.2017 19:28:20 :  Calculated indicators
+
+21.03.2017 09:25:22 :  Start service "Analyzer conflict"!
+
+21.03.2017 09:25:22 :  airport_name_en =  Pulkovo
+
+21.03.2017 09:25:22 :  port_main_client =  0
+
+21.03.2017 09:25:22 :  port_test_client_cons =  54632
+
+21.03.2017 09:25:22 :  port_test_client_gui =  54633
+
+21.03.2017 09:25:22 :  ip_main_client =  192.168.2.209
+
+21.03.2017 09:25:22 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 09:25:22 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 09:25:22 :  recording_mode =  0
+
+21.03.2017 09:25:22 :  table_count =  1
+
+21.03.2017 09:25:22 :  record_count =  1
+
+21.03.2017 09:25:22 :  run_service =  0
+
+21.03.2017 09:25:22 :  airport_name_en =  Pulkovo
+
+21.03.2017 09:25:22 :  height_cta =     24.0000
+
+21.03.2017 09:25:22 :  lat_cta =  59.80003
+
+21.03.2017 09:25:22 :  lon_cta =  30.26250
+
+21.03.2017 09:25:22 :  mag_decl_cta =  10
+
+21.03.2017 09:25:22 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 09:25:22 :  id_vpp1 =  0
+
+21.03.2017 09:25:22 :  cat_vpp1 =  B
+
+21.03.2017 09:25:22 :  angle_vpp1 =  106.4190
+
+21.03.2017 09:25:22 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 09:25:22 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 09:25:22 :  lenght_vpp1 =  3782
+
+21.03.2017 09:25:22 :  width_vpp1 =  60
+
+21.03.2017 09:25:22 :  sign_left_vpp1 =  10R
+
+21.03.2017 09:25:22 :  sign_right_vpp1 =  28L
+
+21.03.2017 09:25:22 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 09:25:22 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 09:25:22 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 09:25:22 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 09:25:22 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 09:25:22 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 09:25:22 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 09:25:22 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 09:25:22 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 09:25:22 :  id_vpp2 =  1
+
+21.03.2017 09:25:22 :  cat_vpp2 =  A
+
+21.03.2017 09:25:22 :  angle_vpp2 =  106.4500
+
+21.03.2017 09:25:22 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 09:25:22 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 09:25:22 :  lenght_vpp2 =  3393
+
+21.03.2017 09:25:22 :  width_vpp2 =  60
+
+21.03.2017 09:25:22 :  sign_left_vpp2 =  10R
+
+21.03.2017 09:25:22 :  sign_right_vpp2 =  28L
+
+21.03.2017 09:25:22 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 09:25:22 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 09:25:22 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 09:25:22 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 09:25:22 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 09:25:22 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 09:25:22 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 09:25:22 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 09:25:30 :  Runway configuration data list
+
+21.03.2017 09:25:30 :  height_cta =     24.0000
+
+21.03.2017 09:25:30 :  angle_vpp1 =  106.41900
+
+21.03.2017 09:25:30 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 09:25:30 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 09:25:30 :  lenght_vpp1 =  3782
+
+21.03.2017 09:25:30 :  width_vpp1 =  60
+
+21.03.2017 09:25:30 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 09:25:30 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 09:25:30 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 09:25:30 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 09:25:30 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 09:25:30 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 09:25:30 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 09:25:30 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 09:25:30 :  angle_vpp2 =  106.45000
+
+21.03.2017 09:25:30 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 09:25:30 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 09:25:30 :  lenght_vpp2 =  3393
+
+21.03.2017 09:25:30 :  width_vpp2 =  60
+
+21.03.2017 09:25:30 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 09:25:30 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 09:25:30 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 09:25:30 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 09:25:30 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 09:25:30 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 09:25:30 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 09:25:30 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 09:25:30 :  Calculated indicators
+
+21.03.2017 09:38:36 :  Start service "Analyzer conflict"!
+
+21.03.2017 09:38:36 :  airport_name_en =  Pulkovo
+
+21.03.2017 09:38:36 :  port_main_client =  0
+
+21.03.2017 09:38:36 :  port_test_client_cons =  54632
+
+21.03.2017 09:38:36 :  port_test_client_gui =  54633
+
+21.03.2017 09:38:36 :  ip_main_client =  192.168.2.209
+
+21.03.2017 09:38:36 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 09:38:36 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 09:38:36 :  recording_mode =  0
+
+21.03.2017 09:38:36 :  table_count =  1
+
+21.03.2017 09:38:36 :  record_count =  1
+
+21.03.2017 09:38:36 :  run_service =  0
+
+21.03.2017 09:38:36 :  airport_name_en =  Pulkovo
+
+21.03.2017 09:38:36 :  height_cta =     24.0000
+
+21.03.2017 09:38:36 :  lat_cta =  59.80003
+
+21.03.2017 09:38:36 :  lon_cta =  30.26250
+
+21.03.2017 09:38:36 :  mag_decl_cta =  10
+
+21.03.2017 09:38:36 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 09:38:36 :  id_vpp1 =  0
+
+21.03.2017 09:38:36 :  cat_vpp1 =  B
+
+21.03.2017 09:38:36 :  angle_vpp1 =  106.4190
+
+21.03.2017 09:38:36 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 09:38:36 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 09:38:36 :  lenght_vpp1 =  3782
+
+21.03.2017 09:38:36 :  width_vpp1 =  60
+
+21.03.2017 09:38:36 :  sign_left_vpp1 =  10R
+
+21.03.2017 09:38:36 :  sign_right_vpp1 =  28L
+
+21.03.2017 09:38:36 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 09:38:36 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 09:38:36 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 09:38:36 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 09:38:36 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 09:38:36 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 09:38:36 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 09:38:36 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 09:38:36 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 09:38:36 :  id_vpp2 =  1
+
+21.03.2017 09:38:36 :  cat_vpp2 =  A
+
+21.03.2017 09:38:36 :  angle_vpp2 =  106.4500
+
+21.03.2017 09:38:36 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 09:38:36 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 09:38:36 :  lenght_vpp2 =  3393
+
+21.03.2017 09:38:36 :  width_vpp2 =  60
+
+21.03.2017 09:38:36 :  sign_left_vpp2 =  10R
+
+21.03.2017 09:38:36 :  sign_right_vpp2 =  28L
+
+21.03.2017 09:38:36 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 09:38:36 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 09:38:36 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 09:38:36 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 09:38:36 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 09:38:36 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 09:38:36 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 09:38:36 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 09:38:43 :  Runway configuration data list
+
+21.03.2017 09:38:43 :  height_cta =     24.0000
+
+21.03.2017 09:38:43 :  angle_vpp1 =  106.41900
+
+21.03.2017 09:38:43 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 09:38:43 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 09:38:43 :  lenght_vpp1 =  3782
+
+21.03.2017 09:38:43 :  width_vpp1 =  60
+
+21.03.2017 09:38:43 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 09:38:43 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 09:38:43 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 09:38:43 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 09:38:43 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 09:38:43 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 09:38:43 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 09:38:43 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 09:38:43 :  angle_vpp2 =  106.45000
+
+21.03.2017 09:38:43 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 09:38:43 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 09:38:43 :  lenght_vpp2 =  3393
+
+21.03.2017 09:38:43 :  width_vpp2 =  60
+
+21.03.2017 09:38:43 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 09:38:43 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 09:38:43 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 09:38:43 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 09:38:43 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 09:38:43 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 09:38:43 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 09:38:43 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 09:38:43 :  Calculated indicators
+
+21.03.2017 10:17:17 :  Start service "Analyzer conflict"!
+
+21.03.2017 10:17:17 :  airport_name_en =  Pulkovo
+
+21.03.2017 10:17:17 :  port_main_client =  0
+
+21.03.2017 10:17:17 :  port_test_client_cons =  54632
+
+21.03.2017 10:17:17 :  port_test_client_gui =  54633
+
+21.03.2017 10:17:17 :  ip_main_client =  192.168.2.209
+
+21.03.2017 10:17:17 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 10:17:17 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 10:17:17 :  recording_mode =  0
+
+21.03.2017 10:17:17 :  table_count =  1
+
+21.03.2017 10:17:17 :  record_count =  1
+
+21.03.2017 10:17:17 :  run_service =  0
+
+21.03.2017 10:17:17 :  airport_name_en =  Pulkovo
+
+21.03.2017 10:17:17 :  height_cta =     24.0000
+
+21.03.2017 10:17:17 :  lat_cta =  59.80003
+
+21.03.2017 10:17:17 :  lon_cta =  30.26250
+
+21.03.2017 10:17:17 :  mag_decl_cta =  10
+
+21.03.2017 10:17:17 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 10:17:17 :  id_vpp1 =  0
+
+21.03.2017 10:17:17 :  cat_vpp1 =  B
+
+21.03.2017 10:17:17 :  angle_vpp1 =  106.4190
+
+21.03.2017 10:17:17 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 10:17:17 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 10:17:17 :  lenght_vpp1 =  3782
+
+21.03.2017 10:17:17 :  width_vpp1 =  60
+
+21.03.2017 10:17:17 :  sign_left_vpp1 =  10R
+
+21.03.2017 10:17:17 :  sign_right_vpp1 =  28L
+
+21.03.2017 10:17:17 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 10:17:17 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 10:17:17 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 10:17:17 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 10:17:17 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 10:17:17 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 10:17:17 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 10:17:17 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 10:17:17 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 10:17:17 :  id_vpp2 =  1
+
+21.03.2017 10:17:17 :  cat_vpp2 =  A
+
+21.03.2017 10:17:17 :  angle_vpp2 =  106.4500
+
+21.03.2017 10:17:17 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 10:17:17 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 10:17:17 :  lenght_vpp2 =  3393
+
+21.03.2017 10:17:17 :  width_vpp2 =  60
+
+21.03.2017 10:17:17 :  sign_left_vpp2 =  10R
+
+21.03.2017 10:17:17 :  sign_right_vpp2 =  28L
+
+21.03.2017 10:17:17 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 10:17:17 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 10:17:17 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 10:17:17 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 10:17:17 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 10:17:17 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 10:17:17 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 10:17:17 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 10:17:20 :  Runway configuration data list
+
+21.03.2017 10:17:20 :  height_cta =     24.0000
+
+21.03.2017 10:17:20 :  angle_vpp1 =  106.41900
+
+21.03.2017 10:17:20 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 10:17:20 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 10:17:20 :  lenght_vpp1 =  3782
+
+21.03.2017 10:17:20 :  width_vpp1 =  60
+
+21.03.2017 10:17:20 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 10:17:20 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 10:17:20 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 10:17:20 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 10:17:20 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 10:17:20 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 10:17:20 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 10:17:20 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 10:17:20 :  angle_vpp2 =  106.45000
+
+21.03.2017 10:17:20 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 10:17:20 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 10:17:20 :  lenght_vpp2 =  3393
+
+21.03.2017 10:17:20 :  width_vpp2 =  60
+
+21.03.2017 10:17:20 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 10:17:20 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 10:17:20 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 10:17:20 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 10:17:20 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 10:17:20 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 10:17:20 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 10:17:20 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 10:17:20 :  Calculated indicators
+
+21.03.2017 10:37:20 :  Start service "Analyzer conflict"!
+
+21.03.2017 10:37:20 :  airport_name_en =  Pulkovo
+
+21.03.2017 10:37:20 :  port_main_client =  0
+
+21.03.2017 10:37:20 :  port_test_client_cons =  54632
+
+21.03.2017 10:37:20 :  port_test_client_gui =  54633
+
+21.03.2017 10:37:20 :  ip_main_client =  192.168.2.209
+
+21.03.2017 10:37:20 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 10:37:20 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 10:37:20 :  recording_mode =  0
+
+21.03.2017 10:37:20 :  table_count =  1
+
+21.03.2017 10:37:20 :  record_count =  1
+
+21.03.2017 10:37:20 :  run_service =  0
+
+21.03.2017 10:37:20 :  airport_name_en =  Pulkovo
+
+21.03.2017 10:37:20 :  height_cta =     24.0000
+
+21.03.2017 10:37:20 :  lat_cta =  59.79655
+
+21.03.2017 10:37:20 :  lon_cta =  30.26250
+
+21.03.2017 10:37:20 :  mag_decl_cta =  10
+
+21.03.2017 10:37:20 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 10:37:20 :  id_vpp1 =  0
+
+21.03.2017 10:37:20 :  cat_vpp1 =  B
+
+21.03.2017 10:37:20 :  angle_vpp1 =  106.4190
+
+21.03.2017 10:37:20 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 10:37:20 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 10:37:20 :  lenght_vpp1 =  3782
+
+21.03.2017 10:37:20 :  width_vpp1 =  60
+
+21.03.2017 10:37:20 :  sign_left_vpp1 =  10R
+
+21.03.2017 10:37:20 :  sign_right_vpp1 =  28L
+
+21.03.2017 10:37:20 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 10:37:20 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 10:37:20 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 10:37:20 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 10:37:20 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 10:37:20 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 10:37:20 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 10:37:20 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 10:37:20 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 10:37:20 :  id_vpp2 =  1
+
+21.03.2017 10:37:20 :  cat_vpp2 =  A
+
+21.03.2017 10:37:20 :  angle_vpp2 =  106.4500
+
+21.03.2017 10:37:20 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 10:37:20 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 10:37:20 :  lenght_vpp2 =  3393
+
+21.03.2017 10:37:20 :  width_vpp2 =  60
+
+21.03.2017 10:37:20 :  sign_left_vpp2 =  10R
+
+21.03.2017 10:37:20 :  sign_right_vpp2 =  28L
+
+21.03.2017 10:37:20 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 10:37:20 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 10:37:20 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 10:37:20 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 10:37:20 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 10:37:20 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 10:37:20 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 10:37:20 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 10:37:23 :  Runway configuration data list
+
+21.03.2017 10:37:23 :  height_cta =     24.0000
+
+21.03.2017 10:37:23 :  angle_vpp1 =  106.41900
+
+21.03.2017 10:37:23 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 10:37:23 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 10:37:23 :  lenght_vpp1 =  3782
+
+21.03.2017 10:37:23 :  width_vpp1 =  60
+
+21.03.2017 10:37:23 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 10:37:23 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 10:37:23 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 10:37:23 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 10:37:23 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 10:37:23 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 10:37:23 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 10:37:23 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 10:37:23 :  angle_vpp2 =  106.45000
+
+21.03.2017 10:37:23 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 10:37:23 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 10:37:23 :  lenght_vpp2 =  3393
+
+21.03.2017 10:37:23 :  width_vpp2 =  60
+
+21.03.2017 10:37:23 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 10:37:23 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 10:37:23 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 10:37:23 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 10:37:23 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 10:37:23 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 10:37:23 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 10:37:23 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 10:37:23 :  Calculated indicators
+
+21.03.2017 10:59:36 :  Start service "Analyzer conflict"!
+
+21.03.2017 10:59:36 :  airport_name_en =  Pulkovo
+
+21.03.2017 10:59:36 :  port_main_client =  0
+
+21.03.2017 10:59:36 :  port_test_client_cons =  54632
+
+21.03.2017 10:59:36 :  port_test_client_gui =  54633
+
+21.03.2017 10:59:36 :  ip_main_client =  192.168.2.209
+
+21.03.2017 10:59:36 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 10:59:36 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 10:59:36 :  recording_mode =  0
+
+21.03.2017 10:59:36 :  table_count =  1
+
+21.03.2017 10:59:36 :  record_count =  1
+
+21.03.2017 10:59:36 :  run_service =  0
+
+21.03.2017 10:59:36 :  airport_name_en =  Pulkovo
+
+21.03.2017 10:59:36 :  height_cta =     24.0000
+
+21.03.2017 10:59:36 :  lat_cta =  59.79655
+
+21.03.2017 10:59:36 :  lon_cta =  30.26250
+
+21.03.2017 10:59:36 :  mag_decl_cta =  10
+
+21.03.2017 10:59:36 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 10:59:36 :  id_vpp1 =  0
+
+21.03.2017 10:59:36 :  cat_vpp1 =  B
+
+21.03.2017 10:59:36 :  angle_vpp1 =  106.4190
+
+21.03.2017 10:59:36 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 10:59:36 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 10:59:36 :  lenght_vpp1 =  3782
+
+21.03.2017 10:59:36 :  width_vpp1 =  60
+
+21.03.2017 10:59:36 :  sign_left_vpp1 =  10R
+
+21.03.2017 10:59:36 :  sign_right_vpp1 =  28L
+
+21.03.2017 10:59:36 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 10:59:36 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 10:59:36 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 10:59:36 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 10:59:36 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 10:59:36 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 10:59:36 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 10:59:36 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 10:59:36 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 10:59:36 :  id_vpp2 =  1
+
+21.03.2017 10:59:36 :  cat_vpp2 =  A
+
+21.03.2017 10:59:36 :  angle_vpp2 =  106.4500
+
+21.03.2017 10:59:36 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 10:59:36 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 10:59:36 :  lenght_vpp2 =  3393
+
+21.03.2017 10:59:36 :  width_vpp2 =  60
+
+21.03.2017 10:59:36 :  sign_left_vpp2 =  10R
+
+21.03.2017 10:59:36 :  sign_right_vpp2 =  28L
+
+21.03.2017 10:59:36 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 10:59:36 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 10:59:36 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 10:59:36 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 10:59:36 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 10:59:36 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 10:59:36 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 10:59:36 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 11:01:10 :  Start service "Analyzer conflict"!
+
+21.03.2017 11:01:10 :  airport_name_en =  Pulkovo
+
+21.03.2017 11:01:10 :  port_main_client =  0
+
+21.03.2017 11:01:10 :  port_test_client_cons =  54632
+
+21.03.2017 11:01:10 :  port_test_client_gui =  54633
+
+21.03.2017 11:01:10 :  ip_main_client =  192.168.2.209
+
+21.03.2017 11:01:10 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 11:01:10 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 11:01:10 :  recording_mode =  0
+
+21.03.2017 11:01:10 :  table_count =  1
+
+21.03.2017 11:01:10 :  record_count =  1
+
+21.03.2017 11:01:10 :  run_service =  0
+
+21.03.2017 11:01:10 :  airport_name_en =  Pulkovo
+
+21.03.2017 11:01:10 :  height_cta =     24.0000
+
+21.03.2017 11:01:10 :  lat_cta =  59.79655
+
+21.03.2017 11:01:10 :  lon_cta =  30.26250
+
+21.03.2017 11:01:10 :  mag_decl_cta =  10
+
+21.03.2017 11:01:10 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 11:01:10 :  id_vpp1 =  0
+
+21.03.2017 11:01:10 :  cat_vpp1 =  B
+
+21.03.2017 11:01:10 :  angle_vpp1 =  106.4190
+
+21.03.2017 11:01:10 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 11:01:10 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 11:01:10 :  lenght_vpp1 =  3782
+
+21.03.2017 11:01:10 :  width_vpp1 =  60
+
+21.03.2017 11:01:10 :  sign_left_vpp1 =  10R
+
+21.03.2017 11:01:10 :  sign_right_vpp1 =  28L
+
+21.03.2017 11:01:10 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 11:01:10 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 11:01:10 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 11:01:10 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 11:01:10 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 11:01:10 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 11:01:10 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 11:01:10 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 11:01:10 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 11:01:10 :  id_vpp2 =  1
+
+21.03.2017 11:01:10 :  cat_vpp2 =  A
+
+21.03.2017 11:01:10 :  angle_vpp2 =  106.4500
+
+21.03.2017 11:01:10 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 11:01:10 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 11:01:10 :  lenght_vpp2 =  3393
+
+21.03.2017 11:01:10 :  width_vpp2 =  60
+
+21.03.2017 11:01:10 :  sign_left_vpp2 =  10R
+
+21.03.2017 11:01:10 :  sign_right_vpp2 =  28L
+
+21.03.2017 11:01:10 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 11:01:10 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 11:01:10 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 11:01:10 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 11:01:10 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 11:01:10 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 11:01:10 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 11:01:10 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 11:01:13 :  Runway configuration data list
+
+21.03.2017 11:01:13 :  height_cta =     24.0000
+
+21.03.2017 11:01:13 :  angle_vpp1 =  106.41900
+
+21.03.2017 11:01:13 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 11:01:13 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 11:01:13 :  lenght_vpp1 =  3782
+
+21.03.2017 11:01:13 :  width_vpp1 =  60
+
+21.03.2017 11:01:13 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 11:01:13 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 11:01:13 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 11:01:13 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 11:01:13 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 11:01:13 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 11:01:13 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 11:01:13 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 11:01:13 :  angle_vpp2 =  106.45000
+
+21.03.2017 11:01:13 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 11:01:13 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 11:01:13 :  lenght_vpp2 =  3393
+
+21.03.2017 11:01:13 :  width_vpp2 =  60
+
+21.03.2017 11:01:13 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 11:01:13 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 11:01:13 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 11:01:13 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 11:01:13 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 11:01:13 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 11:01:13 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 11:01:13 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 11:01:13 :  Calculated indicators
+
+21.03.2017 11:06:22 :  Start service "Analyzer conflict"!
+
+21.03.2017 11:06:22 :  airport_name_en =  Pulkovo
+
+21.03.2017 11:06:22 :  port_main_client =  0
+
+21.03.2017 11:06:22 :  port_test_client_cons =  54632
+
+21.03.2017 11:06:22 :  port_test_client_gui =  54633
+
+21.03.2017 11:06:22 :  ip_main_client =  192.168.2.209
+
+21.03.2017 11:06:22 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 11:06:22 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 11:06:22 :  recording_mode =  0
+
+21.03.2017 11:06:22 :  table_count =  1
+
+21.03.2017 11:06:22 :  record_count =  1
+
+21.03.2017 11:06:22 :  run_service =  0
+
+21.03.2017 11:06:22 :  airport_name_en =  Pulkovo
+
+21.03.2017 11:06:22 :  height_cta =     24.0000
+
+21.03.2017 11:06:22 :  lat_cta =  59.79655
+
+21.03.2017 11:06:22 :  lon_cta =  30.26250
+
+21.03.2017 11:06:22 :  mag_decl_cta =  10
+
+21.03.2017 11:06:22 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 11:06:22 :  id_vpp1 =  0
+
+21.03.2017 11:06:22 :  cat_vpp1 =  B
+
+21.03.2017 11:06:22 :  angle_vpp1 =  106.4190
+
+21.03.2017 11:06:22 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 11:06:22 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 11:06:22 :  lenght_vpp1 =  3782
+
+21.03.2017 11:06:22 :  width_vpp1 =  60
+
+21.03.2017 11:06:22 :  sign_left_vpp1 =  10R
+
+21.03.2017 11:06:22 :  sign_right_vpp1 =  28L
+
+21.03.2017 11:06:22 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 11:06:22 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 11:06:22 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 11:06:22 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 11:06:22 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 11:06:22 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 11:06:22 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 11:06:22 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 11:06:22 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 11:06:22 :  id_vpp2 =  1
+
+21.03.2017 11:06:22 :  cat_vpp2 =  A
+
+21.03.2017 11:06:22 :  angle_vpp2 =  106.4500
+
+21.03.2017 11:06:22 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 11:06:22 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 11:06:22 :  lenght_vpp2 =  3393
+
+21.03.2017 11:06:22 :  width_vpp2 =  60
+
+21.03.2017 11:06:22 :  sign_left_vpp2 =  10R
+
+21.03.2017 11:06:22 :  sign_right_vpp2 =  28L
+
+21.03.2017 11:06:22 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 11:06:22 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 11:06:22 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 11:06:22 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 11:06:22 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 11:06:22 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 11:06:22 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 11:06:22 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 11:06:26 :  Runway configuration data list
+
+21.03.2017 11:06:26 :  height_cta =     24.0000
+
+21.03.2017 11:06:26 :  angle_vpp1 =  106.41900
+
+21.03.2017 11:06:26 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 11:06:26 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 11:06:26 :  lenght_vpp1 =  3782
+
+21.03.2017 11:06:26 :  width_vpp1 =  60
+
+21.03.2017 11:06:26 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 11:06:26 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 11:06:26 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 11:06:26 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 11:06:26 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 11:06:26 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 11:06:26 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 11:06:26 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 11:06:26 :  angle_vpp2 =  106.45000
+
+21.03.2017 11:06:26 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 11:06:26 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 11:06:26 :  lenght_vpp2 =  3393
+
+21.03.2017 11:06:26 :  width_vpp2 =  60
+
+21.03.2017 11:06:26 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 11:06:26 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 11:06:26 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 11:06:26 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 11:06:26 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 11:06:26 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 11:06:26 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 11:06:26 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 11:06:26 :  Calculated indicators
+
+21.03.2017 11:12:17 :  Start service "Analyzer conflict"!
+
+21.03.2017 11:12:17 :  airport_name_en =  Pulkovo
+
+21.03.2017 11:12:17 :  port_main_client =  0
+
+21.03.2017 11:12:17 :  port_test_client_cons =  54632
+
+21.03.2017 11:12:17 :  port_test_client_gui =  54633
+
+21.03.2017 11:12:17 :  ip_main_client =  192.168.2.209
+
+21.03.2017 11:12:17 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 11:12:17 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 11:12:17 :  recording_mode =  0
+
+21.03.2017 11:12:17 :  table_count =  1
+
+21.03.2017 11:12:17 :  record_count =  1
+
+21.03.2017 11:12:17 :  run_service =  0
+
+21.03.2017 11:12:17 :  airport_name_en =  Pulkovo
+
+21.03.2017 11:12:17 :  height_cta =     24.0000
+
+21.03.2017 11:12:17 :  lat_cta =  59.79655
+
+21.03.2017 11:12:17 :  lon_cta =  30.26250
+
+21.03.2017 11:12:17 :  mag_decl_cta =  10
+
+21.03.2017 11:12:17 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 11:12:17 :  id_vpp1 =  0
+
+21.03.2017 11:12:17 :  cat_vpp1 =  B
+
+21.03.2017 11:12:17 :  angle_vpp1 =  106.4190
+
+21.03.2017 11:12:17 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 11:12:17 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 11:12:17 :  lenght_vpp1 =  3782
+
+21.03.2017 11:12:17 :  width_vpp1 =  60
+
+21.03.2017 11:12:17 :  sign_left_vpp1 =  10R
+
+21.03.2017 11:12:17 :  sign_right_vpp1 =  28L
+
+21.03.2017 11:12:17 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 11:12:17 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 11:12:17 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 11:12:17 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 11:12:17 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 11:12:17 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 11:12:17 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 11:12:17 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 11:12:17 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 11:12:17 :  id_vpp2 =  1
+
+21.03.2017 11:12:17 :  cat_vpp2 =  A
+
+21.03.2017 11:12:17 :  angle_vpp2 =  106.4500
+
+21.03.2017 11:12:17 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 11:12:17 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 11:12:17 :  lenght_vpp2 =  3393
+
+21.03.2017 11:12:17 :  width_vpp2 =  60
+
+21.03.2017 11:12:17 :  sign_left_vpp2 =  10R
+
+21.03.2017 11:12:17 :  sign_right_vpp2 =  28L
+
+21.03.2017 11:12:17 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 11:12:17 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 11:12:17 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 11:12:17 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 11:12:17 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 11:12:17 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 11:12:17 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 11:12:17 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 11:12:20 :  Runway configuration data list
+
+21.03.2017 11:12:20 :  height_cta =     24.0000
+
+21.03.2017 11:12:20 :  angle_vpp1 =  106.41900
+
+21.03.2017 11:12:20 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 11:12:20 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 11:12:20 :  lenght_vpp1 =  3782
+
+21.03.2017 11:12:20 :  width_vpp1 =  60
+
+21.03.2017 11:12:20 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 11:12:20 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 11:12:20 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 11:12:20 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 11:12:20 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 11:12:20 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 11:12:20 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 11:12:20 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 11:12:20 :  angle_vpp2 =  106.45000
+
+21.03.2017 11:12:20 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 11:12:20 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 11:12:20 :  lenght_vpp2 =  3393
+
+21.03.2017 11:12:20 :  width_vpp2 =  60
+
+21.03.2017 11:12:20 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 11:12:20 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 11:12:20 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 11:12:20 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 11:12:20 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 11:12:20 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 11:12:20 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 11:12:20 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 11:12:20 :  Calculated indicators
+
+21.03.2017 11:57:35 :  Start service "Analyzer conflict"!
+
+21.03.2017 11:57:35 :  airport_name_en =  Pulkovo
+
+21.03.2017 11:57:35 :  port_main_client =  0
+
+21.03.2017 11:57:35 :  port_test_client_cons =  54632
+
+21.03.2017 11:57:35 :  port_test_client_gui =  54633
+
+21.03.2017 11:57:35 :  ip_main_client =  192.168.2.209
+
+21.03.2017 11:57:35 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 11:57:35 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 11:57:35 :  recording_mode =  0
+
+21.03.2017 11:57:35 :  table_count =  1
+
+21.03.2017 11:57:35 :  record_count =  1
+
+21.03.2017 11:57:35 :  run_service =  0
+
+21.03.2017 11:57:35 :  airport_name_en =  Pulkovo
+
+21.03.2017 11:57:35 :  height_cta =     24.0000
+
+21.03.2017 11:57:35 :  lat_cta =  59.79655
+
+21.03.2017 11:57:35 :  lon_cta =  30.26250
+
+21.03.2017 11:57:35 :  mag_decl_cta =  10
+
+21.03.2017 11:57:35 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 11:57:35 :  id_vpp1 =  0
+
+21.03.2017 11:57:35 :  cat_vpp1 =  B
+
+21.03.2017 11:57:35 :  angle_vpp1 =  106.4190
+
+21.03.2017 11:57:35 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 11:57:35 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 11:57:35 :  lenght_vpp1 =  3782
+
+21.03.2017 11:57:35 :  width_vpp1 =  60
+
+21.03.2017 11:57:35 :  sign_left_vpp1 =  10R
+
+21.03.2017 11:57:35 :  sign_right_vpp1 =  28L
+
+21.03.2017 11:57:35 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 11:57:35 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 11:57:35 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 11:57:35 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 11:57:35 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 11:57:35 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 11:57:35 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 11:57:35 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 11:57:35 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 11:57:35 :  id_vpp2 =  1
+
+21.03.2017 11:57:35 :  cat_vpp2 =  A
+
+21.03.2017 11:57:35 :  angle_vpp2 =  106.4500
+
+21.03.2017 11:57:35 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 11:57:35 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 11:57:35 :  lenght_vpp2 =  3393
+
+21.03.2017 11:57:35 :  width_vpp2 =  60
+
+21.03.2017 11:57:35 :  sign_left_vpp2 =  10R
+
+21.03.2017 11:57:35 :  sign_right_vpp2 =  28L
+
+21.03.2017 11:57:35 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 11:57:35 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 11:57:35 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 11:57:35 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 11:57:35 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 11:57:35 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 11:57:35 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 11:57:35 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 11:57:36 :  Runway configuration data list
+
+21.03.2017 11:57:36 :  height_cta =     24.0000
+
+21.03.2017 11:57:36 :  angle_vpp1 =  106.41900
+
+21.03.2017 11:57:36 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 11:57:36 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 11:57:36 :  lenght_vpp1 =  3782
+
+21.03.2017 11:57:36 :  width_vpp1 =  60
+
+21.03.2017 11:57:36 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 11:57:36 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 11:57:36 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 11:57:36 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 11:57:36 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 11:57:36 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 11:57:36 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 11:57:36 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 11:57:36 :  angle_vpp2 =  106.45000
+
+21.03.2017 11:57:36 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 11:57:36 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 11:57:36 :  lenght_vpp2 =  3393
+
+21.03.2017 11:57:36 :  width_vpp2 =  60
+
+21.03.2017 11:57:36 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 11:57:36 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 11:57:36 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 11:57:36 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 11:57:36 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 11:57:36 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 11:57:36 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 11:57:36 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 11:57:36 :  Calculated indicators
+
+21.03.2017 11:59:50 :  Start service "Analyzer conflict"!
+
+21.03.2017 11:59:50 :  airport_name_en =  Pulkovo
+
+21.03.2017 11:59:50 :  port_main_client =  0
+
+21.03.2017 11:59:50 :  port_test_client_cons =  54632
+
+21.03.2017 11:59:50 :  port_test_client_gui =  54633
+
+21.03.2017 11:59:50 :  ip_main_client =  192.168.2.209
+
+21.03.2017 11:59:50 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 11:59:50 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 11:59:50 :  recording_mode =  0
+
+21.03.2017 11:59:50 :  table_count =  1
+
+21.03.2017 11:59:50 :  record_count =  1
+
+21.03.2017 11:59:50 :  run_service =  0
+
+21.03.2017 11:59:50 :  airport_name_en =  Pulkovo
+
+21.03.2017 11:59:50 :  height_cta =     24.0000
+
+21.03.2017 11:59:50 :  lat_cta =  59.79655
+
+21.03.2017 11:59:50 :  lon_cta =  30.26250
+
+21.03.2017 11:59:50 :  mag_decl_cta =  10
+
+21.03.2017 11:59:50 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 11:59:50 :  id_vpp1 =  0
+
+21.03.2017 11:59:50 :  cat_vpp1 =  B
+
+21.03.2017 11:59:50 :  angle_vpp1 =  106.4190
+
+21.03.2017 11:59:50 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 11:59:50 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 11:59:50 :  lenght_vpp1 =  3782
+
+21.03.2017 11:59:50 :  width_vpp1 =  60
+
+21.03.2017 11:59:50 :  sign_left_vpp1 =  10R
+
+21.03.2017 11:59:50 :  sign_right_vpp1 =  28L
+
+21.03.2017 11:59:50 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 11:59:50 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 11:59:50 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 11:59:50 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 11:59:50 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 11:59:50 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 11:59:50 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 11:59:50 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 11:59:50 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 11:59:50 :  id_vpp2 =  1
+
+21.03.2017 11:59:50 :  cat_vpp2 =  A
+
+21.03.2017 11:59:50 :  angle_vpp2 =  106.4500
+
+21.03.2017 11:59:50 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 11:59:50 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 11:59:50 :  lenght_vpp2 =  3393
+
+21.03.2017 11:59:50 :  width_vpp2 =  60
+
+21.03.2017 11:59:50 :  sign_left_vpp2 =  10R
+
+21.03.2017 11:59:50 :  sign_right_vpp2 =  28L
+
+21.03.2017 11:59:50 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 11:59:50 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 11:59:50 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 11:59:50 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 11:59:50 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 11:59:50 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 11:59:50 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 11:59:50 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 11:59:50 :  Runway configuration data list
+
+21.03.2017 11:59:50 :  height_cta =     24.0000
+
+21.03.2017 11:59:50 :  angle_vpp1 =  106.41900
+
+21.03.2017 11:59:50 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 11:59:50 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 11:59:50 :  lenght_vpp1 =  3782
+
+21.03.2017 11:59:50 :  width_vpp1 =  60
+
+21.03.2017 11:59:50 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 11:59:50 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 11:59:50 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 11:59:50 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 11:59:50 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 11:59:50 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 11:59:50 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 11:59:50 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 11:59:50 :  angle_vpp2 =  106.45000
+
+21.03.2017 11:59:50 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 11:59:50 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 11:59:50 :  lenght_vpp2 =  3393
+
+21.03.2017 11:59:50 :  width_vpp2 =  60
+
+21.03.2017 11:59:50 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 11:59:50 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 11:59:50 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 11:59:50 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 11:59:50 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 11:59:50 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 11:59:50 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 11:59:50 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 11:59:50 :  Calculated indicators
+
+21.03.2017 13:27:25 :  Start service "Analyzer conflict"!
+
+21.03.2017 13:27:25 :  airport_name_en =  Pulkovo
+
+21.03.2017 13:27:25 :  port_main_client =  0
+
+21.03.2017 13:27:25 :  port_test_client_cons =  54632
+
+21.03.2017 13:27:25 :  port_test_client_gui =  54633
+
+21.03.2017 13:27:25 :  ip_main_client =  192.168.2.209
+
+21.03.2017 13:27:25 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 13:27:25 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 13:27:25 :  recording_mode =  0
+
+21.03.2017 13:27:25 :  table_count =  1
+
+21.03.2017 13:27:25 :  record_count =  1
+
+21.03.2017 13:27:25 :  run_service =  0
+
+21.03.2017 13:27:25 :  airport_name_en =  Pulkovo
+
+21.03.2017 13:27:25 :  height_cta =     24.0000
+
+21.03.2017 13:27:25 :  lat_cta =  59.79655
+
+21.03.2017 13:27:25 :  lon_cta =  30.26250
+
+21.03.2017 13:27:25 :  mag_decl_cta =  10
+
+21.03.2017 13:27:25 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 13:27:25 :  id_vpp1 =  0
+
+21.03.2017 13:27:25 :  cat_vpp1 =  B
+
+21.03.2017 13:27:25 :  angle_vpp1 =  106.4190
+
+21.03.2017 13:27:25 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 13:27:25 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 13:27:25 :  lenght_vpp1 =  3782
+
+21.03.2017 13:27:25 :  width_vpp1 =  60
+
+21.03.2017 13:27:25 :  sign_left_vpp1 =  10R
+
+21.03.2017 13:27:25 :  sign_right_vpp1 =  28L
+
+21.03.2017 13:27:25 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 13:27:25 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 13:27:25 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 13:27:25 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 13:27:25 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 13:27:25 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 13:27:25 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 13:27:25 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 13:27:25 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 13:27:25 :  id_vpp2 =  1
+
+21.03.2017 13:27:25 :  cat_vpp2 =  A
+
+21.03.2017 13:27:25 :  angle_vpp2 =  106.4500
+
+21.03.2017 13:27:25 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 13:27:25 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 13:27:25 :  lenght_vpp2 =  3393
+
+21.03.2017 13:27:25 :  width_vpp2 =  60
+
+21.03.2017 13:27:25 :  sign_left_vpp2 =  10R
+
+21.03.2017 13:27:25 :  sign_right_vpp2 =  28L
+
+21.03.2017 13:27:25 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 13:27:25 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 13:27:25 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 13:27:25 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 13:27:25 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 13:27:25 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 13:27:25 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 13:27:25 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 13:27:28 :  Runway configuration data list
+
+21.03.2017 13:27:28 :  height_cta =     24.0000
+
+21.03.2017 13:27:28 :  angle_vpp1 =  106.41900
+
+21.03.2017 13:27:28 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 13:27:28 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 13:27:28 :  lenght_vpp1 =  3782
+
+21.03.2017 13:27:28 :  width_vpp1 =  60
+
+21.03.2017 13:27:28 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 13:27:28 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 13:27:28 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 13:27:28 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 13:27:28 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 13:27:28 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 13:27:28 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 13:27:28 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 13:27:28 :  angle_vpp2 =  106.45000
+
+21.03.2017 13:27:28 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 13:27:28 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 13:27:28 :  lenght_vpp2 =  3393
+
+21.03.2017 13:27:28 :  width_vpp2 =  60
+
+21.03.2017 13:27:28 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 13:27:28 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 13:27:28 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 13:27:28 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 13:27:28 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 13:27:28 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 13:27:28 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 13:27:28 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 13:27:28 :  Calculated indicators
+
+21.03.2017 13:45:40 :  Start service "Analyzer conflict"!
+
+21.03.2017 13:45:40 :  airport_name_en =  Pulkovo
+
+21.03.2017 13:45:40 :  port_main_client =  0
+
+21.03.2017 13:45:40 :  port_test_client_cons =  54632
+
+21.03.2017 13:45:40 :  port_test_client_gui =  54633
+
+21.03.2017 13:45:40 :  ip_main_client =  192.168.2.209
+
+21.03.2017 13:45:40 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 13:45:40 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 13:45:40 :  recording_mode =  0
+
+21.03.2017 13:45:40 :  table_count =  1
+
+21.03.2017 13:45:40 :  record_count =  1
+
+21.03.2017 13:45:40 :  run_service =  0
+
+21.03.2017 13:45:40 :  airport_name_en =  Pulkovo
+
+21.03.2017 13:45:40 :  height_cta =     24.0000
+
+21.03.2017 13:45:40 :  lat_cta =  59.79655
+
+21.03.2017 13:45:40 :  lon_cta =  30.26250
+
+21.03.2017 13:45:40 :  mag_decl_cta =  10
+
+21.03.2017 13:45:40 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 13:45:40 :  id_vpp1 =  0
+
+21.03.2017 13:45:40 :  cat_vpp1 =  B
+
+21.03.2017 13:45:40 :  angle_vpp1 =  106.4190
+
+21.03.2017 13:45:40 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 13:45:40 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 13:45:40 :  lenght_vpp1 =  3782
+
+21.03.2017 13:45:40 :  width_vpp1 =  60
+
+21.03.2017 13:45:40 :  sign_left_vpp1 =  10R
+
+21.03.2017 13:45:40 :  sign_right_vpp1 =  28L
+
+21.03.2017 13:45:40 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 13:45:40 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 13:45:40 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 13:45:40 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 13:45:40 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 13:45:40 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 13:45:40 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 13:45:40 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 13:45:40 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 13:45:40 :  id_vpp2 =  1
+
+21.03.2017 13:45:40 :  cat_vpp2 =  A
+
+21.03.2017 13:45:40 :  angle_vpp2 =  106.4500
+
+21.03.2017 13:45:40 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 13:45:40 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 13:45:40 :  lenght_vpp2 =  3393
+
+21.03.2017 13:45:40 :  width_vpp2 =  60
+
+21.03.2017 13:45:40 :  sign_left_vpp2 =  10R
+
+21.03.2017 13:45:40 :  sign_right_vpp2 =  28L
+
+21.03.2017 13:45:40 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 13:45:40 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 13:45:40 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 13:45:40 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 13:45:40 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 13:45:40 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 13:45:40 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 13:45:40 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 13:45:41 :  Runway configuration data list
+
+21.03.2017 13:45:41 :  height_cta =     24.0000
+
+21.03.2017 13:45:41 :  angle_vpp1 =  106.41900
+
+21.03.2017 13:45:41 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 13:45:41 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 13:45:41 :  lenght_vpp1 =  3782
+
+21.03.2017 13:45:41 :  width_vpp1 =  60
+
+21.03.2017 13:45:41 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 13:45:41 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 13:45:41 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 13:45:41 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 13:45:41 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 13:45:41 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 13:45:41 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 13:45:41 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 13:45:41 :  angle_vpp2 =  106.45000
+
+21.03.2017 13:45:41 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 13:45:41 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 13:45:41 :  lenght_vpp2 =  3393
+
+21.03.2017 13:45:41 :  width_vpp2 =  60
+
+21.03.2017 13:45:41 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 13:45:41 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 13:45:41 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 13:45:41 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 13:45:41 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 13:45:41 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 13:45:41 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 13:45:41 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 13:45:41 :  Calculated indicators
+
+21.03.2017 14:02:42 :  Start service "Analyzer conflict"!
+
+21.03.2017 14:02:42 :  airport_name_en =  Pulkovo
+
+21.03.2017 14:02:42 :  port_main_client =  0
+
+21.03.2017 14:02:42 :  port_test_client_cons =  54632
+
+21.03.2017 14:02:42 :  port_test_client_gui =  54633
+
+21.03.2017 14:02:42 :  ip_main_client =  192.168.2.209
+
+21.03.2017 14:02:42 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 14:02:42 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 14:02:42 :  recording_mode =  0
+
+21.03.2017 14:02:42 :  table_count =  1
+
+21.03.2017 14:02:42 :  record_count =  1
+
+21.03.2017 14:02:42 :  run_service =  0
+
+21.03.2017 14:02:42 :  airport_name_en =  Pulkovo
+
+21.03.2017 14:02:42 :  height_cta =     24.0000
+
+21.03.2017 14:02:42 :  lat_cta =  59.79655
+
+21.03.2017 14:02:42 :  lon_cta =  30.26250
+
+21.03.2017 14:02:42 :  mag_decl_cta =  10
+
+21.03.2017 14:02:42 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 14:02:42 :  id_vpp1 =  0
+
+21.03.2017 14:02:42 :  cat_vpp1 =  B
+
+21.03.2017 14:02:42 :  angle_vpp1 =  106.4190
+
+21.03.2017 14:02:42 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 14:02:42 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 14:02:42 :  lenght_vpp1 =  3782
+
+21.03.2017 14:02:42 :  width_vpp1 =  60
+
+21.03.2017 14:02:42 :  sign_left_vpp1 =  10R
+
+21.03.2017 14:02:42 :  sign_right_vpp1 =  28L
+
+21.03.2017 14:02:42 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 14:02:42 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 14:02:42 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 14:02:42 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 14:02:42 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 14:02:42 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 14:02:42 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 14:02:42 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 14:02:42 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 14:02:42 :  id_vpp2 =  1
+
+21.03.2017 14:02:42 :  cat_vpp2 =  A
+
+21.03.2017 14:02:42 :  angle_vpp2 =  106.4500
+
+21.03.2017 14:02:42 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 14:02:42 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 14:02:42 :  lenght_vpp2 =  3393
+
+21.03.2017 14:02:42 :  width_vpp2 =  60
+
+21.03.2017 14:02:42 :  sign_left_vpp2 =  10R
+
+21.03.2017 14:02:42 :  sign_right_vpp2 =  28L
+
+21.03.2017 14:02:42 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 14:02:42 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 14:02:42 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 14:02:42 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 14:02:42 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 14:02:42 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 14:02:42 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 14:02:42 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 14:02:44 :  Runway configuration data list
+
+21.03.2017 14:02:44 :  height_cta =     24.0000
+
+21.03.2017 14:02:44 :  angle_vpp1 =  106.41900
+
+21.03.2017 14:02:44 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 14:02:44 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 14:02:44 :  lenght_vpp1 =  3782
+
+21.03.2017 14:02:44 :  width_vpp1 =  60
+
+21.03.2017 14:02:44 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 14:02:44 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 14:02:44 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 14:02:44 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 14:02:44 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 14:02:44 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 14:02:44 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 14:02:44 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 14:02:44 :  angle_vpp2 =  106.45000
+
+21.03.2017 14:02:44 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 14:02:44 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 14:02:44 :  lenght_vpp2 =  3393
+
+21.03.2017 14:02:44 :  width_vpp2 =  60
+
+21.03.2017 14:02:44 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 14:02:44 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 14:02:44 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 14:02:44 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 14:02:44 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 14:02:44 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 14:02:44 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 14:02:44 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 14:02:44 :  Calculated indicators
+
+21.03.2017 14:12:51 :  Start service "Analyzer conflict"!
+
+21.03.2017 14:12:51 :  airport_name_en =  Pulkovo
+
+21.03.2017 14:12:51 :  port_main_client =  0
+
+21.03.2017 14:12:51 :  port_test_client_cons =  54632
+
+21.03.2017 14:12:51 :  port_test_client_gui =  54633
+
+21.03.2017 14:12:51 :  ip_main_client =  192.168.2.209
+
+21.03.2017 14:12:51 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 14:12:51 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 14:12:51 :  recording_mode =  0
+
+21.03.2017 14:12:51 :  table_count =  1
+
+21.03.2017 14:12:51 :  record_count =  1
+
+21.03.2017 14:12:51 :  run_service =  0
+
+21.03.2017 14:12:51 :  airport_name_en =  Pulkovo
+
+21.03.2017 14:12:51 :  height_cta =     24.0000
+
+21.03.2017 14:12:51 :  lat_cta =  59.79655
+
+21.03.2017 14:12:51 :  lon_cta =  30.26250
+
+21.03.2017 14:12:51 :  mag_decl_cta =  10
+
+21.03.2017 14:12:51 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 14:12:51 :  id_vpp1 =  0
+
+21.03.2017 14:12:51 :  cat_vpp1 =  B
+
+21.03.2017 14:12:51 :  angle_vpp1 =  106.4190
+
+21.03.2017 14:12:51 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 14:12:51 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 14:12:51 :  lenght_vpp1 =  3782
+
+21.03.2017 14:12:51 :  width_vpp1 =  60
+
+21.03.2017 14:12:51 :  sign_left_vpp1 =  10R
+
+21.03.2017 14:12:51 :  sign_right_vpp1 =  28L
+
+21.03.2017 14:12:51 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 14:12:51 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 14:12:51 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 14:12:51 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 14:12:51 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 14:12:51 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 14:12:51 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 14:12:51 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 14:12:51 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 14:12:51 :  id_vpp2 =  1
+
+21.03.2017 14:12:51 :  cat_vpp2 =  A
+
+21.03.2017 14:12:51 :  angle_vpp2 =  106.4500
+
+21.03.2017 14:12:51 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 14:12:51 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 14:12:51 :  lenght_vpp2 =  3393
+
+21.03.2017 14:12:51 :  width_vpp2 =  60
+
+21.03.2017 14:12:51 :  sign_left_vpp2 =  10R
+
+21.03.2017 14:12:51 :  sign_right_vpp2 =  28L
+
+21.03.2017 14:12:51 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 14:12:51 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 14:12:51 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 14:12:51 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 14:12:51 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 14:12:51 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 14:12:51 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 14:12:51 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 14:12:54 :  Runway configuration data list
+
+21.03.2017 14:12:54 :  height_cta =     24.0000
+
+21.03.2017 14:12:54 :  angle_vpp1 =  106.41900
+
+21.03.2017 14:12:54 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 14:12:54 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 14:12:54 :  lenght_vpp1 =  3782
+
+21.03.2017 14:12:54 :  width_vpp1 =  60
+
+21.03.2017 14:12:54 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 14:12:54 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 14:12:54 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 14:12:54 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 14:12:54 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 14:12:54 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 14:12:54 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 14:12:54 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 14:12:54 :  angle_vpp2 =  106.45000
+
+21.03.2017 14:12:54 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 14:12:54 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 14:12:54 :  lenght_vpp2 =  3393
+
+21.03.2017 14:12:54 :  width_vpp2 =  60
+
+21.03.2017 14:12:54 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 14:12:54 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 14:12:54 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 14:12:54 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 14:12:54 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 14:12:54 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 14:12:54 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 14:12:54 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 14:12:54 :  Calculated indicators
+
+21.03.2017 14:21:11 :  Start service "Analyzer conflict"!
+
+21.03.2017 14:21:11 :  airport_name_en =  Pulkovo
+
+21.03.2017 14:21:11 :  port_main_client =  0
+
+21.03.2017 14:21:11 :  port_test_client_cons =  54632
+
+21.03.2017 14:21:11 :  port_test_client_gui =  54633
+
+21.03.2017 14:21:11 :  ip_main_client =  192.168.2.209
+
+21.03.2017 14:21:11 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 14:21:11 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 14:21:11 :  recording_mode =  0
+
+21.03.2017 14:21:11 :  table_count =  1
+
+21.03.2017 14:21:11 :  record_count =  1
+
+21.03.2017 14:21:11 :  run_service =  0
+
+21.03.2017 14:21:11 :  airport_name_en =  Pulkovo
+
+21.03.2017 14:21:11 :  height_cta =     24.0000
+
+21.03.2017 14:21:11 :  lat_cta =  59.79655
+
+21.03.2017 14:21:11 :  lon_cta =  30.26250
+
+21.03.2017 14:21:11 :  mag_decl_cta =  10
+
+21.03.2017 14:21:11 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 14:21:11 :  id_vpp1 =  0
+
+21.03.2017 14:21:11 :  cat_vpp1 =  B
+
+21.03.2017 14:21:11 :  angle_vpp1 =  106.4190
+
+21.03.2017 14:21:11 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 14:21:11 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 14:21:11 :  lenght_vpp1 =  3782
+
+21.03.2017 14:21:11 :  width_vpp1 =  60
+
+21.03.2017 14:21:11 :  sign_left_vpp1 =  10R
+
+21.03.2017 14:21:11 :  sign_right_vpp1 =  28L
+
+21.03.2017 14:21:11 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 14:21:11 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 14:21:11 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 14:21:11 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 14:21:11 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 14:21:11 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 14:21:11 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 14:21:11 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 14:21:11 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 14:21:11 :  id_vpp2 =  1
+
+21.03.2017 14:21:11 :  cat_vpp2 =  A
+
+21.03.2017 14:21:11 :  angle_vpp2 =  106.4500
+
+21.03.2017 14:21:11 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 14:21:11 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 14:21:11 :  lenght_vpp2 =  3393
+
+21.03.2017 14:21:11 :  width_vpp2 =  60
+
+21.03.2017 14:21:11 :  sign_left_vpp2 =  10R
+
+21.03.2017 14:21:11 :  sign_right_vpp2 =  28L
+
+21.03.2017 14:21:11 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 14:21:11 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 14:21:11 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 14:21:11 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 14:21:11 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 14:21:11 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 14:21:11 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 14:21:11 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 14:21:13 :  Runway configuration data list
+
+21.03.2017 14:21:13 :  height_cta =     24.0000
+
+21.03.2017 14:21:13 :  angle_vpp1 =  106.41900
+
+21.03.2017 14:21:13 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 14:21:13 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 14:21:13 :  lenght_vpp1 =  3782
+
+21.03.2017 14:21:13 :  width_vpp1 =  60
+
+21.03.2017 14:21:13 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 14:21:13 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 14:21:13 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 14:21:13 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 14:21:13 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 14:21:13 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 14:21:13 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 14:21:13 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 14:21:13 :  angle_vpp2 =  106.45000
+
+21.03.2017 14:21:13 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 14:21:13 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 14:21:13 :  lenght_vpp2 =  3393
+
+21.03.2017 14:21:13 :  width_vpp2 =  60
+
+21.03.2017 14:21:13 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 14:21:13 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 14:21:13 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 14:21:13 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 14:21:13 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 14:21:13 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 14:21:13 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 14:21:13 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 14:21:13 :  Calculated indicators
+
+21.03.2017 14:26:38 :  Start service "Analyzer conflict"!
+
+21.03.2017 14:26:38 :  airport_name_en =  Pulkovo
+
+21.03.2017 14:26:38 :  port_main_client =  0
+
+21.03.2017 14:26:38 :  port_test_client_cons =  54632
+
+21.03.2017 14:26:38 :  port_test_client_gui =  54633
+
+21.03.2017 14:26:38 :  ip_main_client =  192.168.2.209
+
+21.03.2017 14:26:38 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 14:26:38 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 14:26:38 :  recording_mode =  0
+
+21.03.2017 14:26:38 :  table_count =  1
+
+21.03.2017 14:26:38 :  record_count =  1
+
+21.03.2017 14:26:38 :  run_service =  0
+
+21.03.2017 14:26:38 :  airport_name_en =  Pulkovo
+
+21.03.2017 14:26:38 :  height_cta =     24.0000
+
+21.03.2017 14:26:38 :  lat_cta =  59.79655
+
+21.03.2017 14:26:38 :  lon_cta =  30.26250
+
+21.03.2017 14:26:38 :  mag_decl_cta =  10
+
+21.03.2017 14:26:38 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 14:26:38 :  id_vpp1 =  0
+
+21.03.2017 14:26:38 :  cat_vpp1 =  B
+
+21.03.2017 14:26:38 :  angle_vpp1 =  106.4190
+
+21.03.2017 14:26:38 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 14:26:38 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 14:26:38 :  lenght_vpp1 =  3782
+
+21.03.2017 14:26:38 :  width_vpp1 =  60
+
+21.03.2017 14:26:38 :  sign_left_vpp1 =  10R
+
+21.03.2017 14:26:38 :  sign_right_vpp1 =  28L
+
+21.03.2017 14:26:38 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 14:26:38 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 14:26:38 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 14:26:38 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 14:26:38 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 14:26:38 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 14:26:38 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 14:26:38 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 14:26:38 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 14:26:38 :  id_vpp2 =  1
+
+21.03.2017 14:26:38 :  cat_vpp2 =  A
+
+21.03.2017 14:26:38 :  angle_vpp2 =  106.4500
+
+21.03.2017 14:26:38 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 14:26:38 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 14:26:38 :  lenght_vpp2 =  3393
+
+21.03.2017 14:26:38 :  width_vpp2 =  60
+
+21.03.2017 14:26:38 :  sign_left_vpp2 =  10R
+
+21.03.2017 14:26:38 :  sign_right_vpp2 =  28L
+
+21.03.2017 14:26:38 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 14:26:38 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 14:26:38 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 14:26:38 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 14:26:38 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 14:26:38 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 14:26:38 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 14:26:38 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 14:26:39 :  Runway configuration data list
+
+21.03.2017 14:26:39 :  height_cta =     24.0000
+
+21.03.2017 14:26:39 :  angle_vpp1 =  106.41900
+
+21.03.2017 14:26:39 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 14:26:39 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 14:26:39 :  lenght_vpp1 =  3782
+
+21.03.2017 14:26:39 :  width_vpp1 =  60
+
+21.03.2017 14:26:39 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 14:26:39 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 14:26:39 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 14:26:39 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 14:26:39 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 14:26:39 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 14:26:39 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 14:26:39 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 14:26:39 :  angle_vpp2 =  106.45000
+
+21.03.2017 14:26:39 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 14:26:39 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 14:26:39 :  lenght_vpp2 =  3393
+
+21.03.2017 14:26:39 :  width_vpp2 =  60
+
+21.03.2017 14:26:39 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 14:26:39 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 14:26:39 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 14:26:39 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 14:26:39 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 14:26:39 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 14:26:39 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 14:26:39 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 14:26:39 :  Calculated indicators
+
+21.03.2017 14:46:52 :  Start service "Analyzer conflict"!
+
+21.03.2017 14:46:52 :  airport_name_en =  Pulkovo
+
+21.03.2017 14:46:52 :  port_main_client =  0
+
+21.03.2017 14:46:52 :  port_test_client_cons =  54632
+
+21.03.2017 14:46:52 :  port_test_client_gui =  54633
+
+21.03.2017 14:46:52 :  ip_main_client =  192.168.2.209
+
+21.03.2017 14:46:52 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 14:46:52 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 14:46:52 :  recording_mode =  0
+
+21.03.2017 14:46:52 :  table_count =  1
+
+21.03.2017 14:46:52 :  record_count =  1
+
+21.03.2017 14:46:52 :  run_service =  0
+
+21.03.2017 14:46:52 :  airport_name_en =  Pulkovo
+
+21.03.2017 14:46:52 :  height_cta =     24.0000
+
+21.03.2017 14:46:52 :  lat_cta =  59.79655
+
+21.03.2017 14:46:52 :  lon_cta =  30.26250
+
+21.03.2017 14:46:52 :  mag_decl_cta =  10
+
+21.03.2017 14:46:52 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 14:46:52 :  id_vpp1 =  0
+
+21.03.2017 14:46:52 :  cat_vpp1 =  B
+
+21.03.2017 14:46:52 :  angle_vpp1 =  106.4190
+
+21.03.2017 14:46:52 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 14:46:52 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 14:46:52 :  lenght_vpp1 =  3782
+
+21.03.2017 14:46:52 :  width_vpp1 =  60
+
+21.03.2017 14:46:52 :  sign_left_vpp1 =  10R
+
+21.03.2017 14:46:52 :  sign_right_vpp1 =  28L
+
+21.03.2017 14:46:52 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 14:46:52 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 14:46:52 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 14:46:52 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 14:46:52 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 14:46:52 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 14:46:52 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 14:46:52 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 14:46:52 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 14:46:52 :  id_vpp2 =  1
+
+21.03.2017 14:46:52 :  cat_vpp2 =  A
+
+21.03.2017 14:46:52 :  angle_vpp2 =  106.4500
+
+21.03.2017 14:46:52 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 14:46:52 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 14:46:52 :  lenght_vpp2 =  3393
+
+21.03.2017 14:46:52 :  width_vpp2 =  60
+
+21.03.2017 14:46:52 :  sign_left_vpp2 =  10R
+
+21.03.2017 14:46:52 :  sign_right_vpp2 =  28L
+
+21.03.2017 14:46:52 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 14:46:52 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 14:46:52 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 14:46:52 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 14:46:52 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 14:46:52 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 14:46:52 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 14:46:52 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 14:46:55 :  Runway configuration data list
+
+21.03.2017 14:46:55 :  height_cta =     24.0000
+
+21.03.2017 14:46:55 :  angle_vpp1 =  106.41900
+
+21.03.2017 14:46:55 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 14:46:55 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 14:46:55 :  lenght_vpp1 =  3782
+
+21.03.2017 14:46:55 :  width_vpp1 =  60
+
+21.03.2017 14:46:55 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 14:46:55 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 14:46:55 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 14:46:55 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 14:46:55 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 14:46:55 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 14:46:55 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 14:46:55 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 14:46:55 :  angle_vpp2 =  106.45000
+
+21.03.2017 14:46:55 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 14:46:55 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 14:46:55 :  lenght_vpp2 =  3393
+
+21.03.2017 14:46:55 :  width_vpp2 =  60
+
+21.03.2017 14:46:55 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 14:46:55 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 14:46:55 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 14:46:55 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 14:46:55 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 14:46:55 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 14:46:55 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 14:46:55 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 14:46:55 :  Calculated indicators
+
+21.03.2017 15:18:11 :  Start service "Analyzer conflict"!
+
+21.03.2017 15:18:11 :  airport_name_en =  Pulkovo
+
+21.03.2017 15:18:11 :  port_main_client =  0
+
+21.03.2017 15:18:11 :  port_test_client_cons =  54632
+
+21.03.2017 15:18:11 :  port_test_client_gui =  54633
+
+21.03.2017 15:18:11 :  ip_main_client =  192.168.2.209
+
+21.03.2017 15:18:11 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 15:18:11 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 15:18:11 :  recording_mode =  0
+
+21.03.2017 15:18:11 :  table_count =  1
+
+21.03.2017 15:18:11 :  record_count =  1
+
+21.03.2017 15:18:11 :  run_service =  0
+
+21.03.2017 15:18:11 :  airport_name_en =  Pulkovo
+
+21.03.2017 15:18:11 :  height_cta =     24.0000
+
+21.03.2017 15:18:11 :  lat_cta =  59.79655
+
+21.03.2017 15:18:11 :  lon_cta =  30.26250
+
+21.03.2017 15:18:11 :  mag_decl_cta =  10
+
+21.03.2017 15:18:11 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 15:18:11 :  id_vpp1 =  0
+
+21.03.2017 15:18:11 :  cat_vpp1 =  B
+
+21.03.2017 15:18:11 :  angle_vpp1 =  106.4190
+
+21.03.2017 15:18:11 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 15:18:11 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 15:18:11 :  lenght_vpp1 =  3782
+
+21.03.2017 15:18:11 :  width_vpp1 =  60
+
+21.03.2017 15:18:11 :  sign_left_vpp1 =  10R
+
+21.03.2017 15:18:11 :  sign_right_vpp1 =  28L
+
+21.03.2017 15:18:11 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 15:18:11 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 15:18:11 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 15:18:11 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 15:18:11 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 15:18:11 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 15:18:11 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 15:18:11 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 15:18:11 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 15:18:11 :  id_vpp2 =  1
+
+21.03.2017 15:18:11 :  cat_vpp2 =  A
+
+21.03.2017 15:18:11 :  angle_vpp2 =  106.4500
+
+21.03.2017 15:18:11 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 15:18:11 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 15:18:11 :  lenght_vpp2 =  3393
+
+21.03.2017 15:18:11 :  width_vpp2 =  60
+
+21.03.2017 15:18:11 :  sign_left_vpp2 =  10R
+
+21.03.2017 15:18:11 :  sign_right_vpp2 =  28L
+
+21.03.2017 15:18:11 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 15:18:11 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 15:18:11 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 15:18:11 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 15:18:11 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 15:18:11 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 15:18:11 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 15:18:11 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 15:18:13 :  Runway configuration data list
+
+21.03.2017 15:18:13 :  height_cta =     24.0000
+
+21.03.2017 15:18:13 :  angle_vpp1 =  106.41900
+
+21.03.2017 15:18:13 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 15:18:13 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 15:18:13 :  lenght_vpp1 =  3782
+
+21.03.2017 15:18:13 :  width_vpp1 =  60
+
+21.03.2017 15:18:13 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 15:18:13 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 15:18:13 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 15:18:13 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 15:18:13 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 15:18:13 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 15:18:13 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 15:18:13 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 15:18:13 :  angle_vpp2 =  106.45000
+
+21.03.2017 15:18:13 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 15:18:13 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 15:18:13 :  lenght_vpp2 =  3393
+
+21.03.2017 15:18:13 :  width_vpp2 =  60
+
+21.03.2017 15:18:13 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 15:18:13 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 15:18:13 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 15:18:13 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 15:18:13 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 15:18:13 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 15:18:13 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 15:18:13 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 15:18:13 :  Calculated indicators
+
+21.03.2017 15:36:13 :  Start service "Analyzer conflict"!
+
+21.03.2017 15:36:13 :  airport_name_en =  Pulkovo
+
+21.03.2017 15:36:13 :  port_main_client =  0
+
+21.03.2017 15:36:13 :  port_test_client_cons =  54632
+
+21.03.2017 15:36:13 :  port_test_client_gui =  54633
+
+21.03.2017 15:36:13 :  ip_main_client =  192.168.2.209
+
+21.03.2017 15:36:13 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 15:36:13 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 15:36:13 :  recording_mode =  0
+
+21.03.2017 15:36:13 :  table_count =  1
+
+21.03.2017 15:36:13 :  record_count =  1
+
+21.03.2017 15:36:13 :  run_service =  0
+
+21.03.2017 15:36:13 :  airport_name_en =  Pulkovo
+
+21.03.2017 15:36:13 :  height_cta =     24.0000
+
+21.03.2017 15:36:13 :  lat_cta =  59.79655
+
+21.03.2017 15:36:13 :  lon_cta =  30.26250
+
+21.03.2017 15:36:13 :  mag_decl_cta =  10
+
+21.03.2017 15:36:13 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 15:36:13 :  id_vpp1 =  0
+
+21.03.2017 15:36:13 :  cat_vpp1 =  B
+
+21.03.2017 15:36:13 :  angle_vpp1 =  106.4190
+
+21.03.2017 15:36:13 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 15:36:13 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 15:36:13 :  lenght_vpp1 =  3782
+
+21.03.2017 15:36:13 :  width_vpp1 =  60
+
+21.03.2017 15:36:13 :  sign_left_vpp1 =  10R
+
+21.03.2017 15:36:13 :  sign_right_vpp1 =  28L
+
+21.03.2017 15:36:13 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 15:36:13 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 15:36:13 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 15:36:13 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 15:36:13 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 15:36:13 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 15:36:13 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 15:36:13 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 15:36:13 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 15:36:13 :  id_vpp2 =  1
+
+21.03.2017 15:36:13 :  cat_vpp2 =  A
+
+21.03.2017 15:36:13 :  angle_vpp2 =  106.4500
+
+21.03.2017 15:36:13 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 15:36:13 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 15:36:13 :  lenght_vpp2 =  3393
+
+21.03.2017 15:36:13 :  width_vpp2 =  60
+
+21.03.2017 15:36:13 :  sign_left_vpp2 =  10R
+
+21.03.2017 15:36:13 :  sign_right_vpp2 =  28L
+
+21.03.2017 15:36:13 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 15:36:13 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 15:36:13 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 15:36:13 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 15:36:13 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 15:36:13 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 15:36:13 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 15:36:13 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 15:36:15 :  Runway configuration data list
+
+21.03.2017 15:36:15 :  height_cta =     24.0000
+
+21.03.2017 15:36:15 :  angle_vpp1 =  106.41900
+
+21.03.2017 15:36:15 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 15:36:15 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 15:36:15 :  lenght_vpp1 =  3782
+
+21.03.2017 15:36:15 :  width_vpp1 =  60
+
+21.03.2017 15:36:15 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 15:36:15 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 15:36:15 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 15:36:15 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 15:36:15 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 15:36:15 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 15:36:15 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 15:36:15 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 15:36:15 :  angle_vpp2 =  106.45000
+
+21.03.2017 15:36:15 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 15:36:15 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 15:36:15 :  lenght_vpp2 =  3393
+
+21.03.2017 15:36:15 :  width_vpp2 =  60
+
+21.03.2017 15:36:15 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 15:36:15 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 15:36:15 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 15:36:15 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 15:36:15 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 15:36:15 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 15:36:15 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 15:36:15 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 15:36:15 :  Calculated indicators
+
+21.03.2017 15:37:35 :  northPointRunway1_lat =  59.796551
+
+21.03.2017 15:37:35 :  northPointRunway1_lon =  30.310275
+
+21.03.2017 15:37:36 :  southPointRunway1_lat =  59.796549
+
+21.03.2017 15:37:36 :  southPointRunway1_lon =  30.182604
+
+21.03.2017 15:37:36 :  westPointRunway1_lat =  59.796551
+
+21.03.2017 15:37:37 :  westPointRunway1_lon =  30.310873
+
+21.03.2017 15:37:37 :  eastPointRunway1_lat =  59.796548
+
+21.03.2017 15:37:37 :  eastPointRunway1_lon =  30.182003
+
+21.03.2017 15:37:37 :  northPointRunway2_lat =  59.796552
+
+21.03.2017 15:37:38 :  northPointRunway2_lon =  30.357612
+
+21.03.2017 15:37:38 :  southPointRunway2_lat =  59.796550
+
+21.03.2017 15:37:38 :  southPointRunway2_lon =  30.243339
+
+21.03.2017 15:37:39 :  westPointRunway2_lat =  59.796552
+
+21.03.2017 15:37:40 :  westPointRunway2_lon =  30.358211
+
+21.03.2017 15:37:40 :  eastPointRunway2_lat =  59.796550
+
+21.03.2017 15:37:41 :  eastPointRunway2_lon =  30.242738
+
+21.03.2017 15:38:23 :  Start service "Analyzer conflict"!
+
+21.03.2017 15:38:23 :  airport_name_en =  Pulkovo
+
+21.03.2017 15:38:23 :  port_main_client =  0
+
+21.03.2017 15:38:23 :  port_test_client_cons =  54632
+
+21.03.2017 15:38:23 :  port_test_client_gui =  54633
+
+21.03.2017 15:38:23 :  ip_main_client =  192.168.2.209
+
+21.03.2017 15:38:23 :  ip_test_client_cons =  192.168.2.209
+
+21.03.2017 15:38:23 :  ip_test_client_gui =  192.168.2.209
+
+21.03.2017 15:38:23 :  recording_mode =  0
+
+21.03.2017 15:38:23 :  table_count =  1
+
+21.03.2017 15:38:23 :  record_count =  1
+
+21.03.2017 15:38:23 :  run_service =  0
+
+21.03.2017 15:38:23 :  airport_name_en =  Pulkovo
+
+21.03.2017 15:38:23 :  height_cta =     24.0000
+
+21.03.2017 15:38:23 :  lat_cta =  59.79655
+
+21.03.2017 15:38:23 :  lon_cta =  30.26250
+
+21.03.2017 15:38:23 :  mag_decl_cta =  10
+
+21.03.2017 15:38:23 :  caption_vpp1 =  ВПП-1
+
+21.03.2017 15:38:23 :  id_vpp1 =  0
+
+21.03.2017 15:38:23 :  cat_vpp1 =  B
+
+21.03.2017 15:38:23 :  angle_vpp1 =  106.4190
+
+21.03.2017 15:38:23 :  runway_lat_vpp1 =  59.79514
+
+21.03.2017 15:38:23 :  runway_lon_vpp1 =  30.25064
+
+21.03.2017 15:38:23 :  lenght_vpp1 =  3782
+
+21.03.2017 15:38:23 :  width_vpp1 =  60
+
+21.03.2017 15:38:23 :  sign_left_vpp1 =  10R
+
+21.03.2017 15:38:23 :  sign_right_vpp1 =  28L
+
+21.03.2017 15:38:23 :  north_wgs_lat_vpp1 =  59.80019
+
+21.03.2017 15:38:23 :  north_wgs_lon_vpp1 =  30.21849
+
+21.03.2017 15:38:23 :  south_wgs_lat_vpp1 =  59.79009
+
+21.03.2017 15:38:23 :  south_wgs_lon_vpp1 =  30.28278
+
+21.03.2017 15:38:23 :  west_wgs_lat_vpp1 =  59.79965
+
+21.03.2017 15:38:23 :  west_wgs_lon_vpp1 =  30.21823
+
+21.03.2017 15:38:23 :  east_wgs_lat_vpp1 =  59.79059
+
+21.03.2017 15:38:23 :  east_wgs_lon_vpp1 =  30.28304
+
+21.03.2017 15:38:23 :  caption_vpp2 =  ВПП-2
+
+21.03.2017 15:38:23 :  id_vpp2 =  1
+
+21.03.2017 15:38:23 :  cat_vpp2 =  A
+
+21.03.2017 15:38:23 :  angle_vpp2 =  106.4500
+
+21.03.2017 15:38:23 :  runway_lat_vpp2 =  59.80545
+
+21.03.2017 15:38:23 :  runway_lon_vpp2 =  30.27438
+
+21.03.2017 15:38:23 :  lenght_vpp2 =  3393
+
+21.03.2017 15:38:23 :  width_vpp2 =  60
+
+21.03.2017 15:38:23 :  sign_left_vpp2 =  10R
+
+21.03.2017 15:38:23 :  sign_right_vpp2 =  28L
+
+21.03.2017 15:38:23 :  north_wgs_lat_vpp2 =  59.81001
+
+21.03.2017 15:38:23 :  north_wgs_lon_vpp2 =  30.24561
+
+21.03.2017 15:38:23 :  south_wgs_lat_vpp2 =  59.80089
+
+21.03.2017 15:38:23 :  south_wgs_lon_vpp2 =  30.30338
+
+21.03.2017 15:38:23 :  west_wgs_lat_vpp2 =  59.80951
+
+21.03.2017 15:38:23 :  west_wgs_lon_vpp2 =  30.24527
+
+21.03.2017 15:38:23 :  east_wgs_lat_vpp2 =  59.80134
+
+21.03.2017 15:38:23 :  east_wgs_lon_vpp2 =  30.30364
+
+21.03.2017 15:38:26 :  Runway configuration data list
+
+21.03.2017 15:38:26 :  height_cta =     24.0000
+
+21.03.2017 15:38:26 :  angle_vpp1 =  106.41900
+
+21.03.2017 15:38:26 :  runway_lat_vpp1 =  59.795142
+
+21.03.2017 15:38:26 :  runway_lon_vpp1 =  30.250639
+
+21.03.2017 15:38:26 :  lenght_vpp1 =  3782
+
+21.03.2017 15:38:26 :  width_vpp1 =  60
+
+21.03.2017 15:38:26 :  north_wgs_lat_vpp1 =  59.800193
+
+21.03.2017 15:38:26 :  north_wgs_lon_vpp1 =  30.218491
+
+21.03.2017 15:38:26 :  south_wgs_lat_vpp1 =  59.790093
+
+21.03.2017 15:38:26 :  south_wgs_lon_vpp1 =  30.282778
+
+21.03.2017 15:38:26 :  west_wgs_lat_vpp1 =  59.799652
+
+21.03.2017 15:38:26 :  west_wgs_lon_vpp1 =  30.218233
+
+21.03.2017 15:38:26 :  east_wgs_lat_vpp1 =  59.790590
+
+21.03.2017 15:38:26 :  east_wgs_lon_vpp1 =  30.283035
+
+21.03.2017 15:38:26 :  angle_vpp2 =  106.45000
+
+21.03.2017 15:38:26 :  runway_lat_vpp2 =  59.805453
+
+21.03.2017 15:38:26 :  runway_lon_vpp2 =  30.274379
+
+21.03.2017 15:38:26 :  lenght_vpp2 =  3393
+
+21.03.2017 15:38:26 :  width_vpp2 =  60
+
+21.03.2017 15:38:26 :  north_wgs_lat_vpp2 =  59.810008
+
+21.03.2017 15:38:26 :  north_wgs_lon_vpp2 =  30.245613
+
+21.03.2017 15:38:26 :  south_wgs_lat_vpp2 =  59.800885
+
+21.03.2017 15:38:26 :  south_wgs_lon_vpp2 =  30.303377
+
+21.03.2017 15:38:26 :  west_wgs_lat_vpp2 =  59.809511
+
+21.03.2017 15:38:26 :  west_wgs_lon_vpp2 =  30.245270
+
+21.03.2017 15:38:26 :  east_wgs_lat_vpp2 =  59.801339
+
+21.03.2017 15:38:26 :  east_wgs_lon_vpp2 =  30.303635
+
+21.03.2017 15:38:26 :  Calculated indicators
+
+22.03.2017 19:01:38 :  Start service "Analyzer conflict"!
+
+22.03.2017 19:01:38 :  airport_name_en =  Pulkovo
+
+22.03.2017 19:01:38 :  port_main_client =  24322
+
+22.03.2017 19:01:38 :  port_test_client_cons =  24322
+
+22.03.2017 19:01:38 :  port_test_client_gui =  24322
+
+22.03.2017 19:01:38 :  ip_main_client =  192.168.2.209
+
+22.03.2017 19:01:38 :  ip_test_client_cons =  192.168.2.209
+
+22.03.2017 19:01:38 :  ip_test_client_gui =  192.168.2.209
+
+22.03.2017 19:01:38 :  recording_mode =  0
+
+22.03.2017 19:01:38 :  table_count =  1
+
+22.03.2017 19:01:38 :  record_count =  1
+
+22.03.2017 19:01:38 :  run_service =  0
+
+22.03.2017 19:01:38 :  airport_name_en =  Pulkovo
+
+22.03.2017 19:01:38 :  height_cta =     24.0000
+
+22.03.2017 19:01:38 :  lat_cta =  59.79655
+
+22.03.2017 19:01:38 :  lon_cta =  30.26250
+
+22.03.2017 19:01:38 :  mag_decl_cta =  10
+
+22.03.2017 19:01:38 :  caption_vpp1 =  ВПП-1
+
+22.03.2017 19:01:38 :  id_vpp1 =  0
+
+22.03.2017 19:01:38 :  cat_vpp1 =  B
+
+22.03.2017 19:01:38 :  angle_vpp1 =  106.4190
+
+22.03.2017 19:01:38 :  runway_lat_vpp1 =  59.79514
+
+22.03.2017 19:01:38 :  runway_lon_vpp1 =  30.25064
+
+22.03.2017 19:01:38 :  lenght_vpp1 =  3782
+
+22.03.2017 19:01:38 :  width_vpp1 =  60
+
+22.03.2017 19:01:38 :  sign_left_vpp1 =  10R
+
+22.03.2017 19:01:38 :  sign_right_vpp1 =  28L
+
+22.03.2017 19:01:38 :  north_wgs_lat_vpp1 =  59.80019
+
+22.03.2017 19:01:38 :  north_wgs_lon_vpp1 =  30.21849
+
+22.03.2017 19:01:38 :  south_wgs_lat_vpp1 =  59.79009
+
+22.03.2017 19:01:38 :  south_wgs_lon_vpp1 =  30.28278
+
+22.03.2017 19:01:38 :  west_wgs_lat_vpp1 =  59.79965
+
+22.03.2017 19:01:38 :  west_wgs_lon_vpp1 =  30.21823
+
+22.03.2017 19:01:38 :  east_wgs_lat_vpp1 =  59.79059
+
+22.03.2017 19:01:38 :  east_wgs_lon_vpp1 =  30.28304
+
+22.03.2017 19:01:38 :  caption_vpp2 =  ВПП-2
+
+22.03.2017 19:01:38 :  id_vpp2 =  1
+
+22.03.2017 19:01:38 :  cat_vpp2 =  A
+
+22.03.2017 19:01:38 :  angle_vpp2 =  106.4500
+
+22.03.2017 19:01:38 :  runway_lat_vpp2 =  59.80545
+
+22.03.2017 19:01:38 :  runway_lon_vpp2 =  30.27438
+
+22.03.2017 19:01:38 :  lenght_vpp2 =  3393
+
+22.03.2017 19:01:38 :  width_vpp2 =  60
+
+22.03.2017 19:01:38 :  sign_left_vpp2 =  10R
+
+22.03.2017 19:01:38 :  sign_right_vpp2 =  28L
+
+22.03.2017 19:01:38 :  north_wgs_lat_vpp2 =  59.81001
+
+22.03.2017 19:01:38 :  north_wgs_lon_vpp2 =  30.24561
+
+22.03.2017 19:01:38 :  south_wgs_lat_vpp2 =  59.80089
+
+22.03.2017 19:01:38 :  south_wgs_lon_vpp2 =  30.30338
+
+22.03.2017 19:01:38 :  west_wgs_lat_vpp2 =  59.80951
+
+22.03.2017 19:01:38 :  west_wgs_lon_vpp2 =  30.24527
+
+22.03.2017 19:01:38 :  east_wgs_lat_vpp2 =  59.80134
+
+22.03.2017 19:01:38 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 09:39:56 :  Start service "Analyzer conflict"!
+
+23.03.2017 09:39:56 :  airport_name_en =  Pulkovo
+
+23.03.2017 09:39:56 :  port_main_client =  24322
+
+23.03.2017 09:39:56 :  port_test_client_cons =  24322
+
+23.03.2017 09:39:56 :  port_test_client_gui =  24322
+
+23.03.2017 09:39:56 :  ip_main_client =  192.168.2.209
+
+23.03.2017 09:39:56 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 09:39:56 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 09:39:56 :  recording_mode =  0
+
+23.03.2017 09:39:56 :  table_count =  1
+
+23.03.2017 09:39:56 :  record_count =  1
+
+23.03.2017 09:39:56 :  run_service =  1
+
+23.03.2017 09:39:56 :  airport_name_en =  Pulkovo
+
+23.03.2017 09:39:56 :  height_cta =     24.0000
+
+23.03.2017 09:39:56 :  lat_cta =  59.79655
+
+23.03.2017 09:39:56 :  lon_cta =  30.26250
+
+23.03.2017 09:39:56 :  mag_decl_cta =  10
+
+23.03.2017 09:39:56 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 09:39:56 :  id_vpp1 =  0
+
+23.03.2017 09:39:56 :  cat_vpp1 =  B
+
+23.03.2017 09:39:56 :  angle_vpp1 =  106.4190
+
+23.03.2017 09:39:56 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 09:39:56 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 09:39:56 :  lenght_vpp1 =  3782
+
+23.03.2017 09:39:56 :  width_vpp1 =  60
+
+23.03.2017 09:39:56 :  sign_left_vpp1 =  10R
+
+23.03.2017 09:39:56 :  sign_right_vpp1 =  28L
+
+23.03.2017 09:39:56 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 09:39:56 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 09:39:56 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 09:39:56 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 09:39:56 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 09:39:56 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 09:39:56 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 09:39:56 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 09:39:56 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 09:39:56 :  id_vpp2 =  1
+
+23.03.2017 09:39:56 :  cat_vpp2 =  A
+
+23.03.2017 09:39:56 :  angle_vpp2 =  106.4500
+
+23.03.2017 09:39:56 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 09:39:56 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 09:39:56 :  lenght_vpp2 =  3393
+
+23.03.2017 09:39:56 :  width_vpp2 =  60
+
+23.03.2017 09:39:56 :  sign_left_vpp2 =  10R
+
+23.03.2017 09:39:56 :  sign_right_vpp2 =  28L
+
+23.03.2017 09:39:56 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 09:39:56 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 09:39:56 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 09:39:56 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 09:39:56 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 09:39:56 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 09:39:56 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 09:39:56 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 09:49:01 :  Start service "Analyzer conflict"!
+
+23.03.2017 09:49:01 :  airport_name_en =  Pulkovo
+
+23.03.2017 09:49:01 :  port_main_client =  24322
+
+23.03.2017 09:49:01 :  port_test_client_cons =  24322
+
+23.03.2017 09:49:01 :  port_test_client_gui =  24322
+
+23.03.2017 09:49:01 :  ip_main_client =  192.168.2.209
+
+23.03.2017 09:49:01 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 09:49:01 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 09:49:01 :  recording_mode =  0
+
+23.03.2017 09:49:01 :  table_count =  1
+
+23.03.2017 09:49:01 :  record_count =  1
+
+23.03.2017 09:49:01 :  run_service =  1
+
+23.03.2017 09:49:01 :  airport_name_en =  Pulkovo
+
+23.03.2017 09:49:01 :  height_cta =     24.0000
+
+23.03.2017 09:49:01 :  lat_cta =  59.79655
+
+23.03.2017 09:49:01 :  lon_cta =  30.26250
+
+23.03.2017 09:49:01 :  mag_decl_cta =  10
+
+23.03.2017 09:49:01 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 09:49:01 :  id_vpp1 =  0
+
+23.03.2017 09:49:01 :  cat_vpp1 =  B
+
+23.03.2017 09:49:01 :  angle_vpp1 =  106.4190
+
+23.03.2017 09:49:01 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 09:49:01 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 09:49:01 :  lenght_vpp1 =  3782
+
+23.03.2017 09:49:01 :  width_vpp1 =  60
+
+23.03.2017 09:49:01 :  sign_left_vpp1 =  10R
+
+23.03.2017 09:49:01 :  sign_right_vpp1 =  28L
+
+23.03.2017 09:49:01 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 09:49:01 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 09:49:01 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 09:49:01 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 09:49:01 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 09:49:01 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 09:49:01 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 09:49:01 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 09:49:01 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 09:49:01 :  id_vpp2 =  1
+
+23.03.2017 09:49:01 :  cat_vpp2 =  A
+
+23.03.2017 09:49:01 :  angle_vpp2 =  106.4500
+
+23.03.2017 09:49:01 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 09:49:01 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 09:49:01 :  lenght_vpp2 =  3393
+
+23.03.2017 09:49:01 :  width_vpp2 =  60
+
+23.03.2017 09:49:01 :  sign_left_vpp2 =  10R
+
+23.03.2017 09:49:01 :  sign_right_vpp2 =  28L
+
+23.03.2017 09:49:01 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 09:49:01 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 09:49:01 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 09:49:01 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 09:49:01 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 09:49:01 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 09:49:01 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 09:49:01 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 11:50:55 :  Start service "Analyzer conflict"!
+
+23.03.2017 11:50:55 :  airport_name_en =  Pulkovo
+
+23.03.2017 11:50:55 :  port_main_client =  24322
+
+23.03.2017 11:50:55 :  port_test_client_cons =  24322
+
+23.03.2017 11:50:55 :  port_test_client_gui =  24322
+
+23.03.2017 11:50:55 :  ip_main_client =  192.168.2.209
+
+23.03.2017 11:50:55 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 11:50:55 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 11:50:55 :  recording_mode =  0
+
+23.03.2017 11:50:55 :  table_count =  1
+
+23.03.2017 11:50:55 :  record_count =  1
+
+23.03.2017 11:50:55 :  run_service =  1
+
+23.03.2017 11:50:55 :  airport_name_en =  Pulkovo
+
+23.03.2017 11:50:55 :  height_cta =     24.0000
+
+23.03.2017 11:50:55 :  lat_cta =  59.79655
+
+23.03.2017 11:50:55 :  lon_cta =  30.26250
+
+23.03.2017 11:50:55 :  mag_decl_cta =  10
+
+23.03.2017 11:50:55 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 11:50:55 :  id_vpp1 =  0
+
+23.03.2017 11:50:55 :  cat_vpp1 =  B
+
+23.03.2017 11:50:55 :  angle_vpp1 =  106.4190
+
+23.03.2017 11:50:55 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 11:50:55 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 11:50:55 :  lenght_vpp1 =  3782
+
+23.03.2017 11:50:55 :  width_vpp1 =  60
+
+23.03.2017 11:50:55 :  sign_left_vpp1 =  10R
+
+23.03.2017 11:50:55 :  sign_right_vpp1 =  28L
+
+23.03.2017 11:50:55 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 11:50:55 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 11:50:55 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 11:50:55 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 11:50:55 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 11:50:55 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 11:50:55 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 11:50:55 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 11:50:55 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 11:50:55 :  id_vpp2 =  1
+
+23.03.2017 11:50:55 :  cat_vpp2 =  A
+
+23.03.2017 11:50:55 :  angle_vpp2 =  106.4500
+
+23.03.2017 11:50:55 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 11:50:55 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 11:50:55 :  lenght_vpp2 =  3393
+
+23.03.2017 11:50:55 :  width_vpp2 =  60
+
+23.03.2017 11:50:55 :  sign_left_vpp2 =  10R
+
+23.03.2017 11:50:55 :  sign_right_vpp2 =  28L
+
+23.03.2017 11:50:55 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 11:50:55 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 11:50:55 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 11:50:55 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 11:50:55 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 11:50:55 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 11:50:55 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 11:50:55 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 13:02:01 :  Start service "Analyzer conflict"!
+
+23.03.2017 13:02:01 :  airport_name_en =  Pulkovo
+
+23.03.2017 13:02:01 :  port_main_client =  24322
+
+23.03.2017 13:02:01 :  port_test_client_cons =  24322
+
+23.03.2017 13:02:01 :  port_test_client_gui =  24322
+
+23.03.2017 13:02:01 :  ip_main_client =  192.168.2.209
+
+23.03.2017 13:02:01 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 13:02:01 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 13:02:01 :  recording_mode =  0
+
+23.03.2017 13:02:01 :  table_count =  1
+
+23.03.2017 13:02:01 :  record_count =  1
+
+23.03.2017 13:02:01 :  run_service =  1
+
+23.03.2017 13:02:01 :  airport_name_en =  Pulkovo
+
+23.03.2017 13:02:01 :  height_cta =     24.0000
+
+23.03.2017 13:02:01 :  lat_cta =  59.79655
+
+23.03.2017 13:02:01 :  lon_cta =  30.26250
+
+23.03.2017 13:02:01 :  mag_decl_cta =  10
+
+23.03.2017 13:02:01 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 13:02:01 :  id_vpp1 =  0
+
+23.03.2017 13:02:01 :  cat_vpp1 =  B
+
+23.03.2017 13:02:01 :  angle_vpp1 =  106.4190
+
+23.03.2017 13:02:01 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 13:02:01 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 13:02:01 :  lenght_vpp1 =  3782
+
+23.03.2017 13:02:01 :  width_vpp1 =  60
+
+23.03.2017 13:02:01 :  sign_left_vpp1 =  10R
+
+23.03.2017 13:02:01 :  sign_right_vpp1 =  28L
+
+23.03.2017 13:02:01 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 13:02:01 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 13:02:01 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 13:02:01 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 13:02:01 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 13:02:01 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 13:02:01 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 13:02:01 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 13:02:01 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 13:02:01 :  id_vpp2 =  1
+
+23.03.2017 13:02:01 :  cat_vpp2 =  A
+
+23.03.2017 13:02:01 :  angle_vpp2 =  106.4500
+
+23.03.2017 13:02:01 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 13:02:01 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 13:02:01 :  lenght_vpp2 =  3393
+
+23.03.2017 13:02:01 :  width_vpp2 =  60
+
+23.03.2017 13:02:01 :  sign_left_vpp2 =  10R
+
+23.03.2017 13:02:01 :  sign_right_vpp2 =  28L
+
+23.03.2017 13:02:01 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 13:02:01 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 13:02:01 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 13:02:01 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 13:02:01 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 13:02:01 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 13:02:01 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 13:02:01 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 13:04:34 :  Start service "Analyzer conflict"!
+
+23.03.2017 13:04:34 :  airport_name_en =  Pulkovo
+
+23.03.2017 13:04:34 :  port_main_client =  24322
+
+23.03.2017 13:04:34 :  port_test_client_cons =  24322
+
+23.03.2017 13:04:34 :  port_test_client_gui =  24322
+
+23.03.2017 13:04:34 :  ip_main_client =  192.168.2.209
+
+23.03.2017 13:04:34 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 13:04:34 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 13:04:34 :  recording_mode =  0
+
+23.03.2017 13:04:34 :  table_count =  1
+
+23.03.2017 13:04:34 :  record_count =  1
+
+23.03.2017 13:04:34 :  run_service =  1
+
+23.03.2017 13:04:34 :  airport_name_en =  Pulkovo
+
+23.03.2017 13:04:34 :  height_cta =     24.0000
+
+23.03.2017 13:04:34 :  lat_cta =  59.79655
+
+23.03.2017 13:04:34 :  lon_cta =  30.26250
+
+23.03.2017 13:04:34 :  mag_decl_cta =  10
+
+23.03.2017 13:04:34 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 13:04:34 :  id_vpp1 =  0
+
+23.03.2017 13:04:34 :  cat_vpp1 =  B
+
+23.03.2017 13:04:34 :  angle_vpp1 =  106.4190
+
+23.03.2017 13:04:34 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 13:04:34 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 13:04:34 :  lenght_vpp1 =  3782
+
+23.03.2017 13:04:34 :  width_vpp1 =  60
+
+23.03.2017 13:04:34 :  sign_left_vpp1 =  10R
+
+23.03.2017 13:04:34 :  sign_right_vpp1 =  28L
+
+23.03.2017 13:04:34 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 13:04:34 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 13:04:34 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 13:04:34 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 13:04:34 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 13:04:34 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 13:04:34 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 13:04:34 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 13:04:34 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 13:04:34 :  id_vpp2 =  1
+
+23.03.2017 13:04:34 :  cat_vpp2 =  A
+
+23.03.2017 13:04:34 :  angle_vpp2 =  106.4500
+
+23.03.2017 13:04:34 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 13:04:34 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 13:04:34 :  lenght_vpp2 =  3393
+
+23.03.2017 13:04:34 :  width_vpp2 =  60
+
+23.03.2017 13:04:34 :  sign_left_vpp2 =  10R
+
+23.03.2017 13:04:34 :  sign_right_vpp2 =  28L
+
+23.03.2017 13:04:34 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 13:04:34 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 13:04:34 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 13:04:34 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 13:04:34 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 13:04:34 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 13:04:34 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 13:04:34 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 13:28:58 :  Start service "Analyzer conflict"!
+
+23.03.2017 13:28:58 :  airport_name_en =  Pulkovo
+
+23.03.2017 13:28:58 :  port_main_client =  24322
+
+23.03.2017 13:28:58 :  port_test_client_cons =  24322
+
+23.03.2017 13:28:58 :  port_test_client_gui =  24322
+
+23.03.2017 13:28:58 :  ip_main_client =  192.168.2.209
+
+23.03.2017 13:28:58 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 13:28:58 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 13:28:58 :  recording_mode =  0
+
+23.03.2017 13:28:58 :  table_count =  1
+
+23.03.2017 13:28:58 :  record_count =  1
+
+23.03.2017 13:28:58 :  run_service =  1
+
+23.03.2017 13:28:58 :  airport_name_en =  Pulkovo
+
+23.03.2017 13:28:58 :  height_cta =     24.0000
+
+23.03.2017 13:28:58 :  lat_cta =  59.79655
+
+23.03.2017 13:28:58 :  lon_cta =  30.26250
+
+23.03.2017 13:28:58 :  mag_decl_cta =  10
+
+23.03.2017 13:28:58 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 13:28:58 :  id_vpp1 =  0
+
+23.03.2017 13:28:58 :  cat_vpp1 =  B
+
+23.03.2017 13:28:58 :  angle_vpp1 =  106.4190
+
+23.03.2017 13:28:58 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 13:28:58 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 13:28:58 :  lenght_vpp1 =  3782
+
+23.03.2017 13:28:58 :  width_vpp1 =  60
+
+23.03.2017 13:28:58 :  sign_left_vpp1 =  10R
+
+23.03.2017 13:28:58 :  sign_right_vpp1 =  28L
+
+23.03.2017 13:28:58 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 13:28:58 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 13:28:58 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 13:28:58 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 13:28:58 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 13:28:58 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 13:28:58 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 13:28:58 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 13:28:58 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 13:28:58 :  id_vpp2 =  1
+
+23.03.2017 13:28:58 :  cat_vpp2 =  A
+
+23.03.2017 13:28:58 :  angle_vpp2 =  106.4500
+
+23.03.2017 13:28:58 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 13:28:58 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 13:28:58 :  lenght_vpp2 =  3393
+
+23.03.2017 13:28:58 :  width_vpp2 =  60
+
+23.03.2017 13:28:58 :  sign_left_vpp2 =  10R
+
+23.03.2017 13:28:58 :  sign_right_vpp2 =  28L
+
+23.03.2017 13:28:58 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 13:28:58 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 13:28:58 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 13:28:58 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 13:28:58 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 13:28:58 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 13:28:58 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 13:28:58 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 13:31:53 :  Start service "Analyzer conflict"!
+
+23.03.2017 13:31:53 :  airport_name_en =  Pulkovo
+
+23.03.2017 13:31:53 :  port_main_client =  24322
+
+23.03.2017 13:31:53 :  port_test_client_cons =  24322
+
+23.03.2017 13:31:53 :  port_test_client_gui =  24322
+
+23.03.2017 13:31:53 :  ip_main_client =  192.168.2.209
+
+23.03.2017 13:31:53 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 13:31:53 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 13:31:53 :  recording_mode =  0
+
+23.03.2017 13:31:53 :  table_count =  1
+
+23.03.2017 13:31:53 :  record_count =  1
+
+23.03.2017 13:31:53 :  run_service =  1
+
+23.03.2017 13:31:53 :  airport_name_en =  Pulkovo
+
+23.03.2017 13:31:53 :  height_cta =     24.0000
+
+23.03.2017 13:31:53 :  lat_cta =  59.79655
+
+23.03.2017 13:31:53 :  lon_cta =  30.26250
+
+23.03.2017 13:31:53 :  mag_decl_cta =  10
+
+23.03.2017 13:31:53 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 13:31:53 :  id_vpp1 =  0
+
+23.03.2017 13:31:53 :  cat_vpp1 =  B
+
+23.03.2017 13:31:53 :  angle_vpp1 =  106.4190
+
+23.03.2017 13:31:53 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 13:31:53 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 13:31:53 :  lenght_vpp1 =  3782
+
+23.03.2017 13:31:53 :  width_vpp1 =  60
+
+23.03.2017 13:31:53 :  sign_left_vpp1 =  10R
+
+23.03.2017 13:31:53 :  sign_right_vpp1 =  28L
+
+23.03.2017 13:31:53 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 13:31:53 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 13:31:53 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 13:31:53 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 13:31:53 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 13:31:53 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 13:31:53 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 13:31:53 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 13:31:53 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 13:31:53 :  id_vpp2 =  1
+
+23.03.2017 13:31:53 :  cat_vpp2 =  A
+
+23.03.2017 13:31:53 :  angle_vpp2 =  106.4500
+
+23.03.2017 13:31:53 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 13:31:53 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 13:31:53 :  lenght_vpp2 =  3393
+
+23.03.2017 13:31:53 :  width_vpp2 =  60
+
+23.03.2017 13:31:53 :  sign_left_vpp2 =  10R
+
+23.03.2017 13:31:53 :  sign_right_vpp2 =  28L
+
+23.03.2017 13:31:53 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 13:31:53 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 13:31:53 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 13:31:53 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 13:31:53 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 13:31:53 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 13:31:53 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 13:31:53 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 13:44:10 :  Start service "Analyzer conflict"!
+
+23.03.2017 13:44:10 :  airport_name_en =  Pulkovo
+
+23.03.2017 13:44:10 :  port_main_client =  24322
+
+23.03.2017 13:44:10 :  port_test_client_cons =  24322
+
+23.03.2017 13:44:10 :  port_test_client_gui =  24322
+
+23.03.2017 13:44:10 :  ip_main_client =  192.168.2.209
+
+23.03.2017 13:44:10 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 13:44:10 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 13:44:10 :  recording_mode =  0
+
+23.03.2017 13:44:10 :  table_count =  1
+
+23.03.2017 13:44:10 :  record_count =  1
+
+23.03.2017 13:44:10 :  run_service =  1
+
+23.03.2017 13:44:10 :  airport_name_en =  Pulkovo
+
+23.03.2017 13:44:10 :  height_cta =     24.0000
+
+23.03.2017 13:44:10 :  lat_cta =  59.79655
+
+23.03.2017 13:44:10 :  lon_cta =  30.26250
+
+23.03.2017 13:44:10 :  mag_decl_cta =  10
+
+23.03.2017 13:44:10 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 13:44:10 :  id_vpp1 =  0
+
+23.03.2017 13:44:10 :  cat_vpp1 =  B
+
+23.03.2017 13:44:10 :  angle_vpp1 =  106.4190
+
+23.03.2017 13:44:10 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 13:44:10 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 13:44:10 :  lenght_vpp1 =  3782
+
+23.03.2017 13:44:10 :  width_vpp1 =  60
+
+23.03.2017 13:44:10 :  sign_left_vpp1 =  10R
+
+23.03.2017 13:44:10 :  sign_right_vpp1 =  28L
+
+23.03.2017 13:44:10 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 13:44:10 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 13:44:10 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 13:44:10 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 13:44:10 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 13:44:10 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 13:44:10 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 13:44:10 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 13:44:10 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 13:44:10 :  id_vpp2 =  1
+
+23.03.2017 13:44:10 :  cat_vpp2 =  A
+
+23.03.2017 13:44:10 :  angle_vpp2 =  106.4500
+
+23.03.2017 13:44:10 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 13:44:10 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 13:44:10 :  lenght_vpp2 =  3393
+
+23.03.2017 13:44:10 :  width_vpp2 =  60
+
+23.03.2017 13:44:10 :  sign_left_vpp2 =  10R
+
+23.03.2017 13:44:10 :  sign_right_vpp2 =  28L
+
+23.03.2017 13:44:10 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 13:44:10 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 13:44:10 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 13:44:10 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 13:44:10 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 13:44:10 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 13:44:10 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 13:44:10 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 13:47:08 :  Start service "Analyzer conflict"!
+
+23.03.2017 13:47:08 :  airport_name_en =  Pulkovo
+
+23.03.2017 13:47:08 :  port_main_client =  24322
+
+23.03.2017 13:47:08 :  port_test_client_cons =  24322
+
+23.03.2017 13:47:08 :  port_test_client_gui =  24322
+
+23.03.2017 13:47:08 :  ip_main_client =  192.168.2.209
+
+23.03.2017 13:47:08 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 13:47:08 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 13:47:08 :  recording_mode =  0
+
+23.03.2017 13:47:08 :  table_count =  1
+
+23.03.2017 13:47:08 :  record_count =  1
+
+23.03.2017 13:47:08 :  run_service =  1
+
+23.03.2017 13:47:08 :  airport_name_en =  Pulkovo
+
+23.03.2017 13:47:08 :  height_cta =     24.0000
+
+23.03.2017 13:47:08 :  lat_cta =  59.79655
+
+23.03.2017 13:47:08 :  lon_cta =  30.26250
+
+23.03.2017 13:47:08 :  mag_decl_cta =  10
+
+23.03.2017 13:47:08 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 13:47:08 :  id_vpp1 =  0
+
+23.03.2017 13:47:08 :  cat_vpp1 =  B
+
+23.03.2017 13:47:08 :  angle_vpp1 =  106.4190
+
+23.03.2017 13:47:08 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 13:47:08 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 13:47:08 :  lenght_vpp1 =  3782
+
+23.03.2017 13:47:08 :  width_vpp1 =  60
+
+23.03.2017 13:47:08 :  sign_left_vpp1 =  10R
+
+23.03.2017 13:47:08 :  sign_right_vpp1 =  28L
+
+23.03.2017 13:47:08 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 13:47:08 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 13:47:08 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 13:47:08 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 13:47:08 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 13:47:08 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 13:47:08 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 13:47:08 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 13:47:08 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 13:47:08 :  id_vpp2 =  1
+
+23.03.2017 13:47:08 :  cat_vpp2 =  A
+
+23.03.2017 13:47:08 :  angle_vpp2 =  106.4500
+
+23.03.2017 13:47:08 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 13:47:08 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 13:47:08 :  lenght_vpp2 =  3393
+
+23.03.2017 13:47:08 :  width_vpp2 =  60
+
+23.03.2017 13:47:08 :  sign_left_vpp2 =  10R
+
+23.03.2017 13:47:08 :  sign_right_vpp2 =  28L
+
+23.03.2017 13:47:08 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 13:47:08 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 13:47:08 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 13:47:08 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 13:47:08 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 13:47:08 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 13:47:08 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 13:47:08 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 14:02:34 :  Start service "Analyzer conflict"!
+
+23.03.2017 14:02:34 :  airport_name_en =  Pulkovo
+
+23.03.2017 14:02:34 :  port_main_client =  24322
+
+23.03.2017 14:02:34 :  port_test_client_cons =  24322
+
+23.03.2017 14:02:34 :  port_test_client_gui =  24322
+
+23.03.2017 14:02:34 :  ip_main_client =  192.168.2.209
+
+23.03.2017 14:02:34 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 14:02:34 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 14:02:34 :  recording_mode =  0
+
+23.03.2017 14:02:34 :  table_count =  1
+
+23.03.2017 14:02:34 :  record_count =  1
+
+23.03.2017 14:02:34 :  run_service =  0
+
+23.03.2017 14:02:34 :  airport_name_en =  Pulkovo
+
+23.03.2017 14:02:34 :  height_cta =     24.0000
+
+23.03.2017 14:02:34 :  lat_cta =  59.79655
+
+23.03.2017 14:02:34 :  lon_cta =  30.26250
+
+23.03.2017 14:02:34 :  mag_decl_cta =  10
+
+23.03.2017 14:02:34 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 14:02:34 :  id_vpp1 =  0
+
+23.03.2017 14:02:34 :  cat_vpp1 =  B
+
+23.03.2017 14:02:34 :  angle_vpp1 =  106.4190
+
+23.03.2017 14:02:34 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 14:02:34 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 14:02:34 :  lenght_vpp1 =  3782
+
+23.03.2017 14:02:34 :  width_vpp1 =  60
+
+23.03.2017 14:02:34 :  sign_left_vpp1 =  10R
+
+23.03.2017 14:02:34 :  sign_right_vpp1 =  28L
+
+23.03.2017 14:02:34 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 14:02:34 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 14:02:34 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 14:02:34 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 14:02:34 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 14:02:34 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 14:02:34 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 14:02:34 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 14:02:34 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 14:02:34 :  id_vpp2 =  1
+
+23.03.2017 14:02:34 :  cat_vpp2 =  A
+
+23.03.2017 14:02:34 :  angle_vpp2 =  106.4500
+
+23.03.2017 14:02:34 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 14:02:34 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 14:02:34 :  lenght_vpp2 =  3393
+
+23.03.2017 14:02:34 :  width_vpp2 =  60
+
+23.03.2017 14:02:34 :  sign_left_vpp2 =  10R
+
+23.03.2017 14:02:34 :  sign_right_vpp2 =  28L
+
+23.03.2017 14:02:34 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 14:02:34 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 14:02:34 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 14:02:34 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 14:02:34 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 14:02:34 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 14:02:34 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 14:02:34 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 14:29:59 :  Start service "Analyzer conflict"!
+
+23.03.2017 14:29:59 :  airport_name_en =  Pulkovo
+
+23.03.2017 14:29:59 :  port_main_client =  24322
+
+23.03.2017 14:29:59 :  port_test_client_cons =  24322
+
+23.03.2017 14:29:59 :  port_test_client_gui =  24322
+
+23.03.2017 14:29:59 :  ip_main_client =  192.168.2.209
+
+23.03.2017 14:29:59 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 14:29:59 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 14:29:59 :  recording_mode =  0
+
+23.03.2017 14:29:59 :  table_count =  1
+
+23.03.2017 14:29:59 :  record_count =  1
+
+23.03.2017 14:29:59 :  run_service =  0
+
+23.03.2017 14:29:59 :  airport_name_en =  Pulkovo
+
+23.03.2017 14:29:59 :  height_cta =     24.0000
+
+23.03.2017 14:29:59 :  lat_cta =  59.79655
+
+23.03.2017 14:29:59 :  lon_cta =  30.26250
+
+23.03.2017 14:29:59 :  mag_decl_cta =  10
+
+23.03.2017 14:29:59 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 14:29:59 :  id_vpp1 =  0
+
+23.03.2017 14:29:59 :  cat_vpp1 =  B
+
+23.03.2017 14:29:59 :  angle_vpp1 =  106.4190
+
+23.03.2017 14:29:59 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 14:29:59 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 14:29:59 :  lenght_vpp1 =  3782
+
+23.03.2017 14:29:59 :  width_vpp1 =  60
+
+23.03.2017 14:29:59 :  sign_left_vpp1 =  10R
+
+23.03.2017 14:29:59 :  sign_right_vpp1 =  28L
+
+23.03.2017 14:29:59 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 14:29:59 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 14:29:59 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 14:29:59 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 14:29:59 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 14:29:59 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 14:29:59 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 14:29:59 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 14:29:59 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 14:29:59 :  id_vpp2 =  1
+
+23.03.2017 14:29:59 :  cat_vpp2 =  A
+
+23.03.2017 14:29:59 :  angle_vpp2 =  106.4500
+
+23.03.2017 14:29:59 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 14:29:59 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 14:29:59 :  lenght_vpp2 =  3393
+
+23.03.2017 14:29:59 :  width_vpp2 =  60
+
+23.03.2017 14:29:59 :  sign_left_vpp2 =  10R
+
+23.03.2017 14:29:59 :  sign_right_vpp2 =  28L
+
+23.03.2017 14:29:59 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 14:29:59 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 14:29:59 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 14:29:59 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 14:29:59 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 14:29:59 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 14:29:59 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 14:29:59 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 14:41:07 :  Start service "Analyzer conflict"!
+
+23.03.2017 14:41:07 :  airport_name_en =  Pulkovo
+
+23.03.2017 14:41:07 :  port_main_client =  24322
+
+23.03.2017 14:41:07 :  port_test_client_cons =  24322
+
+23.03.2017 14:41:07 :  port_test_client_gui =  24322
+
+23.03.2017 14:41:07 :  ip_main_client =  192.168.2.209
+
+23.03.2017 14:41:07 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 14:41:07 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 14:41:07 :  recording_mode =  0
+
+23.03.2017 14:41:07 :  table_count =  1
+
+23.03.2017 14:41:07 :  record_count =  1
+
+23.03.2017 14:41:07 :  run_service =  0
+
+23.03.2017 14:41:07 :  airport_name_en =  Pulkovo
+
+23.03.2017 14:41:07 :  height_cta =     24.0000
+
+23.03.2017 14:41:07 :  lat_cta =  59.79655
+
+23.03.2017 14:41:07 :  lon_cta =  30.26250
+
+23.03.2017 14:41:07 :  mag_decl_cta =  10
+
+23.03.2017 14:41:07 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 14:41:07 :  id_vpp1 =  0
+
+23.03.2017 14:41:07 :  cat_vpp1 =  B
+
+23.03.2017 14:41:07 :  angle_vpp1 =  106.4190
+
+23.03.2017 14:41:07 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 14:41:07 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 14:41:07 :  lenght_vpp1 =  3782
+
+23.03.2017 14:41:07 :  width_vpp1 =  60
+
+23.03.2017 14:41:07 :  sign_left_vpp1 =  10R
+
+23.03.2017 14:41:07 :  sign_right_vpp1 =  28L
+
+23.03.2017 14:41:07 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 14:41:07 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 14:41:07 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 14:41:07 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 14:41:07 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 14:41:07 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 14:41:07 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 14:41:07 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 14:41:07 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 14:41:07 :  id_vpp2 =  1
+
+23.03.2017 14:41:07 :  cat_vpp2 =  A
+
+23.03.2017 14:41:07 :  angle_vpp2 =  106.4500
+
+23.03.2017 14:41:07 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 14:41:07 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 14:41:07 :  lenght_vpp2 =  3393
+
+23.03.2017 14:41:07 :  width_vpp2 =  60
+
+23.03.2017 14:41:07 :  sign_left_vpp2 =  10R
+
+23.03.2017 14:41:07 :  sign_right_vpp2 =  28L
+
+23.03.2017 14:41:07 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 14:41:07 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 14:41:07 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 14:41:07 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 14:41:07 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 14:41:07 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 14:41:07 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 14:41:07 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 14:43:34 :  Start service "Analyzer conflict"!
+
+23.03.2017 14:43:34 :  airport_name_en =  Pulkovo
+
+23.03.2017 14:43:34 :  port_main_client =  24322
+
+23.03.2017 14:43:34 :  port_test_client_cons =  24322
+
+23.03.2017 14:43:34 :  port_test_client_gui =  24322
+
+23.03.2017 14:43:34 :  ip_main_client =  192.168.2.209
+
+23.03.2017 14:43:34 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 14:43:34 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 14:43:34 :  recording_mode =  0
+
+23.03.2017 14:43:34 :  table_count =  1
+
+23.03.2017 14:43:34 :  record_count =  1
+
+23.03.2017 14:43:34 :  run_service =  1
+
+23.03.2017 14:43:34 :  airport_name_en =  Pulkovo
+
+23.03.2017 14:43:34 :  height_cta =     24.0000
+
+23.03.2017 14:43:34 :  lat_cta =  59.79655
+
+23.03.2017 14:43:34 :  lon_cta =  30.26250
+
+23.03.2017 14:43:34 :  mag_decl_cta =  10
+
+23.03.2017 14:43:34 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 14:43:34 :  id_vpp1 =  0
+
+23.03.2017 14:43:34 :  cat_vpp1 =  B
+
+23.03.2017 14:43:34 :  angle_vpp1 =  106.4190
+
+23.03.2017 14:43:34 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 14:43:34 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 14:43:34 :  lenght_vpp1 =  3782
+
+23.03.2017 14:43:34 :  width_vpp1 =  60
+
+23.03.2017 14:43:34 :  sign_left_vpp1 =  10R
+
+23.03.2017 14:43:34 :  sign_right_vpp1 =  28L
+
+23.03.2017 14:43:34 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 14:43:34 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 14:43:34 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 14:43:34 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 14:43:34 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 14:43:34 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 14:43:34 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 14:43:34 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 14:43:34 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 14:43:34 :  id_vpp2 =  1
+
+23.03.2017 14:43:34 :  cat_vpp2 =  A
+
+23.03.2017 14:43:34 :  angle_vpp2 =  106.4500
+
+23.03.2017 14:43:34 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 14:43:34 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 14:43:34 :  lenght_vpp2 =  3393
+
+23.03.2017 14:43:34 :  width_vpp2 =  60
+
+23.03.2017 14:43:34 :  sign_left_vpp2 =  10R
+
+23.03.2017 14:43:34 :  sign_right_vpp2 =  28L
+
+23.03.2017 14:43:34 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 14:43:34 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 14:43:34 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 14:43:34 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 14:43:34 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 14:43:34 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 14:43:34 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 14:43:34 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 15:02:11 :  Start service "Analyzer conflict"!
+
+23.03.2017 15:02:11 :  airport_name_en =  Pulkovo
+
+23.03.2017 15:02:11 :  port_main_client =  24322
+
+23.03.2017 15:02:11 :  port_test_client_cons =  24322
+
+23.03.2017 15:02:11 :  port_test_client_gui =  24322
+
+23.03.2017 15:02:11 :  ip_main_client =  192.168.2.209
+
+23.03.2017 15:02:11 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 15:02:11 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 15:02:11 :  recording_mode =  0
+
+23.03.2017 15:02:11 :  table_count =  1
+
+23.03.2017 15:02:11 :  record_count =  1
+
+23.03.2017 15:02:11 :  run_service =  1
+
+23.03.2017 15:02:11 :  airport_name_en =  Pulkovo
+
+23.03.2017 15:02:11 :  height_cta =     24.0000
+
+23.03.2017 15:02:11 :  lat_cta =  59.79655
+
+23.03.2017 15:02:11 :  lon_cta =  30.26250
+
+23.03.2017 15:02:11 :  mag_decl_cta =  10
+
+23.03.2017 15:02:11 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 15:02:11 :  id_vpp1 =  0
+
+23.03.2017 15:02:11 :  cat_vpp1 =  B
+
+23.03.2017 15:02:11 :  angle_vpp1 =  106.4190
+
+23.03.2017 15:02:11 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 15:02:11 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 15:02:11 :  lenght_vpp1 =  3782
+
+23.03.2017 15:02:11 :  width_vpp1 =  60
+
+23.03.2017 15:02:11 :  sign_left_vpp1 =  10R
+
+23.03.2017 15:02:11 :  sign_right_vpp1 =  28L
+
+23.03.2017 15:02:11 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 15:02:11 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 15:02:11 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 15:02:11 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 15:02:11 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 15:02:11 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 15:02:11 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 15:02:11 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 15:02:11 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 15:02:11 :  id_vpp2 =  1
+
+23.03.2017 15:02:11 :  cat_vpp2 =  A
+
+23.03.2017 15:02:11 :  angle_vpp2 =  106.4500
+
+23.03.2017 15:02:11 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 15:02:11 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 15:02:11 :  lenght_vpp2 =  3393
+
+23.03.2017 15:02:11 :  width_vpp2 =  60
+
+23.03.2017 15:02:11 :  sign_left_vpp2 =  10R
+
+23.03.2017 15:02:11 :  sign_right_vpp2 =  28L
+
+23.03.2017 15:02:11 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 15:02:11 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 15:02:11 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 15:02:11 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 15:02:11 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 15:02:11 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 15:02:11 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 15:02:11 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 15:10:28 :  Start service "Analyzer conflict"!
+
+23.03.2017 15:10:28 :  airport_name_en =  Pulkovo
+
+23.03.2017 15:10:28 :  port_main_client =  24322
+
+23.03.2017 15:10:28 :  port_test_client_cons =  24322
+
+23.03.2017 15:10:28 :  port_test_client_gui =  24322
+
+23.03.2017 15:10:28 :  ip_main_client =  192.168.2.209
+
+23.03.2017 15:10:28 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 15:10:28 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 15:10:28 :  recording_mode =  0
+
+23.03.2017 15:10:28 :  table_count =  1
+
+23.03.2017 15:10:28 :  record_count =  1
+
+23.03.2017 15:10:28 :  run_service =  1
+
+23.03.2017 15:10:28 :  airport_name_en =  Pulkovo
+
+23.03.2017 15:10:28 :  height_cta =     24.0000
+
+23.03.2017 15:10:28 :  lat_cta =  59.79655
+
+23.03.2017 15:10:28 :  lon_cta =  30.26250
+
+23.03.2017 15:10:28 :  mag_decl_cta =  10
+
+23.03.2017 15:10:28 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 15:10:28 :  id_vpp1 =  0
+
+23.03.2017 15:10:28 :  cat_vpp1 =  B
+
+23.03.2017 15:10:28 :  angle_vpp1 =  106.4190
+
+23.03.2017 15:10:28 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 15:10:28 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 15:10:28 :  lenght_vpp1 =  3782
+
+23.03.2017 15:10:28 :  width_vpp1 =  60
+
+23.03.2017 15:10:28 :  sign_left_vpp1 =  10R
+
+23.03.2017 15:10:28 :  sign_right_vpp1 =  28L
+
+23.03.2017 15:10:28 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 15:10:28 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 15:10:28 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 15:10:28 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 15:10:28 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 15:10:28 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 15:10:28 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 15:10:28 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 15:10:28 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 15:10:28 :  id_vpp2 =  1
+
+23.03.2017 15:10:28 :  cat_vpp2 =  A
+
+23.03.2017 15:10:28 :  angle_vpp2 =  106.4500
+
+23.03.2017 15:10:28 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 15:10:28 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 15:10:28 :  lenght_vpp2 =  3393
+
+23.03.2017 15:10:28 :  width_vpp2 =  60
+
+23.03.2017 15:10:28 :  sign_left_vpp2 =  10R
+
+23.03.2017 15:10:28 :  sign_right_vpp2 =  28L
+
+23.03.2017 15:10:28 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 15:10:28 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 15:10:28 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 15:10:28 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 15:10:28 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 15:10:28 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 15:10:28 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 15:10:28 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 15:20:25 :  Start service "Analyzer conflict"!
+
+23.03.2017 15:20:25 :  airport_name_en =  Pulkovo
+
+23.03.2017 15:20:25 :  port_main_client =  24322
+
+23.03.2017 15:20:25 :  port_test_client_cons =  24322
+
+23.03.2017 15:20:25 :  port_test_client_gui =  24322
+
+23.03.2017 15:20:25 :  ip_main_client =  192.168.2.209
+
+23.03.2017 15:20:25 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 15:20:25 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 15:20:25 :  recording_mode =  0
+
+23.03.2017 15:20:25 :  table_count =  1
+
+23.03.2017 15:20:25 :  record_count =  1
+
+23.03.2017 15:20:25 :  run_service =  0
+
+23.03.2017 15:20:25 :  airport_name_en =  Pulkovo
+
+23.03.2017 15:20:25 :  height_cta =     24.0000
+
+23.03.2017 15:20:25 :  lat_cta =  59.79655
+
+23.03.2017 15:20:25 :  lon_cta =  30.26250
+
+23.03.2017 15:20:25 :  mag_decl_cta =  10
+
+23.03.2017 15:20:25 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 15:20:25 :  id_vpp1 =  0
+
+23.03.2017 15:20:25 :  cat_vpp1 =  B
+
+23.03.2017 15:20:25 :  angle_vpp1 =  106.4190
+
+23.03.2017 15:20:25 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 15:20:25 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 15:20:25 :  lenght_vpp1 =  3782
+
+23.03.2017 15:20:25 :  width_vpp1 =  60
+
+23.03.2017 15:20:25 :  sign_left_vpp1 =  10R
+
+23.03.2017 15:20:25 :  sign_right_vpp1 =  28L
+
+23.03.2017 15:20:25 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 15:20:25 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 15:20:25 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 15:20:25 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 15:20:25 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 15:20:25 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 15:20:25 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 15:20:25 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 15:20:25 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 15:20:25 :  id_vpp2 =  1
+
+23.03.2017 15:20:25 :  cat_vpp2 =  A
+
+23.03.2017 15:20:25 :  angle_vpp2 =  106.4500
+
+23.03.2017 15:20:25 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 15:20:25 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 15:20:25 :  lenght_vpp2 =  3393
+
+23.03.2017 15:20:25 :  width_vpp2 =  60
+
+23.03.2017 15:20:25 :  sign_left_vpp2 =  10R
+
+23.03.2017 15:20:25 :  sign_right_vpp2 =  28L
+
+23.03.2017 15:20:25 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 15:20:25 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 15:20:25 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 15:20:25 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 15:20:25 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 15:20:25 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 15:20:25 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 15:20:25 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 15:24:46 :  Error, missing some fields in cat11: Service Identification
+
+23.03.2017 15:24:46 :  Error, missing some fields in cat11: Position in WGS-84 Coordinates
+
+23.03.2017 15:24:46 :  Error, missing some fields in cat11: Measured Flight Level
+
+23.03.2017 15:24:46 :  Error, missing some fields in cat11:_geo_altitude
+
+23.03.2017 15:24:46 :  Error, missing some fields in cat11: Track Barometric Altitude
+
+23.03.2017 15:24:46 :  Error, missing some fields in cat11: Calculated Acceleration
+
+23.03.2017 15:24:46 :  Error, missing some fields in cat11:_vert_rate
+
+23.03.2017 18:15:00 :  Start service "Analyzer conflict"!
+
+23.03.2017 18:15:00 :  airport_name_en =  Pulkovo
+
+23.03.2017 18:15:00 :  port_main_client =  24322
+
+23.03.2017 18:15:00 :  port_test_client_cons =  24322
+
+23.03.2017 18:15:00 :  port_test_client_gui =  24322
+
+23.03.2017 18:15:00 :  ip_main_client =  192.168.2.209
+
+23.03.2017 18:15:00 :  ip_test_client_cons =  192.168.2.209
+
+23.03.2017 18:15:00 :  ip_test_client_gui =  192.168.2.209
+
+23.03.2017 18:15:00 :  recording_mode =  0
+
+23.03.2017 18:15:00 :  table_count =  1
+
+23.03.2017 18:15:00 :  record_count =  1
+
+23.03.2017 18:15:00 :  run_service =  0
+
+23.03.2017 18:15:00 :  airport_name_en =  Pulkovo
+
+23.03.2017 18:15:00 :  height_cta =     24.0000
+
+23.03.2017 18:15:00 :  lat_cta =  59.79655
+
+23.03.2017 18:15:00 :  lon_cta =  30.26250
+
+23.03.2017 18:15:00 :  mag_decl_cta =  10
+
+23.03.2017 18:15:00 :  caption_vpp1 =  ВПП-1
+
+23.03.2017 18:15:00 :  id_vpp1 =  0
+
+23.03.2017 18:15:00 :  cat_vpp1 =  B
+
+23.03.2017 18:15:00 :  angle_vpp1 =  106.4190
+
+23.03.2017 18:15:00 :  runway_lat_vpp1 =  59.79514
+
+23.03.2017 18:15:00 :  runway_lon_vpp1 =  30.25064
+
+23.03.2017 18:15:00 :  lenght_vpp1 =  3782
+
+23.03.2017 18:15:00 :  width_vpp1 =  60
+
+23.03.2017 18:15:00 :  sign_left_vpp1 =  10R
+
+23.03.2017 18:15:00 :  sign_right_vpp1 =  28L
+
+23.03.2017 18:15:00 :  north_wgs_lat_vpp1 =  59.80019
+
+23.03.2017 18:15:00 :  north_wgs_lon_vpp1 =  30.21849
+
+23.03.2017 18:15:00 :  south_wgs_lat_vpp1 =  59.79009
+
+23.03.2017 18:15:00 :  south_wgs_lon_vpp1 =  30.28278
+
+23.03.2017 18:15:00 :  west_wgs_lat_vpp1 =  59.79965
+
+23.03.2017 18:15:00 :  west_wgs_lon_vpp1 =  30.21823
+
+23.03.2017 18:15:00 :  east_wgs_lat_vpp1 =  59.79059
+
+23.03.2017 18:15:00 :  east_wgs_lon_vpp1 =  30.28304
+
+23.03.2017 18:15:00 :  caption_vpp2 =  ВПП-2
+
+23.03.2017 18:15:00 :  id_vpp2 =  1
+
+23.03.2017 18:15:00 :  cat_vpp2 =  A
+
+23.03.2017 18:15:00 :  angle_vpp2 =  106.4500
+
+23.03.2017 18:15:00 :  runway_lat_vpp2 =  59.80545
+
+23.03.2017 18:15:00 :  runway_lon_vpp2 =  30.27438
+
+23.03.2017 18:15:00 :  lenght_vpp2 =  3393
+
+23.03.2017 18:15:00 :  width_vpp2 =  60
+
+23.03.2017 18:15:00 :  sign_left_vpp2 =  10R
+
+23.03.2017 18:15:00 :  sign_right_vpp2 =  28L
+
+23.03.2017 18:15:00 :  north_wgs_lat_vpp2 =  59.81001
+
+23.03.2017 18:15:00 :  north_wgs_lon_vpp2 =  30.24561
+
+23.03.2017 18:15:00 :  south_wgs_lat_vpp2 =  59.80089
+
+23.03.2017 18:15:00 :  south_wgs_lon_vpp2 =  30.30338
+
+23.03.2017 18:15:00 :  west_wgs_lat_vpp2 =  59.80951
+
+23.03.2017 18:15:00 :  west_wgs_lon_vpp2 =  30.24527
+
+23.03.2017 18:15:00 :  east_wgs_lat_vpp2 =  59.80134
+
+23.03.2017 18:15:00 :  east_wgs_lon_vpp2 =  30.30364
+
+23.03.2017 18:20:12 :  Error, missing some fields in cat11: Service Identification
+
+23.03.2017 18:20:12 :  Error, missing some fields in cat11: Position in WGS-84 Coordinates
+
+23.03.2017 18:20:12 :  Error, missing some fields in cat11: Measured Flight Level
+
+23.03.2017 18:20:12 :  Error, missing some fields in cat11:_geo_altitude
+
+23.03.2017 18:20:12 :  Error, missing some fields in cat11: Track Barometric Altitude
+
+23.03.2017 18:20:12 :  Error, missing some fields in cat11: Calculated Acceleration
+
+23.03.2017 18:20:12 :  Error, missing some fields in cat11:_vert_rate
+
+23.03.2017 18:29:29 :  Error, missing some fields in cat11: Service Identification
+
+23.03.2017 18:29:29 :  Error, missing some fields in cat11: Position in WGS-84 Coordinates
+
+23.03.2017 18:29:29 :  Error, missing some fields in cat11: Measured Flight Level
+
+23.03.2017 18:29:29 :  Error, missing some fields in cat11:_geo_altitude
+
+23.03.2017 18:29:29 :  Error, missing some fields in cat11: Track Barometric Altitude
+
+23.03.2017 18:29:29 :  Error, missing some fields in cat11: Calculated Acceleration
+
+23.03.2017 18:29:29 :  Error, missing some fields in cat11:_vert_rate
+

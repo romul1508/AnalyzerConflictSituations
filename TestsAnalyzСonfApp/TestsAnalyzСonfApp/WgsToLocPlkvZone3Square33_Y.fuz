@@ -1,0 +1,18 @@
+input:name: LAT
+input:term: trap SLT 0.0 0.3 0.7287 1.0 
+term:term_descr:  jTextField6
+
+input:term: trap LLT 0.7287 1.0 1.4 1.8 
+term:term_descr:  jTextField6
+
+output:name: Y
+output:term: simple_point Y1 0.2
+term:term_descr: jTextField8
+
+output:term: simple_point Y2 0.3
+term:term_descr: jTextField8
+
+rule: Rule1 input LAT SLT
+rule: Rule1 output Y Y2
+rule: Rule2 input LAT LLT
+rule: Rule2 output Y Y1
