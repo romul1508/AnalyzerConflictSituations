@@ -9,3 +9,6 @@ The program module is implemented in the C ++ programming language
 in the development environment - Qt Creator. 
 Dispenses with Qt functionality to perform functionality. 
 The program functions in LINUX-like operating systems.
+
+Note: for those who are accustomed to using the Windows operating system, 
+we recommend using the attached simplified program TestsAnalyzConfApp.
