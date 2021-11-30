@@ -663,8 +663,8 @@ SimplifiedGeoCalc::SimplifiedGeoCalc(double lat, double lon, double height, doub
 		xyz_point.Z = (N * (1 - e) + height) * sin(B);
 		//---------------------------
 		// calculate flat coordinates
-		X = 0;									// eastward bias
-		Y = 0;									// north offset
+		X = 0;								// eastward bias
+		Y = 0;								// north offset
 		geoCalc.WgsToPrGaus(lat, lon, &X, &Y);
 				
 		//---------------------------
@@ -695,8 +695,9 @@ SimplifiedGeoCalc::SimplifiedGeoCalc(double lat, double lon, double height, doub
 		xyz_point.Z = (N * (1 - e) + height) * sin(B);
 		//-----------------------------
 		// calculate the plane coordinates
-		X = 0;									// eastward bias
-		Y = 0;									// north offset
+		X = 0;							// eastward bias
+		Y = 0;							// north offset
+		
 		geoCalc.WgsToPrGaus(wgs_84_point.wgs_Y_lat, wgs_84_point.wgs_X_lon, &X, &Y);
 		
 		//-------------------------
@@ -720,10 +721,10 @@ SimplifiedGeoCalc::SimplifiedGeoCalc(double lat, double lon, double height, doub
 			wgs_84_point.wgs_Y_lat = SK42_WGS84_Lat(sk_42_point.sk42_Y_lat, sk_42_point.sk42_X_lon, height);
 			
 			// calculate the plane coordinates
-			X = 0;								// eastward bias
-			Y = 0;								// north offset
-			geoCalc.WgsToPrGaus(wgs_84_point.wgs_Y_lat, wgs_84_point.wgs_X_lon, &X, &Y);
-		
+			X = 0;							// eastward bias
+			Y = 0;							// north offset
+			
+			geoCalc.WgsToPrGaus(wgs_84_point.wgs_Y_lat, wgs_84_point.wgs_X_lon, &X, &Y);		
 			//-------------------------
 			// define a point in the local coordinate system
 			kta_point.kta_Y = Y - Y_ref;
@@ -1027,9 +1028,9 @@ int GeoCalc::P3_90_02_SK42(double Lat, double Lon, double H, double *ph_wgs, dou
 	const double m = 0.0000022;
 											
 	//-------------------------------
-	const double ro = 206264.8062;		// arc seconds in radians
-	B = Lat * DEG_RAD;					// latitude in radians
-	L = Lon * DEG_RAD;					// longitude in radians
+	const double ro = 206264.8062;			// arc seconds in radians
+	B = Lat * DEG_RAD;				// latitude in radians
+	L = Lon * DEG_RAD;				// longitude in radians
 	sinLat = sin(B);
 	cosLat = cos(B);
 	cosLon = cos(L);
@@ -1372,70 +1373,105 @@ double GeoCalc::SK42_P3_90_02_Lat(double Lat, double Lon, double H)
 	return B * RAD_DEG;
 }
 //----------------------------------------------------------------
-// Преобразование геодезических координат из системы СК-42 в систему П3-90.02
-// пересчет долготы
 double GeoCalc::SK42_P3_90_02_Lon(double Lat, double Lon, double H)
 {
+	// Conversion of geodetic coordinates from the SK-42 system to the P3-90.02 system. 
+	// Longitude recalculation
+	
 	double dB, dL, dH, B, L, sinLat, cosLat, cosLon, sinLon, sin2Lat, M, N;
-	const double a_sk_42 = 6378245.0;							// размер большой полуоси в системе СК-42 в метрах
-	const double a_p3_90_02 = 6378136.0;					// размер большой полуоси в системе П3-90.02 в метрах
-	const double a = (a_sk_42 + a_p3_90_02) * 0.5;		// средняя большая полуось
+	
+	// the size of the major semiaxis in the SK-42 system in meters
+	const double a_sk_42 = 6378245.0;					
+	
+	// the size of the major semiaxis in the P3-90.02 system in meters
+	const double a_p3_90_02 = 6378136.0;				
+	
+	// middle semi-major axis
+	const double a = (a_sk_42 + a_p3_90_02) * 0.5;		
 	const double dA = a_sk_42 - a_p3_90_02;
 	//-----------------------------
-	const double alfa_sk_42 = 1/298.3;							// сжатие эллипсоида Красовского в системе СК-42
-	const double alfa_p3_90_02 = 1/298.25784;			// сжатие эллипсоида  в общеземной геодезической системе координат П3-90.02
+	// compression of the Krasovsky ellipsoid in the SK-42 system
+	const double alfa_sk_42 = 1/298.3;					
+	
+	// compression of an ellipsoid 
+	// in the general terrestrial geodetic coordinate system P3-90.02
+	const double alfa_p3_90_02 = 1/298.25784;			
 	//-----------------------------
-	const double e_2_sk_42 = 2 * alfa_sk_42 - pow(alfa_sk_42, 2);							// квадрат эксцентриситета эллипсоида в системе СК-42
-	const double e_2_p3_90_02 = 2 * alfa_p3_90_02 - pow(alfa_p3_90_02, 2);		// квадрат эксцентриситета эллипсоида в системе П3-90.02
-	const double e2 = (e_2_sk_42 + e_2_p3_90_02)/2;											// квадрат эксцентриситета
-	const double dE2 = e_2_sk_42 - e_2_p3_90_02;												// разность квадратов эксцентриситета
+	// the square of the eccentricity of the ellipsoid in the SK-42 system
+	const double e_2_sk_42 = 2 * alfa_sk_42 - pow(alfa_sk_42, 2);				
+	
+	// the square of the eccentricity of the ellipsoid in the P3-90.02 system
+	const double e_2_p3_90_02 = 2 * alfa_p3_90_02 - pow(alfa_p3_90_02, 2);		
+	
+	// squared eccentricity
+	const double e2 = (e_2_sk_42 + e_2_p3_90_02)/2;								
+	
+	// difference of squares of eccentricity
+	const double dE2 = e_2_sk_42 - e_2_p3_90_02;												
 	//-------------------------------
-	// линейные элементы трансформирования систем координат
+	// linear transformation elements of coordinate systems
 	const double dX = 23.93;
 	const double dY = -141.03;
 	const double dZ = -79.98;
 	//-------------------------------
-	// угловые элементы трансформирования систем координат
+	// corners of transformation of coordinate systems
 	const double Wx = 0;
 	const double Wy = -0.35;
 	const double Wz = -0.79;
 	//-------------------------------
 	const double m = -22000.0;
 	//-------------------------------
-	const double ro = 206264.8062;								// число угловых секунд в радиане
-	B = Lat * DEG_RAD;												// широта в радианах
-	L = Lon * DEG_RAD;												// долгота в радианах
+	const double ro = 206264.8062;		// arc seconds in radians
+	B = Lat * DEG_RAD;			// latitude in radians
+	L = Lon * DEG_RAD;			// longitude in radians
 	sinLat = sin(B);
 	cosLat = cos(B);
 	cosLon = cos(L);
 	sinLon = sin(L);
 
 	sin2Lat = pow(sinLat, 2);
-	M = a * (1 - e2 ) * pow( (1 - e2 * sin2Lat), -1.5 );		// радиус кривизны меридиана
-	N = a * pow((1 - e2 * sin2Lat), -0.5);						// радиус кривизны первого вертикала
 
-	dB = (ro/(M + H)) * ( (N/a) * e2 * sinLat * cosLat * dA + (pow(N, 2)/pow(a, 2) + 1 ) * N * sinLat * cosLat * dE2/2 - (dX * cosLon + dY * sinLon) * sinLat + dZ * cosLat) -
-		Wx * sinLon * (1 + e2 * cos(2.0 * B)) + Wy * cosLon * (1 + e2 * cos(2.0 * B) ) - ro * m * e2 * sinLat * cosLat;
+	// radius of curvature of the meridian
+	M = a * (1 - e2 ) * pow( (1 - e2 * sin2Lat), -1.5 );		
+	
+	// radius of curvature of the first vertical
+	N = a * pow((1 - e2 * sin2Lat), -0.5);						
 
-	dL = (ro/((N + H) * cosLat ) ) * (-dX * sinLon + dY * cosLon) + tan(B) * (1 - e2) * (Wx * cosLon + Wy * sinLon) - Wz;
+	dB = (ro/(M + H)) * ( (N/a) * e2 * sinLat * cosLat * dA 
+		+ (pow(N, 2)/pow(a, 2) + 1 ) * N * sinLat * cosLat * dE2/2 
+		- (dX * cosLon + dY * sinLon) * sinLat + dZ * cosLat) 
+		- Wx * sinLon * (1 + e2 * cos(2.0 * B)) 
+		+ Wy * cosLon * (1 + e2 * cos(2.0 * B) ) 
+		- ro * m * e2 * sinLat * cosLat;
 
-	dH = (-a/N) * dA + N * sin2Lat * (dE2/2) + (dX * cosLon + dY * sinLon) * cosLat + dZ * sinLat - N * e2 * sinLat * cosLat * ( (Wx/ro) * sinLon -  (Wy/ro) * cosLon ) + (pow(a, 2)/N + H ) * m;
+	dL = (ro/((N + H) * cosLat ) ) * (-dX * sinLon + dY * cosLon) 
+		+ tan(B) * (1 - e2) * (Wx * cosLon + Wy * sinLon) - Wz;
+
+	dH = (-a/N) * dA + N * sin2Lat * (dE2/2) 
+		+ (dX * cosLon + dY * sinLon) * cosLat 
+		+ dZ * sinLat - N * e2 * sinLat * cosLat * ( (Wx/ro) * sinLon -  (Wy/ro) * cosLon ) 
+		+ (pow(a, 2)/N + H ) * m;
 
 	B = B + dB;
 	L = L + dL;
 	H = H + dH;
 
-	// для уменьшения погрешности делаем вторую итерацию
+	// to reduce the error, we do the second iteration
 	sinLat = sin(B);
 	cosLat = cos(B);
 	cosLon = cos(L);
 	sinLon = sin(L);
 
 	sin2Lat = pow(sinLat, 2);
-	M = a * (1 - e2 ) * pow( (1 - e2 * sin2Lat), -1.5 );		// радиус кривизны меридиана
-	N = a * pow((1 - e2 * sin2Lat), -0.5);						// радиус кривизны первого вертикала
 
-	dL = (ro/((N + H) * cosLat ) ) * (-dX * sinLon + dY * cosLon) + tan(B) * (1 - e2) * (Wx * cosLon + Wy * sinLon) - Wz;
+	// radius of curvature of the meridian
+	M = a * (1 - e2 ) * pow( (1 - e2 * sin2Lat), -1.5 );
+
+	// radius of curvature of the first vertical
+	N = a * pow((1 - e2 * sin2Lat), -0.5);						
+
+	dL = (ro/((N + H) * cosLat ) ) * (-dX * sinLon + dY * cosLon) 
+		+ tan(B) * (1 - e2) * (Wx * cosLon + Wy * sinLon) - Wz;
 
 	L= (L + (L + dL))/2;
 
