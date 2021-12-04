@@ -2279,21 +2279,35 @@ double GeoCalc::WGS_84_Sup_Sk_42_Lat(double Lat, double Lon, double H)
 	// recalculation of latitude
 	
 	double dB, dL, dH, B, L, sinLat, cosLat, cosLon, sinLon, sin2Lat, M, N;
-	const double a_wgs_84 = 6378137.0;					// размер большой полуоси в системе WGS-84 в метрах
-	const double a_sk_42 = 6378245.0;					// размер большой полуоси в системе CK-42 в метрах
-	const double a = (a_wgs_84 + a_sk_42) * 0.5;		// средняя большая полуось
+
+	// the size of the semi-major axis in the WGS-84 system in meters
+	const double a_wgs_84 = 6378137.0;	
+
+	// the size of the semi-major axis in the CK-42 system in meters
+	const double a_sk_42 = 6378245.0;					
+	
+	// middle semi-major axis
+	const double a = (a_wgs_84 + a_sk_42) * 0.5;		
+	
 	const double dA = a_wgs_84 - a_sk_42;						
 	//-----------------------------
-	const double alfa_wgs_84 = 1/298.3;					// сжатие эллипсоида Красовского в системе WGS-84
-	const double alfa_sk_42 = 1/298.3;					// сжатие эллипсоида Красовского в системе СК-42
+	// compression of the Krasovsky ellipsoid in the WGS-84 system
+	const double alfa_wgs_84 = 1/298.3;					
+	
+	// compression of the Krasovsky ellipsoid in the SK-42 system
+	const double alfa_sk_42 = 1/298.3;					
 	//-----------------------------
 	// the square of the eccentricity of the ellipsoid in the WGS-84 system
 	const double e_2_wgs_84 = 2 * alfa_wgs_84 - pow(alfa_wgs_84, 2);			
 	
 	// the square of the eccentricity of the ellipsoid in the P3-90.02 system
 	const double e_2_sk_42 = 2 * alfa_sk_42 - pow(alfa_sk_42, 2);					
-	const double e2 = (e_2_wgs_84 + e_2_sk_42)/2;		// squared eccentricity
-	const double dE2 = e_2_wgs_84 - e_2_sk_42;			// difference of squares of eccentricity
+	
+	// squared eccentricity
+	const double e2 = (e_2_wgs_84 + e_2_sk_42)/2;
+
+	// difference of squares of eccentricity
+	const double dE2 = e_2_wgs_84 - e_2_sk_42;			
 	//-------------------------------
 	// linear transformation elements of coordinate systems
 	const double dX = -23.9;
@@ -2307,9 +2321,9 @@ double GeoCalc::WGS_84_Sup_Sk_42_Lat(double Lat, double Lon, double H)
 	//-------------------------------
 	const double m = 12000.0;
 	//-------------------------------
-	const double ro = 206264.8062;					// arc seconds in radians
-	B = Lat * DEG_RAD;								// latitude in radians
-	L = Lon * DEG_RAD;								// longitude in radians
+	const double ro = 206264.8062;		// arc seconds in radians
+	B = Lat * DEG_RAD;			// latitude in radians
+	L = Lon * DEG_RAD;			// longitude in radians
 	sinLat = sin(B);
 	cosLat = cos(B);
 	cosLon = cos(L);
@@ -2347,8 +2361,12 @@ double GeoCalc::WGS_84_Sup_Sk_42_Lat(double Lat, double Lon, double H)
 	sinLon = sin(L);
 
 	sin2Lat = pow(sinLat, 2);
-	M = a * (1 - e2 ) * pow( (1 - e2 * sin2Lat), -1.5 );		// radius of curvature of the meridian
-	N = a * pow((1 - e2 * sin2Lat), -0.5);						// radius of curvature of the first vertical
+
+	// radius of curvature of the meridian
+	M = a * (1 - e2 ) * pow( (1 - e2 * sin2Lat), -1.5 );
+
+	// radius of curvature of the first vertical
+	N = a * pow((1 - e2 * sin2Lat), -0.5);						
 
 	dB = (ro/(M + H)) * ( (N/a) * e2 * sinLat * cosLat * dA 
 		+ (pow(N, 2)/pow(a, 2) + 1 ) * N * sinLat * cosLat * dE2/2 
