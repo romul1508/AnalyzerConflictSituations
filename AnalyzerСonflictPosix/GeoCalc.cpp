@@ -2164,70 +2164,107 @@ double GeoCalc::SK_42_Sup_WGS_84_Lat(double Lat, double Lon, double H)
 	return B * RAD_DEG;
 }
 //-----------------------------------------------------
-// Более точное преобразование геодезических координат из системы CK-42 в систему WGS-84
-// пересчет долготы
 double GeoCalc::SK_42_Sup_WGS_84_Lon(double Lat, double Lon, double H)
 {
+	// More accurate conversion of geodetic coordinates from 
+	// the CK-42 system to the WGS-84 system
+	
+	// Longitude recalculation
+
 	double dB, dL, dH, B, L, sinLat, cosLat, cosLon, sinLon, sin2Lat, M, N;
-	const double a_wgs_84 = 6378137.0;							// размер большой полуоси в системе WGS-84 в метрах
-	const double a_sk_42 = 6378245.0;								// размер большой полуоси в системе CK-42 в метрах
-	const double a = (a_wgs_84 + a_sk_42) * 0.5;				// средняя большая полуось
+	
+	// the size of the semi-major axis in the WGS-84 system in meters
+	const double a_wgs_84 = 6378137.0;
+
+	// the size of the semi-major axis in the CK-42 system in meters
+	const double a_sk_42 = 6378245.0;							
+	
+	// middle semi-major axis
+	const double a = (a_wgs_84 + a_sk_42) * 0.5;				
 	const double dA = a_wgs_84 - a_sk_42;						
 	//-----------------------------
-	const double alfa_wgs_84 = 1/298.3;							// сжатие эллипсоида Красовского в системе WGS-84
-	const double alfa_sk_42 = 1/298.3;								// сжатие эллипсоида Красовского в системе СК-42
+	// compression of the Krasovsky ellipsoid in the WGS-84 system
+	const double alfa_wgs_84 = 1/298.3;							
+	
+	// compression of the Krasovsky ellipsoid in the SK-42 system
+	const double alfa_sk_42 = 1/298.3;								
 	//-----------------------------
-	const double e_2_wgs_84 = 2 * alfa_wgs_84 - pow(alfa_wgs_84, 2);			// квадрат эксцентриситета эллипсоида в системе WGS-84
-	const double e_2_sk_42 = 2 * alfa_sk_42 - pow(alfa_sk_42, 2);					// квадрат эксцентриситета эллипсоида в системе П3-90.02
-	const double e2 = (e_2_wgs_84 + e_2_sk_42)/2;										// квадрат эксцентриситета
-	const double dE2 = e_2_wgs_84 - e_2_sk_42;											// разность квадратов эксцентриситета
+	// the square of the eccentricity of the ellipsoid in the WGS-84 system
+	const double e_2_wgs_84 = 2 * alfa_wgs_84 - pow(alfa_wgs_84, 2);			
+	
+	// the square of the eccentricity of the ellipsoid in the CK-42 system
+	const double e_2_sk_42 = 2 * alfa_sk_42 - pow(alfa_sk_42, 2);					
+	
+	// squared eccentricity
+	const double e2 = (e_2_wgs_84 + e_2_sk_42)/2;										
+	
+	// difference of squares of eccentricity
+	const double dE2 = e_2_wgs_84 - e_2_sk_42;											
 	//-------------------------------
-	// линейные элементы трансформирования систем координат
+	// linear transformation elements of coordinate systems
 	const double dX = 23.9;
 	const double dY = -141.3;
 	const double dZ = -80.9;
 	//-------------------------------
-	// угловые элементы трансформирования систем координат
+	// corners of transformation of coordinate systems
 	const double Wx = 0;
 	const double Wy = -0.35;
 	const double Wz = -0.86;
 	//-------------------------------
 	const double m = -12000.0;
 	//-------------------------------
-	const double ro = 206264.8062;								// число угловых секунд в радиане
-	B = Lat * DEG_RAD;												// широта в радианах
-	L = Lon * DEG_RAD;												// долгота в радианах
+	// arc seconds in radians
+	const double ro = 206264.8062;	
+
+	B = Lat * DEG_RAD;				// latitude in radians
+	L = Lon * DEG_RAD;				// longitude in radians
 	sinLat = sin(B);
 	cosLat = cos(B);
 	cosLon = cos(L);
 	sinLon = sin(L);
 
 	sin2Lat = pow(sinLat, 2);
-	M = a * (1 - e2 ) * pow( (1 - e2 * sin2Lat), -1.5 );		// радиус кривизны меридиана
-	N = a * pow((1 - e2 * sin2Lat), -0.5);						// радиус кривизны первого вертикала
 
-	dB = (ro/(M + H)) * ( (N/a) * e2 * sinLat * cosLat * dA + (pow(N, 2)/pow(a, 2) + 1 ) * N * sinLat * cosLat * dE2/2 - (dX * cosLon + dY * sinLon) * sinLat + dZ * cosLat) -
-		Wx * sinLon * (1 + e2 * cos(2.0 * B)) + Wy * cosLon * (1 + e2 * cos(2.0 * B) ) - ro * m * e2 * sinLat * cosLat;
+	// radius of curvature of the meridian
+	M = a * (1 - e2 ) * pow( (1 - e2 * sin2Lat), -1.5 );
 
-	dL = (ro/((N + H) * cosLat ) ) * (-dX * sinLon + dY * cosLon) + tan(B) * (1 - e2) * (Wx * cosLon + Wy * sinLon) - Wz;
+	// radius of curvature of the first vertical
+	N = a * pow((1 - e2 * sin2Lat), -0.5);						
 
-	dH = (-a/N) * dA + N * sin2Lat * (dE2/2) + (dX * cosLon + dY * sinLon) * cosLat + dZ * sinLat - N * e2 * sinLat * cosLat * ( (Wx/ro) * sinLon -  (Wy/ro) * cosLon ) + (pow(a, 2)/N + H ) * m;
+	dB = (ro/(M + H)) * ( (N/a) * e2 * sinLat * cosLat * dA 
+		+ (pow(N, 2)/pow(a, 2) + 1 ) * N * sinLat * cosLat * dE2/2 
+		- (dX * cosLon + dY * sinLon) * sinLat + dZ * cosLat) 
+		- Wx * sinLon * (1 + e2 * cos(2.0 * B)) 
+		+ Wy * cosLon * (1 + e2 * cos(2.0 * B) ) 
+		- ro * m * e2 * sinLat * cosLat;
+
+	dL = (ro/((N + H) * cosLat ) ) * (-dX * sinLon + dY * cosLon) 
+		+ tan(B) * (1 - e2) * (Wx * cosLon + Wy * sinLon) - Wz;
+
+	dH = (-a/N) * dA + N * sin2Lat * (dE2/2) + (dX * cosLon + dY * sinLon) * cosLat 
+		+ dZ * sinLat - N * e2 * sinLat * cosLat * ( (Wx/ro) * sinLon 
+		- (Wy/ro) * cosLon ) + (pow(a, 2)/N + H ) * m;
 
 	B = B + dB;
 	L = L + dL;
 	H = H + dH;
 
-	// для уменьшения погрешности делаем вторую итерацию
+	// to reduce the error, we do the second iteration
 	sinLat = sin(B);
 	cosLat = cos(B);
 	cosLon = cos(L);
 	sinLon = sin(L);
 
 	sin2Lat = pow(sinLat, 2);
-	M = a * (1 - e2 ) * pow( (1 - e2 * sin2Lat), -1.5 );		// радиус кривизны меридиана
-	N = a * pow((1 - e2 * sin2Lat), -0.5);						// радиус кривизны первого вертикала
 
-	dL = (ro/((N + H) * cosLat ) ) * (-dX * sinLon + dY * cosLon) + tan(B) * (1 - e2) * (Wx * cosLon + Wy * sinLon) - Wz;
+	// radius of curvature of the meridian
+	M = a * (1 - e2 ) * pow( (1 - e2 * sin2Lat), -1.5 );		
+	
+	// radius of curvature of the first vertical
+	N = a * pow((1 - e2 * sin2Lat), -0.5);						
+
+	dL = (ro/((N + H) * cosLat ) ) * (-dX * sinLon + dY * cosLon) 
+		+ tan(B) * (1 - e2) * (Wx * cosLon + Wy * sinLon) - Wz;
 
 	L = (L + (L + dL))/2;
 
