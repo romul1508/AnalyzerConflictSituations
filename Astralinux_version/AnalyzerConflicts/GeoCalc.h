@@ -123,7 +123,7 @@ typedef struct
         // longitude in P3-90.11 system (in degrees in decimal system)
 	double p3_90_11_X_lon;			
 	
-	latitude in P3-90.11 system (in degrees in decimal system)
+	// latitude in P3-90.11 system (in degrees in decimal system)
 	double p3_90_11_Y_lat;				
 	
 	// height from ellipsoid surface
