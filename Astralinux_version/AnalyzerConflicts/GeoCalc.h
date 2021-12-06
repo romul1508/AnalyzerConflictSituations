@@ -484,34 +484,35 @@ public:
 
 };
 //---------------------------------------
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////Класс	CoordinateUTMConversion (Класс для преобразований широты/долготы в UTM и обратно)///////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////CoordinateUTMConversion class (Class for converting latitude / longitude to UTM and vice versa)/////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 class CoordinateUTMConversion
 {
 private:
 	
-	// проверяет на корректность широту и долготу
+	// checks for correct latitude and longitude
 	bool validate(double latitude, double longitude);
 	
 
 public:
 	CoordinateUTMConversion(){	}
 
-	// переводит широту и долготу в UTM
+	// converts latitude and longitude to UTM
 	std::string latLon2UTM(double lat, double lon, double* x, double* y);
-	// переводит UTM в географические координаты WGS-84 (широту и долготу) 
-    void utm2LatLon(std::string longZone, std::string latZone, double easting, double northing, double *pLat, double *pLon);
-    void utm2LatLon(std::string UTM, double *pLat, double *pLon);
+	
+	// converts UTM to WGS-84 geographic coordinates (latitude and longitude)
+        void utm2LatLon(std::string longZone, std::string latZone, double easting, double northing, double *pLat, double *pLon);
+        void utm2LatLon(std::string UTM, double *pLat, double *pLon);
 };
 //---------------------------------------
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////Класс	GeoCalc (Класс для работы с методами обработки геодезической информации)///////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////
+////GeoCalc class (Class for working with methods of processing geodetic information)///////////
+////////////////////////////////////////////////////////////////////////////////////////////////
 class GeoCalc
 {
 private:
-	double Pi;		// число Пи
+	double Pi;		
 	double PI_2;
 	double MAX_LAT;
 	double R_MAJOR;
@@ -526,13 +527,13 @@ private:
 		double f1, Pi, B, sinLat, sin2Lat, cosLat;
 		// e = 0.0066934216;
 		// a = 6378245;
-		Pi = 3.14159265358979;		// число Пи
+		Pi = 3.14159265358979;		
 		B = lat * DEG_RAD;
 		sinLat = sin(B);
 		cosLat = cos(B);
 		sin2Lat = pow(sinLat, 2);
 
-		// далее рассчитываются вспомогательные переменные
+		// then auxiliary variables are calculated
 		double var_temp1 = a * (1 - e2);
 		double var_temp2 = sqrt(1 - e2 * sin2Lat);
 		double var_temp3 = cosLat * cosLon;
@@ -555,12 +556,12 @@ private:
 		return F1(lat, cosLon, e2, a, x) - F2(z);
 	}
 	//-------------------------------------------------
-	// находит нужный корень долготы для различных систем координат в основной системе уравнений 
+	// finds the desired root of longitude for different coordinate systems in the main system of equations 
 	// int Find_Root(double A, double B, double h, double z, double e2, double a, double* m);
 
 public:
 	GeoCalc(){
-		Pi = 3.14159265358979;		// число Пи
+		Pi = 3.14159265358979;		
 		PI_2 = Pi * 0.5;
 		MAX_LAT = 89.5;
 		R_MAJOR = 6378137.0;
@@ -570,23 +571,27 @@ public:
 		DEG_RAD = Pi/180.0;
 		RAD_DEG = 180.0/Pi;
 	}
-// Эллипсоид Красовского
+// Krasovsky ellipsoid
 
-// находит нужный корень долготы для различных систем координат в основной системе уравнений 
+// finds the desired root of longitude for different coordinate systems in the main system of equations 
 int Find_Root(double A, double B, double h, double z, double e2, double a, double x, double* m);
-// пересчет координат из системы WGS-84 в прямоугольные (проекция Гаусса-Крюгера)
+
+// conversion of coordinates from the WGS-84 system to rectangular (Gauss-Kruger projection)
 void WgsToPrGaus(double Lat, double Lon, double *pX, double *pY);
+	
 // void PrLocToWgs(double X, double Y, double *pLat, double *pLon);
-// пересчет координат из системы CK-42 в прямоугольные (проекция Гаусса-Крюгера)
+
+// conversion of coordinates from the CK-42 system to rectangular (Gauss-Kruger projection)
 void SK42ToPrGaus(double Lat, double Lon, double *pX, double *pY);
-// преобразование плоских прямоугольных координат в проекции Гаусса - Крюгера
-// в геодезические координаты CK-42 на эллипсоиде Красовского
+	
+// transformation of plane rectangular coordinates in the projection of Gauss - Kruger
+// to geodetic coordinates CK-42 on the Krasovsky ellipsoid
 void PrGausToSK42(double X, double Y, double *pLat, double *pLon);
 //---------------------------------------
-// Пересчет координат из широты/долготы в поперечную проекцию Меркатора/WGS84
+// Conversion of coordinates from latitude / longitude to transverse Mercator / WGS84
 void LatLongUTMMerc(double lon, double lat, double* x, double* y);
 //---------------------------------------
-// пересчет координат из системы WGS-84 в прямоугольные X и Y (проекция Меркатора)
+// conversion of coordinates from the WGS-84 system to rectangular X and Y (Mercator projection)
 double WgsToPrMercEllipse_X(double Lon)
 {
 	return Lon * DEG_RAD * R_MAJOR;
@@ -600,13 +605,14 @@ double PrMercEllipseXToWgs_Lon(double X)
 double WgsToPrMercEllipse_Y(double Lat);
 double PrMercEllipseYToWgs_Lat(double Y);
 //---------------------------------------
-// Пересчет координат из широты/долготы в проекцию Меркатора/WGS84
+// Conversion of coordinates from latitude/longitude to Mercator projection / WGS84
 std::string LatLong2UTMMerc(double lon, double lat, double* pX, double* pY);
-// переводит UTM в географические координаты WGS-84 (широту и долготу) 
+	
+// converts UTM to WGS-84 geographic coordinates (latitude and longitude)
 void UTM2LatLongMerc(std::string longZone, std::string latZone, double easting, double northing, double *pLat, double *pLon);
 void UTM2LatLongMerc(std::string UTM, double *pLat, double *pLon);
 //---------------------------------------
-// для сферы
+// for the sphere
 double WgsToPrMercDomain_X(double Lon)
 {
 	return Lon * DEG_RAD * R_MAJOR;
@@ -621,82 +627,100 @@ double PrMercDomainXToWgs_Lon(double X)
 double WgsToPrMercDomain_Y(double Lat);
 double PrMercDomainYToWgs_Lat(double Y);
 //----------------------------------------
-// Преобразование геодезических координат из системы П3-90.02 в систему СК-42
-// пересчет широты
+// Conversion of geodetic coordinates from the P3-90.02 system to the SK-42 system
+// recalculation of latitude	
 // double P3_90_02_SK42_Lat(double Lat, double Lon, double H);
-// Преобразование геодезических координат из системы П3-90.02 в систему СК-42
-// пересчет долготы
+	
+// Conversion of geodetic coordinates from the P3-90.02 system to the SK-42 system
+// recalculation of longitude
 // double P3_90_02_SK42_Lon(double Lat, double Lon, double H);
-// пересчет широты, долготы и высоты
+	
+// recalculation of latitude, longitude and altitude
 int P3_90_02_SK42(double Lat, double Lon, double H, double *ph_wgs, double *pLatOut, double *pLonOut);
 int SK42_P3_90_02(double Lat, double Lon, double H, double *ph_wgs, double *pLatOut, double *pLonOut);
 //----------------------------------------
-// Преобразование геодезических координат из системы СК-42 в систему П3-90.02
-// пересчет широты
+// Conversion of geodetic coordinates from the SK-42 system to the P3-90.02 system
+// recalculate latitude
 double SK42_P3_90_02_Lat(double Lat, double Lon, double H);
-// пересчет долготы
+	
+// recalculation of longitude
 double SK42_P3_90_02_Lon(double Lat, double Lon, double H);
 //----------------------------------------
-// Преобразование геодезических координат из системы П3-90.02 в систему WGS-84
-// пересчет широты, долготы и высоты
+// Conversion of geodetic coordinates from the P3-90.02 system to the WGS-84 system
+// recalculation of latitude, longitude and altitude
 int P3_90_02_WGS_84(double Lat, double Lon, double H, double *ph_wgs, double *pLatOut, double *pLonOut);
 int P3_90_02_WGS_84(double Lat, double Lon, double H, double dX, double dY, double dZ, double Wx, double Wy, double Wz, double m, double *ph_wgs, double *pLatOut, double *pLonOut);
 int P3_90_02_P3_90_11_WGS_84(double Lat, double Lon, double H, double *ph_wgs, double *pLatOut, double *pLonOut);
-// пересчет широты
+
+// recalculation of latitude
 // double P3_90_02_WGS_84_Lat(double Lat, double Lon, double H);
-// пересчет долготы
+
+// recalculation of longitude
 // double P3_90_02_WGS_84_Lon(double Lat, double Lon, double H);
 //----------------------------------------
-// Преобразование геодезических координат из системы WGS-84 в систему П3-90.02
-// пересчет широты, долготы и высоты
+// Conversion of geodetic coordinates from the WGS-84 system to the P3-90.02 system
+// recalculation of latitude, longitude and altitude
 int WGS_84_P3_90_02(double Lat, double Lon, double H, double *ph_wgs, double *pLatOut, double *pLonOut);
-// пересчет широты
+
+// recalculation of latitude
 // double WGS_84_P3_90_02_Lat(double Lat, double Lon, double H);
-// пересчет долготы
+
+// recalculation of longitude
 // double WGS_84_P3_90_02_Lon(double Lat, double Lon, double H);
 //----------------------------------------
-// Более точное преобразование геодезических координат из системы CK-42 в систему WGS-84
-// пересчет широты
+// More accurate conversion of geodetic coordinates from the SK-42 system to the WGS-84 system
+// recalculation of latitude
 double SK_42_Sup_WGS_84_Lat(double Lat, double Lon, double H);
-// пересчет долготы
+	
+// recalculation of longitude
 double SK_42_Sup_WGS_84_Lon(double Lat, double Lon, double H);
 //----------------------------------------
-// Более точное преобразование геодезических координат из системы WGS-84 в систему CK-42
-// пересчет широты
+// More accurate conversion of geodetic coordinates from the WGS-84 system to the SK-42 system
+// recalculation of latitude
 double WGS_84_Sup_Sk_42_Lat(double Lat, double Lon, double H);
-// пересчет долготы
+	
+// recalculation of longitude
 double WGS_84_Sup_Sk_42_Lon(double Lat, double Lon, double H);
 
-//	выдать местоположение цели в минутах и секундах 
+// give target location in minutes and seconds 
 void GetTargetLocationInMinutes(TTargetLocationInMinutes* pTargetLocationInMinutes, const double lon_lat_dec);
 
-//	выдать местоположение цели в градусах в десятичных дробях 
+// display target location in degrees in decimal fractions 
 double GetDecTargetLocation(TTargetLocationInMinutes* pTargetLocationInMinutes);
 };
 //---------------------------------------
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////Класс	 SimplifiedGeoCalc (Класс для работы с упрощенными методами обработки геодезической информации)///////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////SimplifiedGeoCalc class (Class for working with simplified methods for processing geodetic information)//////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 class SimplifiedGeoCalc
 {
 private:
-	TKtaPoint 	kta_point;								// координаты точки в системе КTА
-	TXYZSystemPoint xyz_point;					// координаты в прямоугольной системе координат относительно центра элипсоида
-	TSK42Point 	sk_42_point;						// координаты точки в системе SK-42					
-	TWgsPoint	wgs_84_point;						// координаты точки в системе WGS-84
-	double height;										// высота от поверхности элипсоида
+	// point coordinates in the KTA system
+	TKtaPoint 	kta_point;		
+	
+	// coordinates in a rectangular coordinate system relative to the center of the ellipsoid
+	TXYZSystemPoint xyz_point;		
+	
+	// point coordinates in SK-42 system
+	TSK42Point 	sk_42_point;							
+	
+	// point coordinates in WGS-84 system
+	TWgsPoint	wgs_84_point;		
+	
+	// height from ellipsoid surface
+	double height;				
 
-	// Эллипсоид Красовского
+	// Krasovsky ellipsoid
 	double aP;																// Большая полуось
-	double alP() { return 1 / 298.3; }								// Сжатие
-	double e2P() { return (2 * alP() - alP() * alP() ); }		// Квадрат эксцентриситета
+	double alP() { return 1 / 298.3; }				// Compression
+	double e2P() { return (2 * alP() - alP() * alP() ); }		// Eccentricity squared
 	//--------------------------------------------
-	// Эллипсоид WGS84 (GRS80, эти два эллипсоида сходны по большинству параметров)
+	// Ellipsoid WGS84 (GRS80, these two ellipsoids are similar in most parameters)
 	double aW;																	// Большая полуось
-	double alW() { return 1 / 298.257223563; }						// Сжатие
-	double e2W() { return (2 * alW() - alW() *  alW() ); }		// Квадрат эксцентриситета
+	double alW() { return 1 / 298.257223563; }			// Compression
+	double e2W() { return (2 * alW() - alW() *  alW() ); }		// Eccentricity squared
 	//--------------------------------------------
-	// Вспомогательные значения для преобразования эллипсоидов
+	// Auxiliary values for transforming ellipsoids
 	double a() { 
 		double a = (aP + aW) / 2; 
 		return a; 
