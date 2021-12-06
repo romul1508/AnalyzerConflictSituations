@@ -1,4 +1,10 @@
-/** author-developer: Roman Ermakov */
+// AnalyzerConflict implements some useful functions 
+// for implementing A-SMGCS (Advanced Surface Movement Guidance and Control System).
+// author: Roman Ermakov
+// e-mail: romul1508@gmail.com
+// version: 1.0.1
+// AnalyzerСonflict Copyright 2021 Roman Ermakov
+// All rights reserved
 
 #ifndef _GEOCALC_H_
 #define _GEOCALC_H_
@@ -12,7 +18,7 @@
 //#include "Log.h"
 
 // namespace airports{
-//const double Pi = 3.14159265358979;		// число Пи
+//const double Pi = 3.14159265358979;		
 //const double PI_2 = Pi * 0.5;
 //const double MAX_LAT = 89.5;
 //const double R_MAJOR = 6378137.0;
@@ -21,50 +27,94 @@
 //const double ECCNTH = ECCENT * 0.5;
 //const double DEG_RAD = Pi/180;
 //const double RAD_DEG = 180/Pi;
-// const double MyLAT = 59.800028;			// но все же привяжемся к контрольной точке
-// const double MyLON = 30.2625;				// учитывая, что появился свой geocalc
-// const double MyLAT = 59.8109972;				// но все же привяжемся к левой верхней точке контролируемой территории
-// const double MyLON = 30.2122889;			// учитывая, что появился свой geocalc
-const double MyLAT = 59.8090672;				// но все же привяжемся к левой верхней точке контролируемой территории
-const double MyLON = 30.2110079;			// учитывая, что появился свой geocalc
-//const double MyLAT = 59.8105972;				// но все же привяжемся к левой верхней точке контролируемой территории
-//const double MyLON = 30.2127889;			// учитывая, что появился свой geocalc
 
-enum type_system_coordinat { WGS_84, SK_42, P3_90_02, P3_90_11, main_XYZ, CPA, CPA_GAUSE, CPA_MERCATOR_WGS, CPA_MERCATOR_DOMAIN };
+// but still we will bind to the upper left point of the controlled territory, 
+// given that we have our own geocalc
 
+const double MyLAT = 59.8090672;			
+const double MyLON = 30.2110079;
+
+enum type_system_coordinat 
+{ 
+	WGS_84, 
+	SK_42, 
+	P3_90_02, 
+	P3_90_11, 
+	main_XYZ, 
+	CPA, 
+	CPA_GAUSE, 
+	CPA_MERCATOR_WGS, 
+	CPA_MERCATOR_DOMAIN 
+};
+
+// point in a rectangular system with zero at the center of the ellipsoid in meters
 typedef struct 
 {
-    double X;		// точка в прямоугольной системе с нулем в центре элипсоида в метрах
-	double Y;		
-	double Z;
+    double X;		
+    double Y;		
+    double Z;
 } TXYZSystemPoint;
 //-----------------------------
-// точка в геодезической системе SK-42 (долгота и широта в градусах)
+// point in geodetic system SK-42 (longitude and latitude in degrees)
 typedef struct 
 {
-	double sk42_X_lon;					// долгота в системе CK-42 (в градусах в десятичной системе)	
-	double sk42_Y_lat;						// широта в системе CK-42 (в градусах в десятичной системе)						
-	double height;							// высота от поверхности элипсоида
-	int degrees_lon;							// долгота в градусах (целая часть)
-	int degrees_lat;							// широта в градусах (целая часть)
-	unsigned char minutes_x_lon;		// долгота в минутах
-	unsigned char minutes_y_lat;		// широта в минутах
-	double seconds_x_lon;				// долгота в секундах
-	double seconds_y_lat;					// широта в секундах
+	// longitude in the SK-42 system (in degrees in decimal)
+	double sk42_X_lon;						
+	
+	// latitude in SK-42 system (in degrees in decimal system)
+	double sk42_Y_lat;									
+	
+	// height from ellipsoid surface
+	double height;							
+	
+	// longitude in degrees (whole part)
+	int degrees_lon;							
+	
+	// latitude in degrees (whole part)
+	int degrees_lat;							
+	
+	// longitude in minutes
+	unsigned char minutes_x_lon;
+	
+	// latitude in minutes
+	unsigned char minutes_y_lat;		
+	
+	// longitude in seconds
+	double seconds_x_lon;				
+	
+	// latitude in seconds
+	double seconds_y_lat;					
 } TSK42Point;
 //-----------------------------
-// точка в геодезической системе ПЗ-90.02 (долгота и широта в градусах)
+// point in the geodetic system PZ-90.02 (longitude and latitude in degrees)
 typedef struct 
 {
-    double p3_90_02_X_lon;			// долгота в системе ПЗ-90.02 (в градусах в десятичной системе)
-	double p3_90_02_Y_lat;				// широта в системе ПЗ-90.02 (в градусах в десятичной системе)
-	double height;							// высота от поверхности элипсоида
-	int degrees_lon;							// долгота в градусах (целая часть)
-	int degrees_lat;							// широта в градусах (целая часть)
-	unsigned char minutes_x_lon;		// долгота в минутах
-	unsigned char minutes_y_lat;		// широта в минутах
-	double seconds_x_lon;				// долгота в секундах
-	double seconds_y_lat;					// широта в секундах
+        // longitude in PZ-90.02 system (in degrees in decimal system)
+	double p3_90_02_X_lon;			
+	
+	// latitude in PZ-90.02 system (in degrees in decimal system)
+	double p3_90_02_Y_lat;				
+	
+	// height from ellipsoid surface
+	double height;							
+	
+	// longitude in degrees (whole part)
+	int degrees_lon;
+	
+	// latitude in degrees (whole part)
+	int degrees_lat;
+	
+	// longitude in minutes
+	unsigned char minutes_x_lon;
+	
+	// latitude in minutes
+	unsigned char minutes_y_lat;
+	
+	// longitude in seconds
+	double seconds_x_lon;
+	
+	// latitude in seconds
+	double seconds_y_lat;					
 } TP3_90_02Point;
 //-----------------------------
 // точка в геодезической системе ПЗ-90.11 (долгота и широта в градусах)
@@ -146,9 +196,9 @@ class UTM2LatLon
 {
 private:
     double easting;
-	double northing;
-	int zone;
-	double arc;
+    double northing;
+    int zone;
+    double arc;
     double mu;
     double ei;
     double ca;
