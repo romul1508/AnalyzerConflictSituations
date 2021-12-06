@@ -179,16 +179,20 @@ typedef struct
 	double seconds_y_lat;						
 } TWgsPoint;
 //----------------------------
-//точка в системе КTА в метрах (долгота и широта переведенные в плоскую лок. систему координат)
+//point in the KTA system in meters (longitude and latitude converted to a flat local coordinate system)
 typedef struct 
 {
-    double kta_X; 
+    	double kta_X; 
 	double	kta_Y;
-	double height_84;				// высота от поверхности элипсоида (в системе WGS-84)
-	double height_42;				// высота от поверхности элипсоида (в системе СК-42)
+	
+	// height from the surface of the ellipsoid (in the WGS-84 system)
+	double height_84;
+	
+	// height from the surface of the ellipsoid (in the SK-42 system)
+	double height_42;				
 } TKtaPoint;
 //----------------------------
-// точка в формате UTM
+// point in UTM format
 typedef struct
 {
 	std::string longZone;
@@ -197,13 +201,13 @@ typedef struct
 	double northing;
 } TUtmPoint;
 //----------------------------
-//	Местоположение цели в минутах и секундах по широте или по долготе
-// (может использоваться для различных геодезических систем координат)
+// Target location in minutes and seconds in latitude 
+// or longitude (can be used for various geodetic coordinate systems)
 typedef struct 
 {
-    int degrees;							// градусы
-	unsigned char minutes;			// минуты
-	double seconds;						// секунды	
+    	int degrees;							
+	unsigned char minutes;			
+	double seconds;							
 } TTargetLocationInMinutes;
 //--------------------------------------
 template <typename T>
