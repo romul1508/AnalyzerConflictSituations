@@ -25,32 +25,16 @@ ern::ConfiguratorAppDestroyer ern::ConfiguratorApp::conf_app_destroyer;
 ern::ConfiguratorAirportsDestroyer ern::ConfiguratorAirports::conf_airports_destroyer;
 
 //-------------------------------------------------------------------------
-/*
-unsigned int CalcHash(char *str)
-{
-	unsigned int hash = 0;
-	char* copystr = str;
-
-	while(*copystr)
-    {
-		hash = ((hash << 7) & (DWORD)(-1))|(hash >> (32-7));
-		hash = hash^(*copystr);
-		copystr++;
-    }
-
-	return hash;
-}
-*/
 //--------------------------------------------------------------------------
 double strToDouble(std::string token)
 {
-	// получает строку, меняет ',' на '.', переводит строку в double
+	// gets a string, changes ',' to '.', converts the string to double
 	int n;
 	double value_token;
 	std::string temp_str; 
 	
 	temp_str = token;
-    n = temp_str.find(',');
+    	n = temp_str.find(',');
 	if(n != -1)
 		temp_str.replace(n, 1, ".");
 	value_token = atof( temp_str.c_str() );
@@ -73,13 +57,14 @@ Point::Point(double lat, double lon, double height, double Z, int system_coord )
 	// TSK42Point sk_42_cpa_ref_point;
 	TP3_90_02Point pz_90_02_ref_point;
 	TKtaPoint xy_cpa_ref_point;
-	TUtmPoint utm_ref_point;							// координаты точки в системе UTM
-	std::string str_utm_ref_point;						// форматированная строка с координатами UTM
+	TUtmPoint utm_ref_point;				// point coordinates in UTM system
+	std::string str_utm_ref_point;				// formatted string with UTM coordinates
 
 	GeoCalc geo_calc;
 	////////////////////////////////////////////////////////
-	// п.1 переход от WGS-84 к П3-90.02 (через переход к пространственным координатам)
-    // точка соответствует левому верхнему углу контролируемой территории
+	// p.1 transition from WGS-84 to P3-90.02 (through the transition 
+	// to spatial coordinates) point corresponds to the upper left corner 
+	// of the controlled area
 	////////////////////////////////////////////////////////
 
 	TTargetLocationInMinutes targetLocationInMinutes;
