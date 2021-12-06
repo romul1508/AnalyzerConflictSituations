@@ -117,7 +117,7 @@ typedef struct
 	double seconds_y_lat;					
 } TP3_90_02Point;
 //-----------------------------
-// point in the geodetic system PZ-90.11 (longitude and latitude in degrees)
+// point in the geodetic system P3-90.11 (longitude and latitude in degrees)
 typedef struct 
 {
         // longitude in P3-90.11 system (in degrees in decimal system)
