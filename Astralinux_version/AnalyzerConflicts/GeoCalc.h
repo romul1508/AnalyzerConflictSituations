@@ -89,10 +89,10 @@ typedef struct
 // point in the geodetic system PZ-90.02 (longitude and latitude in degrees)
 typedef struct 
 {
-        // longitude in PZ-90.02 system (in degrees in decimal system)
+        // longitude in P3-90.02 system (in degrees in decimal system)
 	double p3_90_02_X_lon;			
 	
-	// latitude in PZ-90.02 system (in degrees in decimal system)
+	// latitude in P3-90.02 system (in degrees in decimal system)
 	double p3_90_02_Y_lat;				
 	
 	// height from ellipsoid surface
@@ -117,18 +117,35 @@ typedef struct
 	double seconds_y_lat;					
 } TP3_90_02Point;
 //-----------------------------
-// точка в геодезической системе ПЗ-90.11 (долгота и широта в градусах)
+// point in the geodetic system PZ-90.11 (longitude and latitude in degrees)
 typedef struct 
 {
-    double p3_90_11_X_lon;			// долгота в системе ПЗ-90.11 (в градусах в десятичной системе)
-	double p3_90_11_Y_lat;				// широта в системе ПЗ-90.11 (в градусах в десятичной системе)
-	double height;							// высота от поверхности элипсоида
-	int degrees_lon;							// долгота в градусах (целая часть)
-	int degrees_lat;							// широта в градусах (целая часть)
-	unsigned char minutes_x_lon;		// долгота в минутах
-	unsigned char minutes_y_lat;		// широта в минутах
-	double seconds_x_lon;				// долгота в секундах
-	double seconds_y_lat;					// широта в секундах
+        // longitude in P3-90.11 system (in degrees in decimal system)
+	double p3_90_11_X_lon;			
+	
+	latitude in P3-90.11 system (in degrees in decimal system)
+	double p3_90_11_Y_lat;				
+	
+	// height from ellipsoid surface
+	double height;	
+	
+	// longitude in degrees (whole part)
+	int degrees_lon;
+	
+	// latitude in degrees (whole part)
+	int degrees_lat;							
+	
+	// longitude in minutes
+	unsigned char minutes_x_lon;		
+	
+	// latitude in minutes
+	unsigned char minutes_y_lat;		
+	
+	// longitude in seconds
+	double seconds_x_lon;				
+	
+	// latitude in seconds
+	double seconds_y_lat;					
 } TP3_90_11Point;
 //-----------------------------
 //точка в геодезической системе WGS-84 (долгота и широта в градусах)
