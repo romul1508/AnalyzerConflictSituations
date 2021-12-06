@@ -228,7 +228,7 @@ T fromString(const std::string& s)
 }
 //----------------------------------------------------
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
-////Класс	UTM2LatLon (Класс для преобразований от UTM к широте/долготе)////////
+////UTM2LatLon class (Class for conversions from UTM to latitude / longitude)////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 class UTM2LatLon
 {
@@ -260,13 +260,13 @@ private:
     double fact4;
     double zoneCM;
     double _a3;
-	double Pi;		// число Пи
-    double b;		//  = 6356752.314;
-	double a;		//  = 6378137;
-	double e;		//  = 0.081819191;
-	double e1sq;	// = 0.006739497;
-	double k0;		// = 0.9996;
-   std::string southernHemisphere;	// = "ACDEFGHJKLM";
+    double Pi;		
+    double b;		
+    double a;		
+    double e;		
+    double e1sq;	
+    double k0;		
+   std::string southernHemisphere;	
 
    double strToDouble(std::string token);	
 
@@ -277,7 +277,7 @@ protected:
 public:
 	UTM2LatLon()
 	{
-		Pi = 3.14159265358979;		// число Пи 
+		Pi = 3.14159265358979;		
 		b  = 6356752.314;
 		a  = 6378137;
 		e  = 0.081819191;
@@ -286,9 +286,9 @@ public:
 		southernHemisphere = "ACDEFGHJKLM";
 	}
 
-	// конвертирует координаты из формата UTM в географические координаты WGS-84
-	void convertUTMToLatLong(std::string UTM, double *pLat, double *pLon);
-	// конвертирует координаты из формата UTM в географические координаты WGS-84
+	// converts coordinates from UTM format to geographic coordinates WGS-84
+	void convertUTMToLatLong(std::string UTM, double *pLat, double *pLon);	
+	
 	void convertUTMToLatLong(std::string longZone, std::string latZone, double easting, double northing, double *pLat, double *pLon);
 };
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -297,7 +297,7 @@ public:
 class LatZones
 {
 private:
-	//double Pi;		// число Пи
+	
 	char letters[22];		// = { 'A', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Z' };
 	int degrees[22];		// = { -90, -84, -72, -64, -56, -48, -40, -32, -24, -16, -8, 0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 84 };
 	char negLetters[11];	// = { 'A', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M' };
