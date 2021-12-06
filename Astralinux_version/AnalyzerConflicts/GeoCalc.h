@@ -227,9 +227,9 @@ T fromString(const std::string& s)
   return res;
 }
 //----------------------------------------------------
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////
 ////UTM2LatLon class (Class for conversions from UTM to latitude / longitude)////////
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////
 class UTM2LatLon
 {
 private:
@@ -291,24 +291,24 @@ public:
 	
 	void convertUTMToLatLong(std::string longZone, std::string latZone, double easting, double northing, double *pLat, double *pLon);
 };
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////Класс	LatZones (вспомогательный класс для вывода информации о зоне по долготе)///////////
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//////LatZones class (helper class for displaying information about a zone by longitude)///////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
 class LatZones
 {
 private:
 	
-	char letters[22];		// = { 'A', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Z' };
-	int degrees[22];		// = { -90, -84, -72, -64, -56, -48, -40, -32, -24, -16, -8, 0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 84 };
+	char letters[22];	// = { 'A', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Z' };
+	int degrees[22];	// = { -90, -84, -72, -64, -56, -48, -40, -32, -24, -16, -8, 0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 84 };
 	char negLetters[11];	// = { 'A', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M' };
 	int negDegrees[11];	// = { -90, -84, -72, -64, -56, -48, -40, -32, -24, -16, -8 };
-	char posLetters[11];		// = { 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Z' };
+	char posLetters[11];	// = { 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Z' };
 	int posDegrees[11];	// = { 0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 84 };
 	int arrayLength;	// = 22;
 	int posLettersLength;	// = 11;
 	int negLettersLength;	// = 11;
 
-	// проверяет на корректность широту и долготу
+	// checks for correct latitude and longitude
 	// bool validate(double latitude, double longitude);
 	
 
@@ -360,101 +360,66 @@ public:
 
 };
 //---------------------------------------
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
-////Класс	LatLon2UTM (Класс для преобразований широты/долготы в UTM)///////////
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+////LatLon2UTM Class (Class for Latitude / Longitude to UTM Conversions)///////////
+///////////////////////////////////////////////////////////////////////////////////
 class LatLon2UTM
 {
 private:
-	double Pi;		// число Пи
+	double Pi;		
 	
 	//-------------------------------------
 	// Lat Lon to UTM variables
 
     // equatorial radius
-    double equatorialRadius;		// = 6378137;
+    double equatorialRadius;		
 
     // polar radius
-    double polarRadius;			// = 6356752.314;
+    double polarRadius;			
 
     // flattening
-    double flattening;				// = 0.00335281066474748;// (equatorialRadius-polarRadius)/equatorialRadius;
+    double flattening;			
+    // (equatorialRadius-polarRadius)/equatorialRadius;
 
     // inverse flattening 1/flattening
-    double inverseFlattening;		// = 298.257223563;// 1/flattening;
+    double inverseFlattening;		
 
     // Mean radius
-    double rm;							// = POW(equatorialRadius * polarRadius, 1 / 2.0);
+    double rm;				
 
     // scale factor
-    double k0;							// = 0.9996;
+    double k0;				
 
     // eccentricity
-    double e;							// = Math.sqrt(1 - POW(polarRadius / equatorialRadius, 2));
-
-    double e1sq;						// = e * e / (1 - e * e);
-
-    double n;							// = (equatorialRadius - polarRadius) / (equatorialRadius + polarRadius);
-
-    // r curv 1
-    double rho;						// = 6368573.744;
-
-    // r curv 2
-    double nu;							// = 6389236.914;
+    double e, e1sq, n, rho, nu;   				
 
     // Calculate Meridional Arc Length
     // Meridional Arc
-    double S;							// = 5103266.421;
+    double S;				
 
-    double A0;							// = 6367449.146;
-
-    double B0;							// = 16038.42955;
-
-    double C0;							// = 16.83261333;
-
-    double D0;							// = 0.021984404;
-
-    double E0;							// = 0.000312705;
+    double A0, B0, C0, D0, E0;   
 
     // Calculation Constants
     // Delta Long
-    double p;							// = -0.483084;
+    double p;	
 
-    double sin1;						// = 4.84814E-06;
-
+    double sin1;			
+	
     // Coefficients for UTM Coordinates
-    double K1;							// = 5101225.115;
+    double K1, K2, K3, K4, K5, A6;   							
 
-    double K2;							// = 3750.291596;
-
-    double K3;							// = 1.397608151;
-
-    double K4;							// = 214839.3105;
-
-    double K5;							// = -2.995382942;
-
-    double A6;							// = -1.00541E-07;
-
-	// проверяет на корректность широту и долготу
+	// checks for correct latitude and longitude
 	bool validate(double latitude, double longitude);
 
 protected:
 	void setVariables(double latitude, double longitude);
 	std::string getLongZone(double longitude);
 	double getEasting() {	return 500000 + (K4 * p + K5 * pow(p, 3));  }
-	double getNorthing(double latitude);
-    /*{
-      double northing = K1 + K2 * p * p + K3 * POW(p, 4);
-      if (latitude < 0.0)
-      {
-        northing = 10000000 + northing;
-      }
-      return northing;
-    }*/
+	double getNorthing(double latitude);    
 
 public:
 	LatLon2UTM(){
-		Pi = 3.14159265358979;		// число Пи
+		Pi = 3.14159265358979;		
 
 		// Lat Lon to UTM variables
 
@@ -512,7 +477,7 @@ public:
 		A6 = -1.00541E-07;
 	}
 
-	// переводит широту и долготу в UTM
+	// converts latitude and longitude to UTM
 	std::string convertLatLonToUTM(double latitude, double longitude, double *pX, double *pY);
 
 	double degreeToRadian(double degree) {	return degree * Pi / 180;  }
