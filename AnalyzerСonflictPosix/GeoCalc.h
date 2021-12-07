@@ -106,10 +106,17 @@ typedef struct
 	// latitude in degrees (whole part)
 	int degrees_lat;							
 	
-	unsigned char minutes_x_lon;		// долгота в минутах
-	unsigned char minutes_y_lat;		// широта в минутах
-	double seconds_x_lon;				// долгота в секундах
-	double seconds_y_lat;					// широта в секундах
+	// longitude in minutes
+	unsigned char minutes_x_lon;
+	
+	// latitude in minutes
+	unsigned char minutes_y_lat;
+	
+	// longitude in seconds
+	double seconds_x_lon;				
+	
+	// latitude in seconds
+	double seconds_y_lat;					
 } TP3_90_02Point;
 //-----------------------------
 // point in the geodetic system P3-90.11 (longitude and latitude in degrees)
