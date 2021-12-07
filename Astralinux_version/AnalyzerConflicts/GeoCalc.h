@@ -738,46 +738,50 @@ private:
 		return de2;
 	}
 	//-------------------------------------------
-	// Линейные элементы трансформирования, в метрах
+	// Linear elements of transformation, in meters
 	double dx;  
 	double dy;
 	double dz; 
 	//------------------------------------------ 
-	// Угловые элементы трансформирования, в секундах
+	// Corner transform elements, in seconds
 	double wx;
 	double wy;
 	double wz;
 	//-----------------------------------------
-	// Дифференциальное различие масштабов
+	// Differential scale difference
 	double ms;
 	//-----------------------------------------
 	double dB(double Bd, double Ld, double H);	
 	double dL(double Bd, double Ld, double H); 
 	
-	double Wgs84_SK42_Lat(double Bd, double Ld, double H){		// вычисляет широту в системе Sk42
+	// calculates latitude in Sk42 system
+	double Wgs84_SK42_Lat(double Bd, double Ld, double H){		
 		double WGS84_SK42_Lat = Bd - dB(Bd, Ld, H) / 3600;
 		return WGS84_SK42_Lat;
 	}
 
-	double SK42_WGS84_Lat(double	Bd, double Ld, double H) {	// вычисляет широту в системе WGS84
+	// calculates latitude in WGS84 system
+	double SK42_WGS84_Lat(double	Bd, double Ld, double H) {	
 		double SK42_WGS84_Lat = Bd + dB(Bd, Ld, H) / 3600;
 		return SK42_WGS84_Lat;
 	}
 
-	double WGS84_SK42_Long(double Bd, double Ld, double H){		// вычисляет долготу в системе Sk42
+	// calculates longitude in Sk42 system
+	double WGS84_SK42_Long(double Bd, double Ld, double H){		
 		double WGS84_SK42_Long = Ld - dL(Bd, Ld, H) / 3600;
 		return WGS84_SK42_Long;
 	}
 
-	double SK42_WGS84_Long(double Bd, double Ld, double H){		// вычисляет долготу в системе WGS84
+	// calculates longitude in WGS84 system
+	double SK42_WGS84_Long(double Bd, double Ld, double H){		
 		double SK42_WGS84_Long = Ld + dL(Bd, Ld, H) / 3600;
 		return SK42_WGS84_Long;
 	}
 
-	// пересчитывает координаты из прямоугольной (глобальной) XYZ системы в координаты в системе СК42
+	// recalculates coordinates from rectangular (global) XYZ system to coordinates in SK42 system
 	int XYZ_SK42(TXYZSystemPoint *ptrXYZSystemPoint, TSK42Point *ptrSK42Point);
 
-	// пересчитывает координаты из системы СК42 в прямоугольную (глобальную) XYZ
+	// recalculates coordinates from SK42 system to rectangular (global) XYZ
 	void SK42_XYZ(TSK42Point *ptrSK42Point, TXYZSystemPoint *ptrXYZSystemPoint);
 
 	double F1(double lat, double h)
@@ -785,7 +789,7 @@ private:
 		double f1, e, a, Pi, B, k;
 		e = 0.0066934216;
 		a = 6378245;
-		Pi = 3.14159265358979;		// число Пи
+		Pi = 3.14159265358979;		
 		B = lat * Pi / 180;
 		k = sin(B);
 		f1 = ( (a * (1-e))/sqrt(1-e*k*k) +h) * k;
@@ -811,11 +815,22 @@ public:
 	
 	virtual ~SimplifiedGeoCalc() { }
 
-	double getWgs84_Lon() const  { return wgs_84_point.wgs_X_lon; }		// возвращает долготу в формате Wgs84
-	double getWgs84_Lat() const  { return wgs_84_point.wgs_Y_lat; }			// возвращает широту в формате Wgs84
-	double getSK42_Lon() const	 { return sk_42_point.sk42_X_lon; }			// возвращает долготу в формате CK-42
-	double getSK42_Lat() const	 { return sk_42_point.sk42_Y_lat; }				// возвращает широту в формате CK-42
-	double getHeight() const     { return height; }										// возвращает высоту от поверхности эллипсоида
+	// returns longitude in Wgs84 format
+	double getWgs84_Lon() const  { return wgs_84_point.wgs_X_lon; }		
+	
+	// returns latitude in Wgs84 format
+	double getWgs84_Lat() const  { return wgs_84_point.wgs_Y_lat; }
+	
+	// returns longitude in SK-42 format
+	double getSK42_Lon() const	 { return sk_42_point.sk42_X_lon; }			
+	
+	// returns latitude in SK-42 format
+	double getSK42_Lat() const	 { return sk_42_point.sk42_Y_lat; }				
+	
+	// returns the height from the surface of the ellipsoid
+	double getHeight() const     { return height; }	
+	
+	
 	double getTXYZSystem_x()const { return xyz_point.X; }
 	double getTXYZSystem_y()const { return xyz_point.Y; }
 	double getTXYZSystem_z()const { return xyz_point.Z; }
