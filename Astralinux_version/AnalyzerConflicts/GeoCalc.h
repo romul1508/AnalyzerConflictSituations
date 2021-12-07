@@ -711,12 +711,12 @@ private:
 	double height;				
 
 	// Krasovsky ellipsoid
-	double aP;																// Большая полуось
+	double aP;							// Semi-major axis									// Большая полуось
 	double alP() { return 1 / 298.3; }				// Compression
 	double e2P() { return (2 * alP() - alP() * alP() ); }		// Eccentricity squared
 	//--------------------------------------------
 	// Ellipsoid WGS84 (GRS80, these two ellipsoids are similar in most parameters)
-	double aW;																	// Большая полуось
+	double aW;							// Semi-major axis									// Большая полуось
 	double alW() { return 1 / 298.257223563; }			// Compression
 	double e2W() { return (2 * alW() - alW() *  alW() ); }		// Eccentricity squared
 	//--------------------------------------------
