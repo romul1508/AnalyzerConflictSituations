@@ -150,18 +150,35 @@ typedef struct
 	double seconds_y_lat;					
 } TP3_90_11Point;
 //-----------------------------
-//точка в геодезической системе WGS-84 (долгота и широта в градусах)
+//point in the geodetic system WGS-84 (longitude and latitude in degrees)
 typedef struct 
 {
-    double wgs_X_lon;							// долгота в системе WGS-84 (в градусах в десятичной системе)	
-	double wgs_Y_lat;							// широта в системе WGS-84 (в градусах в десятичной системе)
-	double height;								// высота от поверхности элипсоида
-	int degrees_lon;								// долгота в градусах (целая часть)
-	int degrees_lat;								// широта в градусах (целая часть)
-	unsigned char minutes_x_lon;			// долгота в минутах
-	unsigned char minutes_y_lat;			// широта в минутах
-	double seconds_x_lon;					// долгота в секундах
-	double seconds_y_lat;						// широта в секундах
+    	// longitude in WGS-84 system (in degrees in decimal system)
+	double wgs_X_lon;								
+	
+	// latitude in WGS-84 system (in degrees in decimal system)
+	double wgs_Y_lat;							
+	
+	// height from ellipsoid surface
+	double height;								
+	
+	// longitude in degrees (whole part)
+	int degrees_lon;								
+	
+	// latitude in degrees (whole part)
+	int degrees_lat;								
+	
+	// longitude in minutes
+	unsigned char minutes_x_lon;			
+	
+	// latitude in minutes
+	unsigned char minutes_y_lat;			
+	
+	// longitude in seconds
+	double seconds_x_lon;					
+	
+	// latitude in seconds
+	double seconds_y_lat;						
 } TWgsPoint;
 //----------------------------
 //точка в системе КTА в метрах (долгота и широта переведенные в плоскую лок. систему координат)
