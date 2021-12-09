@@ -21,7 +21,7 @@
 #include "Log.h"
 
 // namespace airports{
-//const double Pi = 3.14159265358979;		// число Пи
+//const double Pi = 3.14159265358979;		
 //const double PI_2 = Pi * 0.5;
 //const double MAX_LAT = 89.5;
 //const double R_MAJOR = 6378137.0;
@@ -30,34 +30,59 @@
 //const double ECCNTH = ECCENT * 0.5;
 //const double DEG_RAD = Pi/180;
 //const double RAD_DEG = 180/Pi;
-// const double MyLAT = 59.800028;			// но все же привяжемся к контрольной точке
-// const double MyLON = 30.2625;				// учитывая, что появился свой geocalc
-// const double MyLAT = 59.8109972;				// но все же привяжемся к левой верхней точке контролируемой территории
-// const double MyLON = 30.2122889;			// учитывая, что появился свой geocalc
-const double MyLAT = 59.8091982;				// но все же привяжемся к левой верхней точке контролируемой территории
-const double MyLON = 30.2114029;			// учитывая, что появился свой geocalc
-//const double MyLAT = 59.8105972;				// но все же привяжемся к левой верхней точке контролируемой территории
-//const double MyLON = 30.2127889;			// учитывая, что появился свой geocalc
 
-enum type_system_coordinat { WGS_84, SK_42, P3_90_02, P3_90_11, main_XYZ, CPA, CPA_GAUSE, CPA_MERCATOR_WGS, CPA_MERCATOR_DOMAIN };
+// but still we will bind to the upper left point of the controlled territory, 
+// given that we have our own geocalc
 
+const double MyLAT = 59.8091982;				
+const double MyLON = 30.2114029;			
+
+
+enum type_system_coordinat 
+{ 
+	WGS_84, 
+	SK_42, 
+	P3_90_02, 
+	P3_90_11, 
+	main_XYZ, 
+	CPA, 
+	CPA_GAUSE, 
+	CPA_MERCATOR_WGS, 
+	CPA_MERCATOR_DOMAIN 
+};
+
+// point in a rectangular system with zero at the center of the ellipsoid in meters
 typedef struct 
 {
-    double X;		// точка в прямоугольной системе с нулем в центре элипсоида в метрах
+        double X;		
 	double Y;		
 	double Z;
 } TXYZSystemPoint;
 //-----------------------------
-// точка в геодезической системе SK-42 (долгота и широта в градусах)
+// point in geodetic system SK-42 (longitude and latitude in degrees)
 typedef struct 
 {
-	double sk42_X_lon;					// долгота в системе CK-42 (в градусах в десятичной системе)	
-	double sk42_Y_lat;						// широта в системе CK-42 (в градусах в десятичной системе)						
-	double height;							// высота от поверхности элипсоида
-	int degrees_lon;							// долгота в градусах (целая часть)
-	int degrees_lat;							// широта в градусах (целая часть)
-	unsigned char minutes_x_lon;		// долгота в минутах
-	unsigned char minutes_y_lat;		// широта в минутах
+	// longitude in the SK-42 system (in degrees in decimal)
+	double sk42_X_lon;
+	
+	// latitude in SK-42 system (in degrees in decimal system)
+	double sk42_Y_lat;												
+	
+	// height from ellipsoid surface
+	double height;							
+	
+	// longitude in degrees (whole part)
+	int degrees_lon;
+	
+	// latitude in degrees (whole part)
+	int degrees_lat;
+	
+	// longitude in minutes
+	unsigned char minutes_x_lon;		
+	
+	// latitude in minutes
+	unsigned char minutes_y_lat;		
+	
 	double seconds_x_lon;				// долгота в секундах
 	double seconds_y_lat;					// широта в секундах
 } TSK42Point;
