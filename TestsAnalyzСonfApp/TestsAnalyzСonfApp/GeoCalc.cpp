@@ -176,7 +176,7 @@ void UTM2LatLon::convertUTMToLatLong(std::string longZone, std::string latZone, 
 //--------------------------------------
 int LatZones::getLatZoneDegree(std::string letter)
 {
-	char ltr = letter[0];		//.at(0);	//.charAt(0);
+	char ltr = letter[0];		
 	for (int i = 0; i < arrayLength; i++)
     {
         if (letters[i] == ltr)
@@ -380,7 +380,7 @@ bool CoordinateUTMConversion::validate(double latitude, double longitude)
     if (latitude < -90.0 || latitude > 90.0 || longitude < -180.0 || longitude >= 180.0)
     {
      	ern::Log::getInstance().Write("Legal ranges: latitude [-90,90], longitude [-180,180).");
-		return false;	// исходные данные не корректны
+		return false;	// initial data is not correct
     }
 	else
 		return true;
