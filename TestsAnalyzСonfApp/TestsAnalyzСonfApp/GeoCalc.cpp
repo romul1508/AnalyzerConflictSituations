@@ -2,7 +2,6 @@
 // for implementing A-SMGCS (Advanced Surface Movement Guidance and Control System).
 // author: Roman Ermakov
 // e-mail: romul1508@gmail.com
-// sinc 17.11.2021
 // version: 1.0.1
 // AnalyzerСonflict Copyright 2021 Roman Ermakov
 // All rights reserved
