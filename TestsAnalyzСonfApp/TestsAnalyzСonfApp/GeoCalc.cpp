@@ -2253,9 +2253,10 @@ double GeoCalc::WGS_84_Sup_Sk_42_Lon(double Lat, double Lon, double H)
 	return L * RAD_DEG;
 }
 //---------------------------------------------------------
-//	возвращает местоположение цели в минутах и секундах
 void GeoCalc::GetTargetLocationInMinutes(TTargetLocationInMinutes* pTargetLocationInMinutes, const double lon_lat_dec)
 {
+	// returns target location in minutes and seconds
+	
 	double x, y;
 	
 	pTargetLocationInMinutes->degrees = lon_lat_dec * 1;
@@ -2266,9 +2267,10 @@ void GeoCalc::GetTargetLocationInMinutes(TTargetLocationInMinutes* pTargetLocati
 	pTargetLocationInMinutes->seconds = x - pTargetLocationInMinutes->minutes * 60.00;
 }
 //---------------------------------------------------------
-//	возвращает местоположение цели в градусах в десятичных дробях 
 double GeoCalc::GetDecTargetLocation(TTargetLocationInMinutes* pTargetLocationInMinutes)
 {
+	// returns the location of the target in decimal degrees
+	
 	double lon_lat_dec, temp;
 
 	temp = pTargetLocationInMinutes->minutes * 60.00 + pTargetLocationInMinutes->seconds;
