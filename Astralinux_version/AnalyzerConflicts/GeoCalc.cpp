@@ -443,33 +443,33 @@ void GeoCalc::WgsToPrGaus(double dLat, double dLon, double *pX, double *pY)
 	// double dLon = 37.618;
 	// double dLat = 55.752;
 
-	// Номер зоны Гаусса-Крюгера (если точка рассматривается в системе координат
-	// соседней зоны, то номер зоны следует присвоить вручную)
+	// Gauss-Kruger zone number (if the point is viewed in the coordinate system of an adjacent zone, 
+	// then the zone number must be assigned manually)
 	int zone = (int) (dLon/6.0 + 1);
 
-	// Параметры эллипсоида Красовского
-	double a = 6378245.0;		// Большая (экваториальная) полуось
-	double b = 6356863.019;		// Малая (полярная) полуось
+	// Parameters of the Krasovsky ellipsoid
+	double a = 6378245.0;		// Major (equatorial) semiaxis
+	double b = 6356863.019;		// // Minor (polar) semiaxis
 
-	double PI = 3.14159265358979;	// число Пи
+	double PI = 3.14159265358979;	
 
-	double e2 = ( pow(a, 2) - pow(b, 2) ) / pow(a, 2);	// Эксцентриситет
-	double n = (a - b) / (a + b);						//	Приплюснотость
+	double e2 = ( pow(a, 2) - pow(b, 2) ) / pow(a, 2);	// Eccentricity
+	double n = (a - b) / (a + b);				// Flatness
 
-	// Параметры зоны Гаусса-Крюгера
-	double F = 1.0;				// Масштабный коэффициент
-	double Lat0 = 0.0;			// Начальная параллель в радианах
+	// Gauss-Kruger zone parameters
+	double F = 1.0;				// Scale factor
+	double Lat0 = 0.0;			// Initial parallel in radians
 
-	double Lon0 = (zone*6-3)* PI / 180;		// Центральный меридиан (в радианах)
+	double Lon0 = (zone*6-3)* PI / 180;	// Central meridian (in radians)
 
-	double N0 = 0.0;					// Условное северное смещение для начальной параллели
-	double E0 = zone * 1E6 + 500000.0;	// Условное восточное смещение для центрального меридиана
+	double N0 = 0.0;			// Conditional north offset for start parallel
+	double E0 = zone * 1E6 + 500000.0;	// Conditional eastward offset for the central meridian
 	
-	// Перевод широты и долготы в радианы
+	// Converting latitude and longitude to radians
 	double Lat = dLat * PI / 180.0;
 	double Lon = dLon * PI / 180.0;
 
-	// Вычисление переменных для преобразования
+	// Evaluating Variables for Conversion
 	double sinLat = sin(Lat);
 	double cosLat = cos(Lat);
 	double tanLat = tan(Lat);
@@ -492,19 +492,20 @@ void GeoCalc::WgsToPrGaus(double dLat, double dLon, double *pX, double *pY)
 	double V = v/6 * pow(cosLat, 3) * (v/p - pow(tanLat, 2));
 	double VI = v/120 * pow(cosLat, 5) * (5 - 18 * pow(tanLat, 2) + pow(tanLat, 4) + 14 * n2 - 58 * pow(tanLat, 2) * n2);
 
-	// Вычисление северного и восточного смещения (в метрах)
+	// Calculating the north and east offsets (in meters)
 	double N = I + II * pow(Lon - Lon0, 2) + III * pow(Lon - Lon0, 4) + IIIA * pow(Lon - Lon0, 6);
 	double E = E0 + IV * (Lon - Lon0) + V * pow(Lon - Lon0, 3) + VI * pow(Lon - Lon0, 5);
 
 	*pY = N;
 	*pX = E;
 
-	// Если Широта: 55.752;
-	//		Долгота: 37.618;
-	// то Северное смещение составляет:
-	//		6181924.245933299
-	// а Восточное смещение:
-	// 7413223.481449484
+	// Example
+	// If Latitude: 55.752;
+	//   Longitude: 37.618;
+	// then the North offset is:
+	//   6181924.245933299
+	// a East offset:
+	//   7413223.481449484
 }
 //---------------------------------------------------
 void GeoCalc::SK42ToPrGaus(double Lat, double Lon, double *pX, double *pY)
@@ -544,7 +545,7 @@ void GeoCalc::SK42ToPrGaus(double Lat, double Lon, double *pX, double *pY)
 void GeoCalc::PrGausToSK42(double X, double Y, double *pLat, double *pLon)
 {
 	// transformation of plane rectangular coordinates in the projection of Gauss - Kruger
-	// to geodetic coordinates CK-42 on the Krasovsky ellipsoid
+	// to geodetic coordinates SK-42 on the Krasovsky ellipsoid
 	
 	double Beta, Z0, Z02, B, B0, sin2Beta, sin4Beta, dB, sin2B0, sin4B0, sin6B0, l, L;
 	int n;
